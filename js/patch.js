@@ -20393,7 +20393,7 @@ var CABLES = CABLES || {}; CABLES.build = {"timestamp":1736760273867,"created":"
 (()=>{"use strict";var t={d:(n,a)=>{for(var r in a)t.o(a,r)&&!t.o(n,r)&&Object.defineProperty(n,r,{enumerable:!0,get:a[r]})},o:(t,n)=>Object.prototype.hasOwnProperty.call(t,n),r:t=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})}},n={};t.r(n),t.d(n,{ARRAY_TYPE:()=>f,EPSILON:()=>M,RANDOM:()=>l,equals:()=>d,setMatrixArrayType:()=>v,toRadian:()=>m});var a={};t.r(a),t.d(a,{LDU:()=>j,add:()=>z,adjoint:()=>S,clone:()=>y,copy:()=>p,create:()=>x,determinant:()=>R,equals:()=>Y,exactEquals:()=>Q,frob:()=>V,fromRotation:()=>D,fromScaling:()=>F,fromValues:()=>w,identity:()=>q,invert:()=>P,mul:()=>_,multiply:()=>T,multiplyScalar:()=>X,multiplyScalarAndAdd:()=>Z,rotate:()=>I,scale:()=>E,set:()=>g,str:()=>L,sub:()=>B,subtract:()=>O,transpose:()=>A});var r={};t.r(r),t.d(r,{add:()=>it,clone:()=>k,copy:()=>U,create:()=>N,determinant:()=>J,equals:()=>ft,exactEquals:()=>Mt,frob:()=>ot,fromRotation:()=>at,fromScaling:()=>rt,fromTranslation:()=>ut,fromValues:()=>C,identity:()=>W,invert:()=>H,mul:()=>lt,multiply:()=>K,multiplyScalar:()=>ct,multiplyScalarAndAdd:()=>st,rotate:()=>$,scale:()=>tt,set:()=>G,str:()=>et,sub:()=>vt,subtract:()=>ht,translate:()=>nt});var u={};t.r(u),t.d(u,{add:()=>Yt,adjoint:()=>At,clone:()=>dt,copy:()=>xt,create:()=>bt,determinant:()=>Pt,equals:()=>Nt,exactEquals:()=>Bt,frob:()=>Qt,fromMat2d:()=>Lt,fromMat4:()=>mt,fromQuat:()=>Vt,fromRotation:()=>Dt,fromScaling:()=>Ft,fromTranslation:()=>Et,fromValues:()=>yt,identity:()=>qt,invert:()=>gt,mul:()=>kt,multiply:()=>St,multiplyScalar:()=>Zt,multiplyScalarAndAdd:()=>_t,normalFromMat4:()=>jt,projection:()=>zt,rotate:()=>Tt,scale:()=>It,set:()=>pt,str:()=>Ot,sub:()=>Ut,subtract:()=>Xt,translate:()=>Rt,transpose:()=>wt});var e={};t.r(e),t.d(e,{add:()=>Ln,adjoint:()=>nn,clone:()=>Ct,copy:()=>Gt,create:()=>Wt,determinant:()=>an,equals:()=>Qn,exactEquals:()=>On,frob:()=>Fn,fromQuat:()=>An,fromQuat2:()=>xn,fromRotation:()=>ln,fromRotationTranslation:()=>dn,fromRotationTranslationScale:()=>wn,fromRotationTranslationScaleOrigin:()=>gn,fromScaling:()=>fn,fromTranslation:()=>Mn,fromValues:()=>Ht,fromXRotation:()=>vn,fromYRotation:()=>bn,fromZRotation:()=>mn,frustum:()=>Pn,getRotation:()=>qn,getScaling:()=>pn,getTranslation:()=>yn,identity:()=>Kt,invert:()=>tn,lookAt:()=>In,mul:()=>Yn,multiply:()=>rn,multiplyScalar:()=>jn,multiplyScalarAndAdd:()=>zn,ortho:()=>Tn,perspective:()=>Sn,perspectiveFromFieldOfView:()=>Rn,rotate:()=>on,rotateX:()=>hn,rotateY:()=>cn,rotateZ:()=>sn,scale:()=>en,set:()=>Jt,str:()=>Dn,sub:()=>Xn,subtract:()=>Vn,targetTo:()=>En,translate:()=>un,transpose:()=>$t});var o={};t.r(o),t.d(o,{add:()=>Wn,angle:()=>wa,bezier:()=>va,ceil:()=>Jn,clone:()=>_n,copy:()=>kn,create:()=>Zn,cross:()=>Ma,dist:()=>Da,distance:()=>ua,div:()=>Ea,divide:()=>Hn,dot:()=>sa,equals:()=>Sa,exactEquals:()=>Pa,floor:()=>Kn,forEach:()=>ja,fromValues:()=>Nn,hermite:()=>la,inverse:()=>ha,len:()=>La,length:()=>Bn,lerp:()=>fa,max:()=>ta,min:()=>$n,mul:()=>Ia,multiply:()=>Gn,negate:()=>ia,normalize:()=>ca,random:()=>ba,rotateX:()=>ya,rotateY:()=>pa,rotateZ:()=>qa,round:()=>na,scale:()=>aa,scaleAndAdd:()=>ra,set:()=>Un,sqrDist:()=>Fa,sqrLen:()=>Va,squaredDistance:()=>ea,squaredLength:()=>oa,str:()=>Aa,sub:()=>Ta,subtract:()=>Cn,transformMat3:()=>da,transformMat4:()=>ma,transformQuat:()=>xa,zero:()=>ga});var i={};t.r(i),t.d(i,{add:()=>Za,ceil:()=>ka,clone:()=>Oa,copy:()=>Ya,create:()=>za,cross:()=>or,dist:()=>xr,distance:()=>Ka,div:()=>dr,divide:()=>Na,dot:()=>er,equals:()=>vr,exactEquals:()=>lr,floor:()=>Ua,forEach:()=>wr,fromValues:()=>Qa,inverse:()=>rr,len:()=>pr,length:()=>tr,lerp:()=>ir,max:()=>Ca,min:()=>Wa,mul:()=>mr,multiply:()=>Ba,negate:()=>ar,normalize:()=>ur,random:()=>hr,round:()=>Ga,scale:()=>Ha,scaleAndAdd:()=>Ja,set:()=>Xa,sqrDist:()=>yr,sqrLen:()=>qr,squaredDistance:()=>$a,squaredLength:()=>nr,str:()=>fr,sub:()=>br,subtract:()=>_a,transformMat4:()=>cr,transformQuat:()=>sr,zero:()=>Mr});var h={};t.r(h),t.d(h,{add:()=>$r,calculateW:()=>Fr,clone:()=>Gr,conjugate:()=>Yr,copy:()=>Jr,create:()=>gr,dot:()=>au,equals:()=>su,exactEquals:()=>cu,exp:()=>Lr,fromEuler:()=>Zr,fromMat3:()=>Xr,fromValues:()=>Hr,getAngle:()=>Rr,getAxisAngle:()=>Sr,identity:()=>Ar,invert:()=>Qr,len:()=>eu,length:()=>uu,lerp:()=>ru,ln:()=>Vr,mul:()=>tu,multiply:()=>Tr,normalize:()=>hu,pow:()=>jr,random:()=>Or,rotateX:()=>Ir,rotateY:()=>Er,rotateZ:()=>Dr,rotationTo:()=>Mu,scale:()=>nu,set:()=>Kr,setAxes:()=>lu,setAxisAngle:()=>Pr,slerp:()=>zr,sqlerp:()=>fu,sqrLen:()=>iu,squaredLength:()=>ou,str:()=>_r});var c={};t.r(c),t.d(c,{add:()=>Ou,clone:()=>bu,conjugate:()=>Nu,copy:()=>wu,create:()=>vu,dot:()=>Zu,equals:()=>Ku,exactEquals:()=>Ju,fromMat4:()=>qu,fromRotation:()=>pu,fromRotationTranslation:()=>xu,fromRotationTranslationValues:()=>du,fromTranslation:()=>yu,fromValues:()=>mu,getDual:()=>Su,getReal:()=>Pu,getTranslation:()=>Iu,identity:()=>gu,invert:()=>Bu,len:()=>Uu,length:()=>ku,lerp:()=>_u,mul:()=>Yu,multiply:()=>Qu,normalize:()=>Gu,rotateAroundAxis:()=>zu,rotateByQuatAppend:()=>Vu,rotateByQuatPrepend:()=>ju,rotateX:()=>Du,rotateY:()=>Fu,rotateZ:()=>Lu,scale:()=>Xu,set:()=>Au,setDual:()=>Tu,setReal:()=>Ru,sqrLen:()=>Cu,squaredLength:()=>Wu,str:()=>Hu,translate:()=>Eu});var s={};t.r(s),t.d(s,{add:()=>ue,angle:()=>De,ceil:()=>he,clone:()=>te,copy:()=>ae,create:()=>$u,cross:()=>ge,dist:()=>Xe,distance:()=>be,div:()=>Ye,divide:()=>ie,dot:()=>we,equals:()=>je,exactEquals:()=>Ve,floor:()=>ce,forEach:()=>Be,fromValues:()=>ne,inverse:()=>pe,len:()=>ze,length:()=>de,lerp:()=>Ae,max:()=>Me,min:()=>se,mul:()=>Qe,multiply:()=>oe,negate:()=>ye,normalize:()=>qe,random:()=>Pe,rotate:()=>Ee,round:()=>fe,scale:()=>le,scaleAndAdd:()=>ve,set:()=>re,sqrDist:()=>Ze,sqrLen:()=>_e,squaredDistance:()=>me,squaredLength:()=>xe,str:()=>Le,sub:()=>Oe,subtract:()=>ee,transformMat2:()=>Se,transformMat2d:()=>Re,transformMat3:()=>Te,transformMat4:()=>Ie,zero:()=>Fe});var M=1e-6,f="undefined"!=typeof Float32Array?Float32Array:Array,l=Math.random;function v(t){f=t}var b=Math.PI/180;function m(t){return t*b}function d(t,n){return Math.abs(t-n)<=M*Math.max(1,Math.abs(t),Math.abs(n))}function x(){var t=new f(4);return f!=Float32Array&&(t[1]=0,t[2]=0),t[0]=1,t[3]=1,t}function y(t){var n=new f(4);return n[0]=t[0],n[1]=t[1],n[2]=t[2],n[3]=t[3],n}function p(t,n){return t[0]=n[0],t[1]=n[1],t[2]=n[2],t[3]=n[3],t}function q(t){return t[0]=1,t[1]=0,t[2]=0,t[3]=1,t}function w(t,n,a,r){var u=new f(4);return u[0]=t,u[1]=n,u[2]=a,u[3]=r,u}function g(t,n,a,r,u){return t[0]=n,t[1]=a,t[2]=r,t[3]=u,t}function A(t,n){if(t===n){var a=n[1];t[1]=n[2],t[2]=a}else t[0]=n[0],t[1]=n[2],t[2]=n[1],t[3]=n[3];return t}function P(t,n){var a=n[0],r=n[1],u=n[2],e=n[3],o=a*e-u*r;return o?(o=1/o,t[0]=e*o,t[1]=-r*o,t[2]=-u*o,t[3]=a*o,t):null}function S(t,n){var a=n[0];return t[0]=n[3],t[1]=-n[1],t[2]=-n[2],t[3]=a,t}function R(t){return t[0]*t[3]-t[2]*t[1]}function T(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=a[0],h=a[1],c=a[2],s=a[3];return t[0]=r*i+e*h,t[1]=u*i+o*h,t[2]=r*c+e*s,t[3]=u*c+o*s,t}function I(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=Math.sin(a),h=Math.cos(a);return t[0]=r*h+e*i,t[1]=u*h+o*i,t[2]=r*-i+e*h,t[3]=u*-i+o*h,t}function E(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=a[0],h=a[1];return t[0]=r*i,t[1]=u*i,t[2]=e*h,t[3]=o*h,t}function D(t,n){var a=Math.sin(n),r=Math.cos(n);return t[0]=r,t[1]=a,t[2]=-a,t[3]=r,t}function F(t,n){return t[0]=n[0],t[1]=0,t[2]=0,t[3]=n[1],t}function L(t){return"mat2("+t[0]+", "+t[1]+", "+t[2]+", "+t[3]+")"}function V(t){return Math.hypot(t[0],t[1],t[2],t[3])}function j(t,n,a,r){return t[2]=r[2]/r[0],a[0]=r[0],a[1]=r[1],a[3]=r[3]-t[2]*a[1],[t,n,a]}function z(t,n,a){return t[0]=n[0]+a[0],t[1]=n[1]+a[1],t[2]=n[2]+a[2],t[3]=n[3]+a[3],t}function O(t,n,a){return t[0]=n[0]-a[0],t[1]=n[1]-a[1],t[2]=n[2]-a[2],t[3]=n[3]-a[3],t}function Q(t,n){return t[0]===n[0]&&t[1]===n[1]&&t[2]===n[2]&&t[3]===n[3]}function Y(t,n){var a=t[0],r=t[1],u=t[2],e=t[3],o=n[0],i=n[1],h=n[2],c=n[3];return Math.abs(a-o)<=M*Math.max(1,Math.abs(a),Math.abs(o))&&Math.abs(r-i)<=M*Math.max(1,Math.abs(r),Math.abs(i))&&Math.abs(u-h)<=M*Math.max(1,Math.abs(u),Math.abs(h))&&Math.abs(e-c)<=M*Math.max(1,Math.abs(e),Math.abs(c))}function X(t,n,a){return t[0]=n[0]*a,t[1]=n[1]*a,t[2]=n[2]*a,t[3]=n[3]*a,t}function Z(t,n,a,r){return t[0]=n[0]+a[0]*r,t[1]=n[1]+a[1]*r,t[2]=n[2]+a[2]*r,t[3]=n[3]+a[3]*r,t}Math.hypot||(Math.hypot=function(){for(var t=0,n=arguments.length;n--;)t+=arguments[n]*arguments[n];return Math.sqrt(t)});var _=T,B=O;function N(){var t=new f(6);return f!=Float32Array&&(t[1]=0,t[2]=0,t[4]=0,t[5]=0),t[0]=1,t[3]=1,t}function k(t){var n=new f(6);return n[0]=t[0],n[1]=t[1],n[2]=t[2],n[3]=t[3],n[4]=t[4],n[5]=t[5],n}function U(t,n){return t[0]=n[0],t[1]=n[1],t[2]=n[2],t[3]=n[3],t[4]=n[4],t[5]=n[5],t}function W(t){return t[0]=1,t[1]=0,t[2]=0,t[3]=1,t[4]=0,t[5]=0,t}function C(t,n,a,r,u,e){var o=new f(6);return o[0]=t,o[1]=n,o[2]=a,o[3]=r,o[4]=u,o[5]=e,o}function G(t,n,a,r,u,e,o){return t[0]=n,t[1]=a,t[2]=r,t[3]=u,t[4]=e,t[5]=o,t}function H(t,n){var a=n[0],r=n[1],u=n[2],e=n[3],o=n[4],i=n[5],h=a*e-r*u;return h?(h=1/h,t[0]=e*h,t[1]=-r*h,t[2]=-u*h,t[3]=a*h,t[4]=(u*i-e*o)*h,t[5]=(r*o-a*i)*h,t):null}function J(t){return t[0]*t[3]-t[1]*t[2]}function K(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=n[4],h=n[5],c=a[0],s=a[1],M=a[2],f=a[3],l=a[4],v=a[5];return t[0]=r*c+e*s,t[1]=u*c+o*s,t[2]=r*M+e*f,t[3]=u*M+o*f,t[4]=r*l+e*v+i,t[5]=u*l+o*v+h,t}function $(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=n[4],h=n[5],c=Math.sin(a),s=Math.cos(a);return t[0]=r*s+e*c,t[1]=u*s+o*c,t[2]=r*-c+e*s,t[3]=u*-c+o*s,t[4]=i,t[5]=h,t}function tt(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=n[4],h=n[5],c=a[0],s=a[1];return t[0]=r*c,t[1]=u*c,t[2]=e*s,t[3]=o*s,t[4]=i,t[5]=h,t}function nt(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=n[4],h=n[5],c=a[0],s=a[1];return t[0]=r,t[1]=u,t[2]=e,t[3]=o,t[4]=r*c+e*s+i,t[5]=u*c+o*s+h,t}function at(t,n){var a=Math.sin(n),r=Math.cos(n);return t[0]=r,t[1]=a,t[2]=-a,t[3]=r,t[4]=0,t[5]=0,t}function rt(t,n){return t[0]=n[0],t[1]=0,t[2]=0,t[3]=n[1],t[4]=0,t[5]=0,t}function ut(t,n){return t[0]=1,t[1]=0,t[2]=0,t[3]=1,t[4]=n[0],t[5]=n[1],t}function et(t){return"mat2d("+t[0]+", "+t[1]+", "+t[2]+", "+t[3]+", "+t[4]+", "+t[5]+")"}function ot(t){return Math.hypot(t[0],t[1],t[2],t[3],t[4],t[5],1)}function it(t,n,a){return t[0]=n[0]+a[0],t[1]=n[1]+a[1],t[2]=n[2]+a[2],t[3]=n[3]+a[3],t[4]=n[4]+a[4],t[5]=n[5]+a[5],t}function ht(t,n,a){return t[0]=n[0]-a[0],t[1]=n[1]-a[1],t[2]=n[2]-a[2],t[3]=n[3]-a[3],t[4]=n[4]-a[4],t[5]=n[5]-a[5],t}function ct(t,n,a){return t[0]=n[0]*a,t[1]=n[1]*a,t[2]=n[2]*a,t[3]=n[3]*a,t[4]=n[4]*a,t[5]=n[5]*a,t}function st(t,n,a,r){return t[0]=n[0]+a[0]*r,t[1]=n[1]+a[1]*r,t[2]=n[2]+a[2]*r,t[3]=n[3]+a[3]*r,t[4]=n[4]+a[4]*r,t[5]=n[5]+a[5]*r,t}function Mt(t,n){return t[0]===n[0]&&t[1]===n[1]&&t[2]===n[2]&&t[3]===n[3]&&t[4]===n[4]&&t[5]===n[5]}function ft(t,n){var a=t[0],r=t[1],u=t[2],e=t[3],o=t[4],i=t[5],h=n[0],c=n[1],s=n[2],f=n[3],l=n[4],v=n[5];return Math.abs(a-h)<=M*Math.max(1,Math.abs(a),Math.abs(h))&&Math.abs(r-c)<=M*Math.max(1,Math.abs(r),Math.abs(c))&&Math.abs(u-s)<=M*Math.max(1,Math.abs(u),Math.abs(s))&&Math.abs(e-f)<=M*Math.max(1,Math.abs(e),Math.abs(f))&&Math.abs(o-l)<=M*Math.max(1,Math.abs(o),Math.abs(l))&&Math.abs(i-v)<=M*Math.max(1,Math.abs(i),Math.abs(v))}var lt=K,vt=ht;function bt(){var t=new f(9);return f!=Float32Array&&(t[1]=0,t[2]=0,t[3]=0,t[5]=0,t[6]=0,t[7]=0),t[0]=1,t[4]=1,t[8]=1,t}function mt(t,n){return t[0]=n[0],t[1]=n[1],t[2]=n[2],t[3]=n[4],t[4]=n[5],t[5]=n[6],t[6]=n[8],t[7]=n[9],t[8]=n[10],t}function dt(t){var n=new f(9);return n[0]=t[0],n[1]=t[1],n[2]=t[2],n[3]=t[3],n[4]=t[4],n[5]=t[5],n[6]=t[6],n[7]=t[7],n[8]=t[8],n}function xt(t,n){return t[0]=n[0],t[1]=n[1],t[2]=n[2],t[3]=n[3],t[4]=n[4],t[5]=n[5],t[6]=n[6],t[7]=n[7],t[8]=n[8],t}function yt(t,n,a,r,u,e,o,i,h){var c=new f(9);return c[0]=t,c[1]=n,c[2]=a,c[3]=r,c[4]=u,c[5]=e,c[6]=o,c[7]=i,c[8]=h,c}function pt(t,n,a,r,u,e,o,i,h,c){return t[0]=n,t[1]=a,t[2]=r,t[3]=u,t[4]=e,t[5]=o,t[6]=i,t[7]=h,t[8]=c,t}function qt(t){return t[0]=1,t[1]=0,t[2]=0,t[3]=0,t[4]=1,t[5]=0,t[6]=0,t[7]=0,t[8]=1,t}function wt(t,n){if(t===n){var a=n[1],r=n[2],u=n[5];t[1]=n[3],t[2]=n[6],t[3]=a,t[5]=n[7],t[6]=r,t[7]=u}else t[0]=n[0],t[1]=n[3],t[2]=n[6],t[3]=n[1],t[4]=n[4],t[5]=n[7],t[6]=n[2],t[7]=n[5],t[8]=n[8];return t}function gt(t,n){var a=n[0],r=n[1],u=n[2],e=n[3],o=n[4],i=n[5],h=n[6],c=n[7],s=n[8],M=s*o-i*c,f=-s*e+i*h,l=c*e-o*h,v=a*M+r*f+u*l;return v?(v=1/v,t[0]=M*v,t[1]=(-s*r+u*c)*v,t[2]=(i*r-u*o)*v,t[3]=f*v,t[4]=(s*a-u*h)*v,t[5]=(-i*a+u*e)*v,t[6]=l*v,t[7]=(-c*a+r*h)*v,t[8]=(o*a-r*e)*v,t):null}function At(t,n){var a=n[0],r=n[1],u=n[2],e=n[3],o=n[4],i=n[5],h=n[6],c=n[7],s=n[8];return t[0]=o*s-i*c,t[1]=u*c-r*s,t[2]=r*i-u*o,t[3]=i*h-e*s,t[4]=a*s-u*h,t[5]=u*e-a*i,t[6]=e*c-o*h,t[7]=r*h-a*c,t[8]=a*o-r*e,t}function Pt(t){var n=t[0],a=t[1],r=t[2],u=t[3],e=t[4],o=t[5],i=t[6],h=t[7],c=t[8];return n*(c*e-o*h)+a*(-c*u+o*i)+r*(h*u-e*i)}function St(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=n[4],h=n[5],c=n[6],s=n[7],M=n[8],f=a[0],l=a[1],v=a[2],b=a[3],m=a[4],d=a[5],x=a[6],y=a[7],p=a[8];return t[0]=f*r+l*o+v*c,t[1]=f*u+l*i+v*s,t[2]=f*e+l*h+v*M,t[3]=b*r+m*o+d*c,t[4]=b*u+m*i+d*s,t[5]=b*e+m*h+d*M,t[6]=x*r+y*o+p*c,t[7]=x*u+y*i+p*s,t[8]=x*e+y*h+p*M,t}function Rt(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=n[4],h=n[5],c=n[6],s=n[7],M=n[8],f=a[0],l=a[1];return t[0]=r,t[1]=u,t[2]=e,t[3]=o,t[4]=i,t[5]=h,t[6]=f*r+l*o+c,t[7]=f*u+l*i+s,t[8]=f*e+l*h+M,t}function Tt(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=n[4],h=n[5],c=n[6],s=n[7],M=n[8],f=Math.sin(a),l=Math.cos(a);return t[0]=l*r+f*o,t[1]=l*u+f*i,t[2]=l*e+f*h,t[3]=l*o-f*r,t[4]=l*i-f*u,t[5]=l*h-f*e,t[6]=c,t[7]=s,t[8]=M,t}function It(t,n,a){var r=a[0],u=a[1];return t[0]=r*n[0],t[1]=r*n[1],t[2]=r*n[2],t[3]=u*n[3],t[4]=u*n[4],t[5]=u*n[5],t[6]=n[6],t[7]=n[7],t[8]=n[8],t}function Et(t,n){return t[0]=1,t[1]=0,t[2]=0,t[3]=0,t[4]=1,t[5]=0,t[6]=n[0],t[7]=n[1],t[8]=1,t}function Dt(t,n){var a=Math.sin(n),r=Math.cos(n);return t[0]=r,t[1]=a,t[2]=0,t[3]=-a,t[4]=r,t[5]=0,t[6]=0,t[7]=0,t[8]=1,t}function Ft(t,n){return t[0]=n[0],t[1]=0,t[2]=0,t[3]=0,t[4]=n[1],t[5]=0,t[6]=0,t[7]=0,t[8]=1,t}function Lt(t,n){return t[0]=n[0],t[1]=n[1],t[2]=0,t[3]=n[2],t[4]=n[3],t[5]=0,t[6]=n[4],t[7]=n[5],t[8]=1,t}function Vt(t,n){var a=n[0],r=n[1],u=n[2],e=n[3],o=a+a,i=r+r,h=u+u,c=a*o,s=r*o,M=r*i,f=u*o,l=u*i,v=u*h,b=e*o,m=e*i,d=e*h;return t[0]=1-M-v,t[3]=s-d,t[6]=f+m,t[1]=s+d,t[4]=1-c-v,t[7]=l-b,t[2]=f-m,t[5]=l+b,t[8]=1-c-M,t}function jt(t,n){var a=n[0],r=n[1],u=n[2],e=n[3],o=n[4],i=n[5],h=n[6],c=n[7],s=n[8],M=n[9],f=n[10],l=n[11],v=n[12],b=n[13],m=n[14],d=n[15],x=a*i-r*o,y=a*h-u*o,p=a*c-e*o,q=r*h-u*i,w=r*c-e*i,g=u*c-e*h,A=s*b-M*v,P=s*m-f*v,S=s*d-l*v,R=M*m-f*b,T=M*d-l*b,I=f*d-l*m,E=x*I-y*T+p*R+q*S-w*P+g*A;return E?(E=1/E,t[0]=(i*I-h*T+c*R)*E,t[1]=(h*S-o*I-c*P)*E,t[2]=(o*T-i*S+c*A)*E,t[3]=(u*T-r*I-e*R)*E,t[4]=(a*I-u*S+e*P)*E,t[5]=(r*S-a*T-e*A)*E,t[6]=(b*g-m*w+d*q)*E,t[7]=(m*p-v*g-d*y)*E,t[8]=(v*w-b*p+d*x)*E,t):null}function zt(t,n,a){return t[0]=2/n,t[1]=0,t[2]=0,t[3]=0,t[4]=-2/a,t[5]=0,t[6]=-1,t[7]=1,t[8]=1,t}function Ot(t){return"mat3("+t[0]+", "+t[1]+", "+t[2]+", "+t[3]+", "+t[4]+", "+t[5]+", "+t[6]+", "+t[7]+", "+t[8]+")"}function Qt(t){return Math.hypot(t[0],t[1],t[2],t[3],t[4],t[5],t[6],t[7],t[8])}function Yt(t,n,a){return t[0]=n[0]+a[0],t[1]=n[1]+a[1],t[2]=n[2]+a[2],t[3]=n[3]+a[3],t[4]=n[4]+a[4],t[5]=n[5]+a[5],t[6]=n[6]+a[6],t[7]=n[7]+a[7],t[8]=n[8]+a[8],t}function Xt(t,n,a){return t[0]=n[0]-a[0],t[1]=n[1]-a[1],t[2]=n[2]-a[2],t[3]=n[3]-a[3],t[4]=n[4]-a[4],t[5]=n[5]-a[5],t[6]=n[6]-a[6],t[7]=n[7]-a[7],t[8]=n[8]-a[8],t}function Zt(t,n,a){return t[0]=n[0]*a,t[1]=n[1]*a,t[2]=n[2]*a,t[3]=n[3]*a,t[4]=n[4]*a,t[5]=n[5]*a,t[6]=n[6]*a,t[7]=n[7]*a,t[8]=n[8]*a,t}function _t(t,n,a,r){return t[0]=n[0]+a[0]*r,t[1]=n[1]+a[1]*r,t[2]=n[2]+a[2]*r,t[3]=n[3]+a[3]*r,t[4]=n[4]+a[4]*r,t[5]=n[5]+a[5]*r,t[6]=n[6]+a[6]*r,t[7]=n[7]+a[7]*r,t[8]=n[8]+a[8]*r,t}function Bt(t,n){return t[0]===n[0]&&t[1]===n[1]&&t[2]===n[2]&&t[3]===n[3]&&t[4]===n[4]&&t[5]===n[5]&&t[6]===n[6]&&t[7]===n[7]&&t[8]===n[8]}function Nt(t,n){var a=t[0],r=t[1],u=t[2],e=t[3],o=t[4],i=t[5],h=t[6],c=t[7],s=t[8],f=n[0],l=n[1],v=n[2],b=n[3],m=n[4],d=n[5],x=n[6],y=n[7],p=n[8];return Math.abs(a-f)<=M*Math.max(1,Math.abs(a),Math.abs(f))&&Math.abs(r-l)<=M*Math.max(1,Math.abs(r),Math.abs(l))&&Math.abs(u-v)<=M*Math.max(1,Math.abs(u),Math.abs(v))&&Math.abs(e-b)<=M*Math.max(1,Math.abs(e),Math.abs(b))&&Math.abs(o-m)<=M*Math.max(1,Math.abs(o),Math.abs(m))&&Math.abs(i-d)<=M*Math.max(1,Math.abs(i),Math.abs(d))&&Math.abs(h-x)<=M*Math.max(1,Math.abs(h),Math.abs(x))&&Math.abs(c-y)<=M*Math.max(1,Math.abs(c),Math.abs(y))&&Math.abs(s-p)<=M*Math.max(1,Math.abs(s),Math.abs(p))}var kt=St,Ut=Xt;function Wt(){var t=new f(16);return f!=Float32Array&&(t[1]=0,t[2]=0,t[3]=0,t[4]=0,t[6]=0,t[7]=0,t[8]=0,t[9]=0,t[11]=0,t[12]=0,t[13]=0,t[14]=0),t[0]=1,t[5]=1,t[10]=1,t[15]=1,t}function Ct(t){var n=new f(16);return n[0]=t[0],n[1]=t[1],n[2]=t[2],n[3]=t[3],n[4]=t[4],n[5]=t[5],n[6]=t[6],n[7]=t[7],n[8]=t[8],n[9]=t[9],n[10]=t[10],n[11]=t[11],n[12]=t[12],n[13]=t[13],n[14]=t[14],n[15]=t[15],n}function Gt(t,n){return t[0]=n[0],t[1]=n[1],t[2]=n[2],t[3]=n[3],t[4]=n[4],t[5]=n[5],t[6]=n[6],t[7]=n[7],t[8]=n[8],t[9]=n[9],t[10]=n[10],t[11]=n[11],t[12]=n[12],t[13]=n[13],t[14]=n[14],t[15]=n[15],t}function Ht(t,n,a,r,u,e,o,i,h,c,s,M,l,v,b,m){var d=new f(16);return d[0]=t,d[1]=n,d[2]=a,d[3]=r,d[4]=u,d[5]=e,d[6]=o,d[7]=i,d[8]=h,d[9]=c,d[10]=s,d[11]=M,d[12]=l,d[13]=v,d[14]=b,d[15]=m,d}function Jt(t,n,a,r,u,e,o,i,h,c,s,M,f,l,v,b,m){return t[0]=n,t[1]=a,t[2]=r,t[3]=u,t[4]=e,t[5]=o,t[6]=i,t[7]=h,t[8]=c,t[9]=s,t[10]=M,t[11]=f,t[12]=l,t[13]=v,t[14]=b,t[15]=m,t}function Kt(t){return t[0]=1,t[1]=0,t[2]=0,t[3]=0,t[4]=0,t[5]=1,t[6]=0,t[7]=0,t[8]=0,t[9]=0,t[10]=1,t[11]=0,t[12]=0,t[13]=0,t[14]=0,t[15]=1,t}function $t(t,n){if(t===n){var a=n[1],r=n[2],u=n[3],e=n[6],o=n[7],i=n[11];t[1]=n[4],t[2]=n[8],t[3]=n[12],t[4]=a,t[6]=n[9],t[7]=n[13],t[8]=r,t[9]=e,t[11]=n[14],t[12]=u,t[13]=o,t[14]=i}else t[0]=n[0],t[1]=n[4],t[2]=n[8],t[3]=n[12],t[4]=n[1],t[5]=n[5],t[6]=n[9],t[7]=n[13],t[8]=n[2],t[9]=n[6],t[10]=n[10],t[11]=n[14],t[12]=n[3],t[13]=n[7],t[14]=n[11],t[15]=n[15];return t}function tn(t,n){var a=n[0],r=n[1],u=n[2],e=n[3],o=n[4],i=n[5],h=n[6],c=n[7],s=n[8],M=n[9],f=n[10],l=n[11],v=n[12],b=n[13],m=n[14],d=n[15],x=a*i-r*o,y=a*h-u*o,p=a*c-e*o,q=r*h-u*i,w=r*c-e*i,g=u*c-e*h,A=s*b-M*v,P=s*m-f*v,S=s*d-l*v,R=M*m-f*b,T=M*d-l*b,I=f*d-l*m,E=x*I-y*T+p*R+q*S-w*P+g*A;return E?(E=1/E,t[0]=(i*I-h*T+c*R)*E,t[1]=(u*T-r*I-e*R)*E,t[2]=(b*g-m*w+d*q)*E,t[3]=(f*w-M*g-l*q)*E,t[4]=(h*S-o*I-c*P)*E,t[5]=(a*I-u*S+e*P)*E,t[6]=(m*p-v*g-d*y)*E,t[7]=(s*g-f*p+l*y)*E,t[8]=(o*T-i*S+c*A)*E,t[9]=(r*S-a*T-e*A)*E,t[10]=(v*w-b*p+d*x)*E,t[11]=(M*p-s*w-l*x)*E,t[12]=(i*P-o*R-h*A)*E,t[13]=(a*R-r*P+u*A)*E,t[14]=(b*y-v*q-m*x)*E,t[15]=(s*q-M*y+f*x)*E,t):null}function nn(t,n){var a=n[0],r=n[1],u=n[2],e=n[3],o=n[4],i=n[5],h=n[6],c=n[7],s=n[8],M=n[9],f=n[10],l=n[11],v=n[12],b=n[13],m=n[14],d=n[15];return t[0]=i*(f*d-l*m)-M*(h*d-c*m)+b*(h*l-c*f),t[1]=-(r*(f*d-l*m)-M*(u*d-e*m)+b*(u*l-e*f)),t[2]=r*(h*d-c*m)-i*(u*d-e*m)+b*(u*c-e*h),t[3]=-(r*(h*l-c*f)-i*(u*l-e*f)+M*(u*c-e*h)),t[4]=-(o*(f*d-l*m)-s*(h*d-c*m)+v*(h*l-c*f)),t[5]=a*(f*d-l*m)-s*(u*d-e*m)+v*(u*l-e*f),t[6]=-(a*(h*d-c*m)-o*(u*d-e*m)+v*(u*c-e*h)),t[7]=a*(h*l-c*f)-o*(u*l-e*f)+s*(u*c-e*h),t[8]=o*(M*d-l*b)-s*(i*d-c*b)+v*(i*l-c*M),t[9]=-(a*(M*d-l*b)-s*(r*d-e*b)+v*(r*l-e*M)),t[10]=a*(i*d-c*b)-o*(r*d-e*b)+v*(r*c-e*i),t[11]=-(a*(i*l-c*M)-o*(r*l-e*M)+s*(r*c-e*i)),t[12]=-(o*(M*m-f*b)-s*(i*m-h*b)+v*(i*f-h*M)),t[13]=a*(M*m-f*b)-s*(r*m-u*b)+v*(r*f-u*M),t[14]=-(a*(i*m-h*b)-o*(r*m-u*b)+v*(r*h-u*i)),t[15]=a*(i*f-h*M)-o*(r*f-u*M)+s*(r*h-u*i),t}function an(t){var n=t[0],a=t[1],r=t[2],u=t[3],e=t[4],o=t[5],i=t[6],h=t[7],c=t[8],s=t[9],M=t[10],f=t[11],l=t[12],v=t[13],b=t[14],m=t[15];return(n*o-a*e)*(M*m-f*b)-(n*i-r*e)*(s*m-f*v)+(n*h-u*e)*(s*b-M*v)+(a*i-r*o)*(c*m-f*l)-(a*h-u*o)*(c*b-M*l)+(r*h-u*i)*(c*v-s*l)}function rn(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=n[4],h=n[5],c=n[6],s=n[7],M=n[8],f=n[9],l=n[10],v=n[11],b=n[12],m=n[13],d=n[14],x=n[15],y=a[0],p=a[1],q=a[2],w=a[3];return t[0]=y*r+p*i+q*M+w*b,t[1]=y*u+p*h+q*f+w*m,t[2]=y*e+p*c+q*l+w*d,t[3]=y*o+p*s+q*v+w*x,y=a[4],p=a[5],q=a[6],w=a[7],t[4]=y*r+p*i+q*M+w*b,t[5]=y*u+p*h+q*f+w*m,t[6]=y*e+p*c+q*l+w*d,t[7]=y*o+p*s+q*v+w*x,y=a[8],p=a[9],q=a[10],w=a[11],t[8]=y*r+p*i+q*M+w*b,t[9]=y*u+p*h+q*f+w*m,t[10]=y*e+p*c+q*l+w*d,t[11]=y*o+p*s+q*v+w*x,y=a[12],p=a[13],q=a[14],w=a[15],t[12]=y*r+p*i+q*M+w*b,t[13]=y*u+p*h+q*f+w*m,t[14]=y*e+p*c+q*l+w*d,t[15]=y*o+p*s+q*v+w*x,t}function un(t,n,a){var r,u,e,o,i,h,c,s,M,f,l,v,b=a[0],m=a[1],d=a[2];return n===t?(t[12]=n[0]*b+n[4]*m+n[8]*d+n[12],t[13]=n[1]*b+n[5]*m+n[9]*d+n[13],t[14]=n[2]*b+n[6]*m+n[10]*d+n[14],t[15]=n[3]*b+n[7]*m+n[11]*d+n[15]):(r=n[0],u=n[1],e=n[2],o=n[3],i=n[4],h=n[5],c=n[6],s=n[7],M=n[8],f=n[9],l=n[10],v=n[11],t[0]=r,t[1]=u,t[2]=e,t[3]=o,t[4]=i,t[5]=h,t[6]=c,t[7]=s,t[8]=M,t[9]=f,t[10]=l,t[11]=v,t[12]=r*b+i*m+M*d+n[12],t[13]=u*b+h*m+f*d+n[13],t[14]=e*b+c*m+l*d+n[14],t[15]=o*b+s*m+v*d+n[15]),t}function en(t,n,a){var r=a[0],u=a[1],e=a[2];return t[0]=n[0]*r,t[1]=n[1]*r,t[2]=n[2]*r,t[3]=n[3]*r,t[4]=n[4]*u,t[5]=n[5]*u,t[6]=n[6]*u,t[7]=n[7]*u,t[8]=n[8]*e,t[9]=n[9]*e,t[10]=n[10]*e,t[11]=n[11]*e,t[12]=n[12],t[13]=n[13],t[14]=n[14],t[15]=n[15],t}function on(t,n,a,r){var u,e,o,i,h,c,s,f,l,v,b,m,d,x,y,p,q,w,g,A,P,S,R,T,I=r[0],E=r[1],D=r[2],F=Math.hypot(I,E,D);return F<M?null:(I*=F=1/F,E*=F,D*=F,u=Math.sin(a),o=1-(e=Math.cos(a)),i=n[0],h=n[1],c=n[2],s=n[3],f=n[4],l=n[5],v=n[6],b=n[7],m=n[8],d=n[9],x=n[10],y=n[11],p=I*I*o+e,q=E*I*o+D*u,w=D*I*o-E*u,g=I*E*o-D*u,A=E*E*o+e,P=D*E*o+I*u,S=I*D*o+E*u,R=E*D*o-I*u,T=D*D*o+e,t[0]=i*p+f*q+m*w,t[1]=h*p+l*q+d*w,t[2]=c*p+v*q+x*w,t[3]=s*p+b*q+y*w,t[4]=i*g+f*A+m*P,t[5]=h*g+l*A+d*P,t[6]=c*g+v*A+x*P,t[7]=s*g+b*A+y*P,t[8]=i*S+f*R+m*T,t[9]=h*S+l*R+d*T,t[10]=c*S+v*R+x*T,t[11]=s*S+b*R+y*T,n!==t&&(t[12]=n[12],t[13]=n[13],t[14]=n[14],t[15]=n[15]),t)}function hn(t,n,a){var r=Math.sin(a),u=Math.cos(a),e=n[4],o=n[5],i=n[6],h=n[7],c=n[8],s=n[9],M=n[10],f=n[11];return n!==t&&(t[0]=n[0],t[1]=n[1],t[2]=n[2],t[3]=n[3],t[12]=n[12],t[13]=n[13],t[14]=n[14],t[15]=n[15]),t[4]=e*u+c*r,t[5]=o*u+s*r,t[6]=i*u+M*r,t[7]=h*u+f*r,t[8]=c*u-e*r,t[9]=s*u-o*r,t[10]=M*u-i*r,t[11]=f*u-h*r,t}function cn(t,n,a){var r=Math.sin(a),u=Math.cos(a),e=n[0],o=n[1],i=n[2],h=n[3],c=n[8],s=n[9],M=n[10],f=n[11];return n!==t&&(t[4]=n[4],t[5]=n[5],t[6]=n[6],t[7]=n[7],t[12]=n[12],t[13]=n[13],t[14]=n[14],t[15]=n[15]),t[0]=e*u-c*r,t[1]=o*u-s*r,t[2]=i*u-M*r,t[3]=h*u-f*r,t[8]=e*r+c*u,t[9]=o*r+s*u,t[10]=i*r+M*u,t[11]=h*r+f*u,t}function sn(t,n,a){var r=Math.sin(a),u=Math.cos(a),e=n[0],o=n[1],i=n[2],h=n[3],c=n[4],s=n[5],M=n[6],f=n[7];return n!==t&&(t[8]=n[8],t[9]=n[9],t[10]=n[10],t[11]=n[11],t[12]=n[12],t[13]=n[13],t[14]=n[14],t[15]=n[15]),t[0]=e*u+c*r,t[1]=o*u+s*r,t[2]=i*u+M*r,t[3]=h*u+f*r,t[4]=c*u-e*r,t[5]=s*u-o*r,t[6]=M*u-i*r,t[7]=f*u-h*r,t}function Mn(t,n){return t[0]=1,t[1]=0,t[2]=0,t[3]=0,t[4]=0,t[5]=1,t[6]=0,t[7]=0,t[8]=0,t[9]=0,t[10]=1,t[11]=0,t[12]=n[0],t[13]=n[1],t[14]=n[2],t[15]=1,t}function fn(t,n){return t[0]=n[0],t[1]=0,t[2]=0,t[3]=0,t[4]=0,t[5]=n[1],t[6]=0,t[7]=0,t[8]=0,t[9]=0,t[10]=n[2],t[11]=0,t[12]=0,t[13]=0,t[14]=0,t[15]=1,t}function ln(t,n,a){var r,u,e,o=a[0],i=a[1],h=a[2],c=Math.hypot(o,i,h);return c<M?null:(o*=c=1/c,i*=c,h*=c,r=Math.sin(n),e=1-(u=Math.cos(n)),t[0]=o*o*e+u,t[1]=i*o*e+h*r,t[2]=h*o*e-i*r,t[3]=0,t[4]=o*i*e-h*r,t[5]=i*i*e+u,t[6]=h*i*e+o*r,t[7]=0,t[8]=o*h*e+i*r,t[9]=i*h*e-o*r,t[10]=h*h*e+u,t[11]=0,t[12]=0,t[13]=0,t[14]=0,t[15]=1,t)}function vn(t,n){var a=Math.sin(n),r=Math.cos(n);return t[0]=1,t[1]=0,t[2]=0,t[3]=0,t[4]=0,t[5]=r,t[6]=a,t[7]=0,t[8]=0,t[9]=-a,t[10]=r,t[11]=0,t[12]=0,t[13]=0,t[14]=0,t[15]=1,t}function bn(t,n){var a=Math.sin(n),r=Math.cos(n);return t[0]=r,t[1]=0,t[2]=-a,t[3]=0,t[4]=0,t[5]=1,t[6]=0,t[7]=0,t[8]=a,t[9]=0,t[10]=r,t[11]=0,t[12]=0,t[13]=0,t[14]=0,t[15]=1,t}function mn(t,n){var a=Math.sin(n),r=Math.cos(n);return t[0]=r,t[1]=a,t[2]=0,t[3]=0,t[4]=-a,t[5]=r,t[6]=0,t[7]=0,t[8]=0,t[9]=0,t[10]=1,t[11]=0,t[12]=0,t[13]=0,t[14]=0,t[15]=1,t}function dn(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=r+r,h=u+u,c=e+e,s=r*i,M=r*h,f=r*c,l=u*h,v=u*c,b=e*c,m=o*i,d=o*h,x=o*c;return t[0]=1-(l+b),t[1]=M+x,t[2]=f-d,t[3]=0,t[4]=M-x,t[5]=1-(s+b),t[6]=v+m,t[7]=0,t[8]=f+d,t[9]=v-m,t[10]=1-(s+l),t[11]=0,t[12]=a[0],t[13]=a[1],t[14]=a[2],t[15]=1,t}function xn(t,n){var a=new f(3),r=-n[0],u=-n[1],e=-n[2],o=n[3],i=n[4],h=n[5],c=n[6],s=n[7],M=r*r+u*u+e*e+o*o;return M>0?(a[0]=2*(i*o+s*r+h*e-c*u)/M,a[1]=2*(h*o+s*u+c*r-i*e)/M,a[2]=2*(c*o+s*e+i*u-h*r)/M):(a[0]=2*(i*o+s*r+h*e-c*u),a[1]=2*(h*o+s*u+c*r-i*e),a[2]=2*(c*o+s*e+i*u-h*r)),dn(t,n,a),t}function yn(t,n){return t[0]=n[12],t[1]=n[13],t[2]=n[14],t}function pn(t,n){var a=n[0],r=n[1],u=n[2],e=n[4],o=n[5],i=n[6],h=n[8],c=n[9],s=n[10];return t[0]=Math.hypot(a,r,u),t[1]=Math.hypot(e,o,i),t[2]=Math.hypot(h,c,s),t}function qn(t,n){var a=new f(3);pn(a,n);var r=1/a[0],u=1/a[1],e=1/a[2],o=n[0]*r,i=n[1]*u,h=n[2]*e,c=n[4]*r,s=n[5]*u,M=n[6]*e,l=n[8]*r,v=n[9]*u,b=n[10]*e,m=o+s+b,d=0;return m>0?(d=2*Math.sqrt(m+1),t[3]=.25*d,t[0]=(M-v)/d,t[1]=(l-h)/d,t[2]=(i-c)/d):o>s&&o>b?(d=2*Math.sqrt(1+o-s-b),t[3]=(M-v)/d,t[0]=.25*d,t[1]=(i+c)/d,t[2]=(l+h)/d):s>b?(d=2*Math.sqrt(1+s-o-b),t[3]=(l-h)/d,t[0]=(i+c)/d,t[1]=.25*d,t[2]=(M+v)/d):(d=2*Math.sqrt(1+b-o-s),t[3]=(i-c)/d,t[0]=(l+h)/d,t[1]=(M+v)/d,t[2]=.25*d),t}function wn(t,n,a,r){var u=n[0],e=n[1],o=n[2],i=n[3],h=u+u,c=e+e,s=o+o,M=u*h,f=u*c,l=u*s,v=e*c,b=e*s,m=o*s,d=i*h,x=i*c,y=i*s,p=r[0],q=r[1],w=r[2];return t[0]=(1-(v+m))*p,t[1]=(f+y)*p,t[2]=(l-x)*p,t[3]=0,t[4]=(f-y)*q,t[5]=(1-(M+m))*q,t[6]=(b+d)*q,t[7]=0,t[8]=(l+x)*w,t[9]=(b-d)*w,t[10]=(1-(M+v))*w,t[11]=0,t[12]=a[0],t[13]=a[1],t[14]=a[2],t[15]=1,t}function gn(t,n,a,r,u){var e=n[0],o=n[1],i=n[2],h=n[3],c=e+e,s=o+o,M=i+i,f=e*c,l=e*s,v=e*M,b=o*s,m=o*M,d=i*M,x=h*c,y=h*s,p=h*M,q=r[0],w=r[1],g=r[2],A=u[0],P=u[1],S=u[2],R=(1-(b+d))*q,T=(l+p)*q,I=(v-y)*q,E=(l-p)*w,D=(1-(f+d))*w,F=(m+x)*w,L=(v+y)*g,V=(m-x)*g,j=(1-(f+b))*g;return t[0]=R,t[1]=T,t[2]=I,t[3]=0,t[4]=E,t[5]=D,t[6]=F,t[7]=0,t[8]=L,t[9]=V,t[10]=j,t[11]=0,t[12]=a[0]+A-(R*A+E*P+L*S),t[13]=a[1]+P-(T*A+D*P+V*S),t[14]=a[2]+S-(I*A+F*P+j*S),t[15]=1,t}function An(t,n){var a=n[0],r=n[1],u=n[2],e=n[3],o=a+a,i=r+r,h=u+u,c=a*o,s=r*o,M=r*i,f=u*o,l=u*i,v=u*h,b=e*o,m=e*i,d=e*h;return t[0]=1-M-v,t[1]=s+d,t[2]=f-m,t[3]=0,t[4]=s-d,t[5]=1-c-v,t[6]=l+b,t[7]=0,t[8]=f+m,t[9]=l-b,t[10]=1-c-M,t[11]=0,t[12]=0,t[13]=0,t[14]=0,t[15]=1,t}function Pn(t,n,a,r,u,e,o){var i=1/(a-n),h=1/(u-r),c=1/(e-o);return t[0]=2*e*i,t[1]=0,t[2]=0,t[3]=0,t[4]=0,t[5]=2*e*h,t[6]=0,t[7]=0,t[8]=(a+n)*i,t[9]=(u+r)*h,t[10]=(o+e)*c,t[11]=-1,t[12]=0,t[13]=0,t[14]=o*e*2*c,t[15]=0,t}function Sn(t,n,a,r,u){var e,o=1/Math.tan(n/2);return t[0]=o/a,t[1]=0,t[2]=0,t[3]=0,t[4]=0,t[5]=o,t[6]=0,t[7]=0,t[8]=0,t[9]=0,t[11]=-1,t[12]=0,t[13]=0,t[15]=0,null!=u&&u!==1/0?(e=1/(r-u),t[10]=(u+r)*e,t[14]=2*u*r*e):(t[10]=-1,t[14]=-2*r),t}function Rn(t,n,a,r){var u=Math.tan(n.upDegrees*Math.PI/180),e=Math.tan(n.downDegrees*Math.PI/180),o=Math.tan(n.leftDegrees*Math.PI/180),i=Math.tan(n.rightDegrees*Math.PI/180),h=2/(o+i),c=2/(u+e);return t[0]=h,t[1]=0,t[2]=0,t[3]=0,t[4]=0,t[5]=c,t[6]=0,t[7]=0,t[8]=-(o-i)*h*.5,t[9]=(u-e)*c*.5,t[10]=r/(a-r),t[11]=-1,t[12]=0,t[13]=0,t[14]=r*a/(a-r),t[15]=0,t}function Tn(t,n,a,r,u,e,o){var i=1/(n-a),h=1/(r-u),c=1/(e-o);return t[0]=-2*i,t[1]=0,t[2]=0,t[3]=0,t[4]=0,t[5]=-2*h,t[6]=0,t[7]=0,t[8]=0,t[9]=0,t[10]=2*c,t[11]=0,t[12]=(n+a)*i,t[13]=(u+r)*h,t[14]=(o+e)*c,t[15]=1,t}function In(t,n,a,r){var u,e,o,i,h,c,s,f,l,v,b=n[0],m=n[1],d=n[2],x=r[0],y=r[1],p=r[2],q=a[0],w=a[1],g=a[2];return Math.abs(b-q)<M&&Math.abs(m-w)<M&&Math.abs(d-g)<M?Kt(t):(s=b-q,f=m-w,l=d-g,u=y*(l*=v=1/Math.hypot(s,f,l))-p*(f*=v),e=p*(s*=v)-x*l,o=x*f-y*s,(v=Math.hypot(u,e,o))?(u*=v=1/v,e*=v,o*=v):(u=0,e=0,o=0),i=f*o-l*e,h=l*u-s*o,c=s*e-f*u,(v=Math.hypot(i,h,c))?(i*=v=1/v,h*=v,c*=v):(i=0,h=0,c=0),t[0]=u,t[1]=i,t[2]=s,t[3]=0,t[4]=e,t[5]=h,t[6]=f,t[7]=0,t[8]=o,t[9]=c,t[10]=l,t[11]=0,t[12]=-(u*b+e*m+o*d),t[13]=-(i*b+h*m+c*d),t[14]=-(s*b+f*m+l*d),t[15]=1,t)}function En(t,n,a,r){var u=n[0],e=n[1],o=n[2],i=r[0],h=r[1],c=r[2],s=u-a[0],M=e-a[1],f=o-a[2],l=s*s+M*M+f*f;l>0&&(s*=l=1/Math.sqrt(l),M*=l,f*=l);var v=h*f-c*M,b=c*s-i*f,m=i*M-h*s;return(l=v*v+b*b+m*m)>0&&(v*=l=1/Math.sqrt(l),b*=l,m*=l),t[0]=v,t[1]=b,t[2]=m,t[3]=0,t[4]=M*m-f*b,t[5]=f*v-s*m,t[6]=s*b-M*v,t[7]=0,t[8]=s,t[9]=M,t[10]=f,t[11]=0,t[12]=u,t[13]=e,t[14]=o,t[15]=1,t}function Dn(t){return"mat4("+t[0]+", "+t[1]+", "+t[2]+", "+t[3]+", "+t[4]+", "+t[5]+", "+t[6]+", "+t[7]+", "+t[8]+", "+t[9]+", "+t[10]+", "+t[11]+", "+t[12]+", "+t[13]+", "+t[14]+", "+t[15]+")"}function Fn(t){return Math.hypot(t[0],t[1],t[3],t[4],t[5],t[6],t[7],t[8],t[9],t[10],t[11],t[12],t[13],t[14],t[15])}function Ln(t,n,a){return t[0]=n[0]+a[0],t[1]=n[1]+a[1],t[2]=n[2]+a[2],t[3]=n[3]+a[3],t[4]=n[4]+a[4],t[5]=n[5]+a[5],t[6]=n[6]+a[6],t[7]=n[7]+a[7],t[8]=n[8]+a[8],t[9]=n[9]+a[9],t[10]=n[10]+a[10],t[11]=n[11]+a[11],t[12]=n[12]+a[12],t[13]=n[13]+a[13],t[14]=n[14]+a[14],t[15]=n[15]+a[15],t}function Vn(t,n,a){return t[0]=n[0]-a[0],t[1]=n[1]-a[1],t[2]=n[2]-a[2],t[3]=n[3]-a[3],t[4]=n[4]-a[4],t[5]=n[5]-a[5],t[6]=n[6]-a[6],t[7]=n[7]-a[7],t[8]=n[8]-a[8],t[9]=n[9]-a[9],t[10]=n[10]-a[10],t[11]=n[11]-a[11],t[12]=n[12]-a[12],t[13]=n[13]-a[13],t[14]=n[14]-a[14],t[15]=n[15]-a[15],t}function jn(t,n,a){return t[0]=n[0]*a,t[1]=n[1]*a,t[2]=n[2]*a,t[3]=n[3]*a,t[4]=n[4]*a,t[5]=n[5]*a,t[6]=n[6]*a,t[7]=n[7]*a,t[8]=n[8]*a,t[9]=n[9]*a,t[10]=n[10]*a,t[11]=n[11]*a,t[12]=n[12]*a,t[13]=n[13]*a,t[14]=n[14]*a,t[15]=n[15]*a,t}function zn(t,n,a,r){return t[0]=n[0]+a[0]*r,t[1]=n[1]+a[1]*r,t[2]=n[2]+a[2]*r,t[3]=n[3]+a[3]*r,t[4]=n[4]+a[4]*r,t[5]=n[5]+a[5]*r,t[6]=n[6]+a[6]*r,t[7]=n[7]+a[7]*r,t[8]=n[8]+a[8]*r,t[9]=n[9]+a[9]*r,t[10]=n[10]+a[10]*r,t[11]=n[11]+a[11]*r,t[12]=n[12]+a[12]*r,t[13]=n[13]+a[13]*r,t[14]=n[14]+a[14]*r,t[15]=n[15]+a[15]*r,t}function On(t,n){return t[0]===n[0]&&t[1]===n[1]&&t[2]===n[2]&&t[3]===n[3]&&t[4]===n[4]&&t[5]===n[5]&&t[6]===n[6]&&t[7]===n[7]&&t[8]===n[8]&&t[9]===n[9]&&t[10]===n[10]&&t[11]===n[11]&&t[12]===n[12]&&t[13]===n[13]&&t[14]===n[14]&&t[15]===n[15]}function Qn(t,n){var a=t[0],r=t[1],u=t[2],e=t[3],o=t[4],i=t[5],h=t[6],c=t[7],s=t[8],f=t[9],l=t[10],v=t[11],b=t[12],m=t[13],d=t[14],x=t[15],y=n[0],p=n[1],q=n[2],w=n[3],g=n[4],A=n[5],P=n[6],S=n[7],R=n[8],T=n[9],I=n[10],E=n[11],D=n[12],F=n[13],L=n[14],V=n[15];return Math.abs(a-y)<=M*Math.max(1,Math.abs(a),Math.abs(y))&&Math.abs(r-p)<=M*Math.max(1,Math.abs(r),Math.abs(p))&&Math.abs(u-q)<=M*Math.max(1,Math.abs(u),Math.abs(q))&&Math.abs(e-w)<=M*Math.max(1,Math.abs(e),Math.abs(w))&&Math.abs(o-g)<=M*Math.max(1,Math.abs(o),Math.abs(g))&&Math.abs(i-A)<=M*Math.max(1,Math.abs(i),Math.abs(A))&&Math.abs(h-P)<=M*Math.max(1,Math.abs(h),Math.abs(P))&&Math.abs(c-S)<=M*Math.max(1,Math.abs(c),Math.abs(S))&&Math.abs(s-R)<=M*Math.max(1,Math.abs(s),Math.abs(R))&&Math.abs(f-T)<=M*Math.max(1,Math.abs(f),Math.abs(T))&&Math.abs(l-I)<=M*Math.max(1,Math.abs(l),Math.abs(I))&&Math.abs(v-E)<=M*Math.max(1,Math.abs(v),Math.abs(E))&&Math.abs(b-D)<=M*Math.max(1,Math.abs(b),Math.abs(D))&&Math.abs(m-F)<=M*Math.max(1,Math.abs(m),Math.abs(F))&&Math.abs(d-L)<=M*Math.max(1,Math.abs(d),Math.abs(L))&&Math.abs(x-V)<=M*Math.max(1,Math.abs(x),Math.abs(V))}var Yn=rn,Xn=Vn;function Zn(){var t=new f(3);return f!=Float32Array&&(t[0]=0,t[1]=0,t[2]=0),t}function _n(t){var n=new f(3);return n[0]=t[0],n[1]=t[1],n[2]=t[2],n}function Bn(t){var n=t[0],a=t[1],r=t[2];return Math.hypot(n,a,r)}function Nn(t,n,a){var r=new f(3);return r[0]=t,r[1]=n,r[2]=a,r}function kn(t,n){return t[0]=n[0],t[1]=n[1],t[2]=n[2],t}function Un(t,n,a,r){return t[0]=n,t[1]=a,t[2]=r,t}function Wn(t,n,a){return t[0]=n[0]+a[0],t[1]=n[1]+a[1],t[2]=n[2]+a[2],t}function Cn(t,n,a){return t[0]=n[0]-a[0],t[1]=n[1]-a[1],t[2]=n[2]-a[2],t}function Gn(t,n,a){return t[0]=n[0]*a[0],t[1]=n[1]*a[1],t[2]=n[2]*a[2],t}function Hn(t,n,a){return t[0]=n[0]/a[0],t[1]=n[1]/a[1],t[2]=n[2]/a[2],t}function Jn(t,n){return t[0]=Math.ceil(n[0]),t[1]=Math.ceil(n[1]),t[2]=Math.ceil(n[2]),t}function Kn(t,n){return t[0]=Math.floor(n[0]),t[1]=Math.floor(n[1]),t[2]=Math.floor(n[2]),t}function $n(t,n,a){return t[0]=Math.min(n[0],a[0]),t[1]=Math.min(n[1],a[1]),t[2]=Math.min(n[2],a[2]),t}function ta(t,n,a){return t[0]=Math.max(n[0],a[0]),t[1]=Math.max(n[1],a[1]),t[2]=Math.max(n[2],a[2]),t}function na(t,n){return t[0]=Math.round(n[0]),t[1]=Math.round(n[1]),t[2]=Math.round(n[2]),t}function aa(t,n,a){return t[0]=n[0]*a,t[1]=n[1]*a,t[2]=n[2]*a,t}function ra(t,n,a,r){return t[0]=n[0]+a[0]*r,t[1]=n[1]+a[1]*r,t[2]=n[2]+a[2]*r,t}function ua(t,n){var a=n[0]-t[0],r=n[1]-t[1],u=n[2]-t[2];return Math.hypot(a,r,u)}function ea(t,n){var a=n[0]-t[0],r=n[1]-t[1],u=n[2]-t[2];return a*a+r*r+u*u}function oa(t){var n=t[0],a=t[1],r=t[2];return n*n+a*a+r*r}function ia(t,n){return t[0]=-n[0],t[1]=-n[1],t[2]=-n[2],t}function ha(t,n){return t[0]=1/n[0],t[1]=1/n[1],t[2]=1/n[2],t}function ca(t,n){var a=n[0],r=n[1],u=n[2],e=a*a+r*r+u*u;return e>0&&(e=1/Math.sqrt(e)),t[0]=n[0]*e,t[1]=n[1]*e,t[2]=n[2]*e,t}function sa(t,n){return t[0]*n[0]+t[1]*n[1]+t[2]*n[2]}function Ma(t,n,a){var r=n[0],u=n[1],e=n[2],o=a[0],i=a[1],h=a[2];return t[0]=u*h-e*i,t[1]=e*o-r*h,t[2]=r*i-u*o,t}function fa(t,n,a,r){var u=n[0],e=n[1],o=n[2];return t[0]=u+r*(a[0]-u),t[1]=e+r*(a[1]-e),t[2]=o+r*(a[2]-o),t}function la(t,n,a,r,u,e){var o=e*e,i=o*(2*e-3)+1,h=o*(e-2)+e,c=o*(e-1),s=o*(3-2*e);return t[0]=n[0]*i+a[0]*h+r[0]*c+u[0]*s,t[1]=n[1]*i+a[1]*h+r[1]*c+u[1]*s,t[2]=n[2]*i+a[2]*h+r[2]*c+u[2]*s,t}function va(t,n,a,r,u,e){var o=1-e,i=o*o,h=e*e,c=i*o,s=3*e*i,M=3*h*o,f=h*e;return t[0]=n[0]*c+a[0]*s+r[0]*M+u[0]*f,t[1]=n[1]*c+a[1]*s+r[1]*M+u[1]*f,t[2]=n[2]*c+a[2]*s+r[2]*M+u[2]*f,t}function ba(t,n){n=n||1;var a=2*l()*Math.PI,r=2*l()-1,u=Math.sqrt(1-r*r)*n;return t[0]=Math.cos(a)*u,t[1]=Math.sin(a)*u,t[2]=r*n,t}function ma(t,n,a){var r=n[0],u=n[1],e=n[2],o=a[3]*r+a[7]*u+a[11]*e+a[15];return o=o||1,t[0]=(a[0]*r+a[4]*u+a[8]*e+a[12])/o,t[1]=(a[1]*r+a[5]*u+a[9]*e+a[13])/o,t[2]=(a[2]*r+a[6]*u+a[10]*e+a[14])/o,t}function da(t,n,a){var r=n[0],u=n[1],e=n[2];return t[0]=r*a[0]+u*a[3]+e*a[6],t[1]=r*a[1]+u*a[4]+e*a[7],t[2]=r*a[2]+u*a[5]+e*a[8],t}function xa(t,n,a){var r=a[0],u=a[1],e=a[2],o=a[3],i=n[0],h=n[1],c=n[2],s=u*c-e*h,M=e*i-r*c,f=r*h-u*i,l=u*f-e*M,v=e*s-r*f,b=r*M-u*s,m=2*o;return s*=m,M*=m,f*=m,l*=2,v*=2,b*=2,t[0]=i+s+l,t[1]=h+M+v,t[2]=c+f+b,t}function ya(t,n,a,r){var u=[],e=[];return u[0]=n[0]-a[0],u[1]=n[1]-a[1],u[2]=n[2]-a[2],e[0]=u[0],e[1]=u[1]*Math.cos(r)-u[2]*Math.sin(r),e[2]=u[1]*Math.sin(r)+u[2]*Math.cos(r),t[0]=e[0]+a[0],t[1]=e[1]+a[1],t[2]=e[2]+a[2],t}function pa(t,n,a,r){var u=[],e=[];return u[0]=n[0]-a[0],u[1]=n[1]-a[1],u[2]=n[2]-a[2],e[0]=u[2]*Math.sin(r)+u[0]*Math.cos(r),e[1]=u[1],e[2]=u[2]*Math.cos(r)-u[0]*Math.sin(r),t[0]=e[0]+a[0],t[1]=e[1]+a[1],t[2]=e[2]+a[2],t}function qa(t,n,a,r){var u=[],e=[];return u[0]=n[0]-a[0],u[1]=n[1]-a[1],u[2]=n[2]-a[2],e[0]=u[0]*Math.cos(r)-u[1]*Math.sin(r),e[1]=u[0]*Math.sin(r)+u[1]*Math.cos(r),e[2]=u[2],t[0]=e[0]+a[0],t[1]=e[1]+a[1],t[2]=e[2]+a[2],t}function wa(t,n){var a=Nn(t[0],t[1],t[2]),r=Nn(n[0],n[1],n[2]);ca(a,a),ca(r,r);var u=sa(a,r);return u>1?0:u<-1?Math.PI:Math.acos(u)}function ga(t){return t[0]=0,t[1]=0,t[2]=0,t}function Aa(t){return"vec3("+t[0]+", "+t[1]+", "+t[2]+")"}function Pa(t,n){return t[0]===n[0]&&t[1]===n[1]&&t[2]===n[2]}function Sa(t,n){var a=t[0],r=t[1],u=t[2],e=n[0],o=n[1],i=n[2];return Math.abs(a-e)<=M*Math.max(1,Math.abs(a),Math.abs(e))&&Math.abs(r-o)<=M*Math.max(1,Math.abs(r),Math.abs(o))&&Math.abs(u-i)<=M*Math.max(1,Math.abs(u),Math.abs(i))}var Ra,Ta=Cn,Ia=Gn,Ea=Hn,Da=ua,Fa=ea,La=Bn,Va=oa,ja=(Ra=Zn(),function(t,n,a,r,u,e){var o,i;for(n||(n=3),a||(a=0),i=r?Math.min(r*n+a,t.length):t.length,o=a;o<i;o+=n)Ra[0]=t[o],Ra[1]=t[o+1],Ra[2]=t[o+2],u(Ra,Ra,e),t[o]=Ra[0],t[o+1]=Ra[1],t[o+2]=Ra[2];return t});function za(){var t=new f(4);return f!=Float32Array&&(t[0]=0,t[1]=0,t[2]=0,t[3]=0),t}function Oa(t){var n=new f(4);return n[0]=t[0],n[1]=t[1],n[2]=t[2],n[3]=t[3],n}function Qa(t,n,a,r){var u=new f(4);return u[0]=t,u[1]=n,u[2]=a,u[3]=r,u}function Ya(t,n){return t[0]=n[0],t[1]=n[1],t[2]=n[2],t[3]=n[3],t}function Xa(t,n,a,r,u){return t[0]=n,t[1]=a,t[2]=r,t[3]=u,t}function Za(t,n,a){return t[0]=n[0]+a[0],t[1]=n[1]+a[1],t[2]=n[2]+a[2],t[3]=n[3]+a[3],t}function _a(t,n,a){return t[0]=n[0]-a[0],t[1]=n[1]-a[1],t[2]=n[2]-a[2],t[3]=n[3]-a[3],t}function Ba(t,n,a){return t[0]=n[0]*a[0],t[1]=n[1]*a[1],t[2]=n[2]*a[2],t[3]=n[3]*a[3],t}function Na(t,n,a){return t[0]=n[0]/a[0],t[1]=n[1]/a[1],t[2]=n[2]/a[2],t[3]=n[3]/a[3],t}function ka(t,n){return t[0]=Math.ceil(n[0]),t[1]=Math.ceil(n[1]),t[2]=Math.ceil(n[2]),t[3]=Math.ceil(n[3]),t}function Ua(t,n){return t[0]=Math.floor(n[0]),t[1]=Math.floor(n[1]),t[2]=Math.floor(n[2]),t[3]=Math.floor(n[3]),t}function Wa(t,n,a){return t[0]=Math.min(n[0],a[0]),t[1]=Math.min(n[1],a[1]),t[2]=Math.min(n[2],a[2]),t[3]=Math.min(n[3],a[3]),t}function Ca(t,n,a){return t[0]=Math.max(n[0],a[0]),t[1]=Math.max(n[1],a[1]),t[2]=Math.max(n[2],a[2]),t[3]=Math.max(n[3],a[3]),t}function Ga(t,n){return t[0]=Math.round(n[0]),t[1]=Math.round(n[1]),t[2]=Math.round(n[2]),t[3]=Math.round(n[3]),t}function Ha(t,n,a){return t[0]=n[0]*a,t[1]=n[1]*a,t[2]=n[2]*a,t[3]=n[3]*a,t}function Ja(t,n,a,r){return t[0]=n[0]+a[0]*r,t[1]=n[1]+a[1]*r,t[2]=n[2]+a[2]*r,t[3]=n[3]+a[3]*r,t}function Ka(t,n){var a=n[0]-t[0],r=n[1]-t[1],u=n[2]-t[2],e=n[3]-t[3];return Math.hypot(a,r,u,e)}function $a(t,n){var a=n[0]-t[0],r=n[1]-t[1],u=n[2]-t[2],e=n[3]-t[3];return a*a+r*r+u*u+e*e}function tr(t){var n=t[0],a=t[1],r=t[2],u=t[3];return Math.hypot(n,a,r,u)}function nr(t){var n=t[0],a=t[1],r=t[2],u=t[3];return n*n+a*a+r*r+u*u}function ar(t,n){return t[0]=-n[0],t[1]=-n[1],t[2]=-n[2],t[3]=-n[3],t}function rr(t,n){return t[0]=1/n[0],t[1]=1/n[1],t[2]=1/n[2],t[3]=1/n[3],t}function ur(t,n){var a=n[0],r=n[1],u=n[2],e=n[3],o=a*a+r*r+u*u+e*e;return o>0&&(o=1/Math.sqrt(o)),t[0]=a*o,t[1]=r*o,t[2]=u*o,t[3]=e*o,t}function er(t,n){return t[0]*n[0]+t[1]*n[1]+t[2]*n[2]+t[3]*n[3]}function or(t,n,a,r){var u=a[0]*r[1]-a[1]*r[0],e=a[0]*r[2]-a[2]*r[0],o=a[0]*r[3]-a[3]*r[0],i=a[1]*r[2]-a[2]*r[1],h=a[1]*r[3]-a[3]*r[1],c=a[2]*r[3]-a[3]*r[2],s=n[0],M=n[1],f=n[2],l=n[3];return t[0]=M*c-f*h+l*i,t[1]=-s*c+f*o-l*e,t[2]=s*h-M*o+l*u,t[3]=-s*i+M*e-f*u,t}function ir(t,n,a,r){var u=n[0],e=n[1],o=n[2],i=n[3];return t[0]=u+r*(a[0]-u),t[1]=e+r*(a[1]-e),t[2]=o+r*(a[2]-o),t[3]=i+r*(a[3]-i),t}function hr(t,n){var a,r,u,e,o,i;n=n||1;do{o=(a=2*l()-1)*a+(r=2*l()-1)*r}while(o>=1);do{i=(u=2*l()-1)*u+(e=2*l()-1)*e}while(i>=1);var h=Math.sqrt((1-o)/i);return t[0]=n*a,t[1]=n*r,t[2]=n*u*h,t[3]=n*e*h,t}function cr(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3];return t[0]=a[0]*r+a[4]*u+a[8]*e+a[12]*o,t[1]=a[1]*r+a[5]*u+a[9]*e+a[13]*o,t[2]=a[2]*r+a[6]*u+a[10]*e+a[14]*o,t[3]=a[3]*r+a[7]*u+a[11]*e+a[15]*o,t}function sr(t,n,a){var r=n[0],u=n[1],e=n[2],o=a[0],i=a[1],h=a[2],c=a[3],s=c*r+i*e-h*u,M=c*u+h*r-o*e,f=c*e+o*u-i*r,l=-o*r-i*u-h*e;return t[0]=s*c+l*-o+M*-h-f*-i,t[1]=M*c+l*-i+f*-o-s*-h,t[2]=f*c+l*-h+s*-i-M*-o,t[3]=n[3],t}function Mr(t){return t[0]=0,t[1]=0,t[2]=0,t[3]=0,t}function fr(t){return"vec4("+t[0]+", "+t[1]+", "+t[2]+", "+t[3]+")"}function lr(t,n){return t[0]===n[0]&&t[1]===n[1]&&t[2]===n[2]&&t[3]===n[3]}function vr(t,n){var a=t[0],r=t[1],u=t[2],e=t[3],o=n[0],i=n[1],h=n[2],c=n[3];return Math.abs(a-o)<=M*Math.max(1,Math.abs(a),Math.abs(o))&&Math.abs(r-i)<=M*Math.max(1,Math.abs(r),Math.abs(i))&&Math.abs(u-h)<=M*Math.max(1,Math.abs(u),Math.abs(h))&&Math.abs(e-c)<=M*Math.max(1,Math.abs(e),Math.abs(c))}var br=_a,mr=Ba,dr=Na,xr=Ka,yr=$a,pr=tr,qr=nr,wr=function(){var t=za();return function(n,a,r,u,e,o){var i,h;for(a||(a=4),r||(r=0),h=u?Math.min(u*a+r,n.length):n.length,i=r;i<h;i+=a)t[0]=n[i],t[1]=n[i+1],t[2]=n[i+2],t[3]=n[i+3],e(t,t,o),n[i]=t[0],n[i+1]=t[1],n[i+2]=t[2],n[i+3]=t[3];return n}}();function gr(){var t=new f(4);return f!=Float32Array&&(t[0]=0,t[1]=0,t[2]=0),t[3]=1,t}function Ar(t){return t[0]=0,t[1]=0,t[2]=0,t[3]=1,t}function Pr(t,n,a){a*=.5;var r=Math.sin(a);return t[0]=r*n[0],t[1]=r*n[1],t[2]=r*n[2],t[3]=Math.cos(a),t}function Sr(t,n){var a=2*Math.acos(n[3]),r=Math.sin(a/2);return r>M?(t[0]=n[0]/r,t[1]=n[1]/r,t[2]=n[2]/r):(t[0]=1,t[1]=0,t[2]=0),a}function Rr(t,n){var a=au(t,n);return Math.acos(2*a*a-1)}function Tr(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=a[0],h=a[1],c=a[2],s=a[3];return t[0]=r*s+o*i+u*c-e*h,t[1]=u*s+o*h+e*i-r*c,t[2]=e*s+o*c+r*h-u*i,t[3]=o*s-r*i-u*h-e*c,t}function Ir(t,n,a){a*=.5;var r=n[0],u=n[1],e=n[2],o=n[3],i=Math.sin(a),h=Math.cos(a);return t[0]=r*h+o*i,t[1]=u*h+e*i,t[2]=e*h-u*i,t[3]=o*h-r*i,t}function Er(t,n,a){a*=.5;var r=n[0],u=n[1],e=n[2],o=n[3],i=Math.sin(a),h=Math.cos(a);return t[0]=r*h-e*i,t[1]=u*h+o*i,t[2]=e*h+r*i,t[3]=o*h-u*i,t}function Dr(t,n,a){a*=.5;var r=n[0],u=n[1],e=n[2],o=n[3],i=Math.sin(a),h=Math.cos(a);return t[0]=r*h+u*i,t[1]=u*h-r*i,t[2]=e*h+o*i,t[3]=o*h-e*i,t}function Fr(t,n){var a=n[0],r=n[1],u=n[2];return t[0]=a,t[1]=r,t[2]=u,t[3]=Math.sqrt(Math.abs(1-a*a-r*r-u*u)),t}function Lr(t,n){var a=n[0],r=n[1],u=n[2],e=n[3],o=Math.sqrt(a*a+r*r+u*u),i=Math.exp(e),h=o>0?i*Math.sin(o)/o:0;return t[0]=a*h,t[1]=r*h,t[2]=u*h,t[3]=i*Math.cos(o),t}function Vr(t,n){var a=n[0],r=n[1],u=n[2],e=n[3],o=Math.sqrt(a*a+r*r+u*u),i=o>0?Math.atan2(o,e)/o:0;return t[0]=a*i,t[1]=r*i,t[2]=u*i,t[3]=.5*Math.log(a*a+r*r+u*u+e*e),t}function jr(t,n,a){return Vr(t,n),nu(t,t,a),Lr(t,t),t}function zr(t,n,a,r){var u,e,o,i,h,c=n[0],s=n[1],f=n[2],l=n[3],v=a[0],b=a[1],m=a[2],d=a[3];return(e=c*v+s*b+f*m+l*d)<0&&(e=-e,v=-v,b=-b,m=-m,d=-d),1-e>M?(u=Math.acos(e),o=Math.sin(u),i=Math.sin((1-r)*u)/o,h=Math.sin(r*u)/o):(i=1-r,h=r),t[0]=i*c+h*v,t[1]=i*s+h*b,t[2]=i*f+h*m,t[3]=i*l+h*d,t}function Or(t){var n=l(),a=l(),r=l(),u=Math.sqrt(1-n),e=Math.sqrt(n);return t[0]=u*Math.sin(2*Math.PI*a),t[1]=u*Math.cos(2*Math.PI*a),t[2]=e*Math.sin(2*Math.PI*r),t[3]=e*Math.cos(2*Math.PI*r),t}function Qr(t,n){var a=n[0],r=n[1],u=n[2],e=n[3],o=a*a+r*r+u*u+e*e,i=o?1/o:0;return t[0]=-a*i,t[1]=-r*i,t[2]=-u*i,t[3]=e*i,t}function Yr(t,n){return t[0]=-n[0],t[1]=-n[1],t[2]=-n[2],t[3]=n[3],t}function Xr(t,n){var a,r=n[0]+n[4]+n[8];if(r>0)a=Math.sqrt(r+1),t[3]=.5*a,a=.5/a,t[0]=(n[5]-n[7])*a,t[1]=(n[6]-n[2])*a,t[2]=(n[1]-n[3])*a;else{var u=0;n[4]>n[0]&&(u=1),n[8]>n[3*u+u]&&(u=2);var e=(u+1)%3,o=(u+2)%3;a=Math.sqrt(n[3*u+u]-n[3*e+e]-n[3*o+o]+1),t[u]=.5*a,a=.5/a,t[3]=(n[3*e+o]-n[3*o+e])*a,t[e]=(n[3*e+u]+n[3*u+e])*a,t[o]=(n[3*o+u]+n[3*u+o])*a}return t}function Zr(t,n,a,r){var u=.5*Math.PI/180;n*=u,a*=u,r*=u;var e=Math.sin(n),o=Math.cos(n),i=Math.sin(a),h=Math.cos(a),c=Math.sin(r),s=Math.cos(r);return t[0]=e*h*s-o*i*c,t[1]=o*i*s+e*h*c,t[2]=o*h*c-e*i*s,t[3]=o*h*s+e*i*c,t}function _r(t){return"quat("+t[0]+", "+t[1]+", "+t[2]+", "+t[3]+")"}var Br,Nr,kr,Ur,Wr,Cr,Gr=Oa,Hr=Qa,Jr=Ya,Kr=Xa,$r=Za,tu=Tr,nu=Ha,au=er,ru=ir,uu=tr,eu=uu,ou=nr,iu=ou,hu=ur,cu=lr,su=vr,Mu=(Br=Zn(),Nr=Nn(1,0,0),kr=Nn(0,1,0),function(t,n,a){var r=sa(n,a);return r<-.999999?(Ma(Br,Nr,n),La(Br)<1e-6&&Ma(Br,kr,n),ca(Br,Br),Pr(t,Br,Math.PI),t):r>.999999?(t[0]=0,t[1]=0,t[2]=0,t[3]=1,t):(Ma(Br,n,a),t[0]=Br[0],t[1]=Br[1],t[2]=Br[2],t[3]=1+r,hu(t,t))}),fu=(Ur=gr(),Wr=gr(),function(t,n,a,r,u,e){return zr(Ur,n,u,e),zr(Wr,a,r,e),zr(t,Ur,Wr,2*e*(1-e)),t}),lu=(Cr=bt(),function(t,n,a,r){return Cr[0]=a[0],Cr[3]=a[1],Cr[6]=a[2],Cr[1]=r[0],Cr[4]=r[1],Cr[7]=r[2],Cr[2]=-n[0],Cr[5]=-n[1],Cr[8]=-n[2],hu(t,Xr(t,Cr))});function vu(){var t=new f(8);return f!=Float32Array&&(t[0]=0,t[1]=0,t[2]=0,t[4]=0,t[5]=0,t[6]=0,t[7]=0),t[3]=1,t}function bu(t){var n=new f(8);return n[0]=t[0],n[1]=t[1],n[2]=t[2],n[3]=t[3],n[4]=t[4],n[5]=t[5],n[6]=t[6],n[7]=t[7],n}function mu(t,n,a,r,u,e,o,i){var h=new f(8);return h[0]=t,h[1]=n,h[2]=a,h[3]=r,h[4]=u,h[5]=e,h[6]=o,h[7]=i,h}function du(t,n,a,r,u,e,o){var i=new f(8);i[0]=t,i[1]=n,i[2]=a,i[3]=r;var h=.5*u,c=.5*e,s=.5*o;return i[4]=h*r+c*a-s*n,i[5]=c*r+s*t-h*a,i[6]=s*r+h*n-c*t,i[7]=-h*t-c*n-s*a,i}function xu(t,n,a){var r=.5*a[0],u=.5*a[1],e=.5*a[2],o=n[0],i=n[1],h=n[2],c=n[3];return t[0]=o,t[1]=i,t[2]=h,t[3]=c,t[4]=r*c+u*h-e*i,t[5]=u*c+e*o-r*h,t[6]=e*c+r*i-u*o,t[7]=-r*o-u*i-e*h,t}function yu(t,n){return t[0]=0,t[1]=0,t[2]=0,t[3]=1,t[4]=.5*n[0],t[5]=.5*n[1],t[6]=.5*n[2],t[7]=0,t}function pu(t,n){return t[0]=n[0],t[1]=n[1],t[2]=n[2],t[3]=n[3],t[4]=0,t[5]=0,t[6]=0,t[7]=0,t}function qu(t,n){var a=gr();qn(a,n);var r=new f(3);return yn(r,n),xu(t,a,r),t}function wu(t,n){return t[0]=n[0],t[1]=n[1],t[2]=n[2],t[3]=n[3],t[4]=n[4],t[5]=n[5],t[6]=n[6],t[7]=n[7],t}function gu(t){return t[0]=0,t[1]=0,t[2]=0,t[3]=1,t[4]=0,t[5]=0,t[6]=0,t[7]=0,t}function Au(t,n,a,r,u,e,o,i,h){return t[0]=n,t[1]=a,t[2]=r,t[3]=u,t[4]=e,t[5]=o,t[6]=i,t[7]=h,t}var Pu=Jr;function Su(t,n){return t[0]=n[4],t[1]=n[5],t[2]=n[6],t[3]=n[7],t}var Ru=Jr;function Tu(t,n){return t[4]=n[0],t[5]=n[1],t[6]=n[2],t[7]=n[3],t}function Iu(t,n){var a=n[4],r=n[5],u=n[6],e=n[7],o=-n[0],i=-n[1],h=-n[2],c=n[3];return t[0]=2*(a*c+e*o+r*h-u*i),t[1]=2*(r*c+e*i+u*o-a*h),t[2]=2*(u*c+e*h+a*i-r*o),t}function Eu(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=.5*a[0],h=.5*a[1],c=.5*a[2],s=n[4],M=n[5],f=n[6],l=n[7];return t[0]=r,t[1]=u,t[2]=e,t[3]=o,t[4]=o*i+u*c-e*h+s,t[5]=o*h+e*i-r*c+M,t[6]=o*c+r*h-u*i+f,t[7]=-r*i-u*h-e*c+l,t}function Du(t,n,a){var r=-n[0],u=-n[1],e=-n[2],o=n[3],i=n[4],h=n[5],c=n[6],s=n[7],M=i*o+s*r+h*e-c*u,f=h*o+s*u+c*r-i*e,l=c*o+s*e+i*u-h*r,v=s*o-i*r-h*u-c*e;return Ir(t,n,a),r=t[0],u=t[1],e=t[2],o=t[3],t[4]=M*o+v*r+f*e-l*u,t[5]=f*o+v*u+l*r-M*e,t[6]=l*o+v*e+M*u-f*r,t[7]=v*o-M*r-f*u-l*e,t}function Fu(t,n,a){var r=-n[0],u=-n[1],e=-n[2],o=n[3],i=n[4],h=n[5],c=n[6],s=n[7],M=i*o+s*r+h*e-c*u,f=h*o+s*u+c*r-i*e,l=c*o+s*e+i*u-h*r,v=s*o-i*r-h*u-c*e;return Er(t,n,a),r=t[0],u=t[1],e=t[2],o=t[3],t[4]=M*o+v*r+f*e-l*u,t[5]=f*o+v*u+l*r-M*e,t[6]=l*o+v*e+M*u-f*r,t[7]=v*o-M*r-f*u-l*e,t}function Lu(t,n,a){var r=-n[0],u=-n[1],e=-n[2],o=n[3],i=n[4],h=n[5],c=n[6],s=n[7],M=i*o+s*r+h*e-c*u,f=h*o+s*u+c*r-i*e,l=c*o+s*e+i*u-h*r,v=s*o-i*r-h*u-c*e;return Dr(t,n,a),r=t[0],u=t[1],e=t[2],o=t[3],t[4]=M*o+v*r+f*e-l*u,t[5]=f*o+v*u+l*r-M*e,t[6]=l*o+v*e+M*u-f*r,t[7]=v*o-M*r-f*u-l*e,t}function Vu(t,n,a){var r=a[0],u=a[1],e=a[2],o=a[3],i=n[0],h=n[1],c=n[2],s=n[3];return t[0]=i*o+s*r+h*e-c*u,t[1]=h*o+s*u+c*r-i*e,t[2]=c*o+s*e+i*u-h*r,t[3]=s*o-i*r-h*u-c*e,i=n[4],h=n[5],c=n[6],s=n[7],t[4]=i*o+s*r+h*e-c*u,t[5]=h*o+s*u+c*r-i*e,t[6]=c*o+s*e+i*u-h*r,t[7]=s*o-i*r-h*u-c*e,t}function ju(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=a[0],h=a[1],c=a[2],s=a[3];return t[0]=r*s+o*i+u*c-e*h,t[1]=u*s+o*h+e*i-r*c,t[2]=e*s+o*c+r*h-u*i,t[3]=o*s-r*i-u*h-e*c,i=a[4],h=a[5],c=a[6],s=a[7],t[4]=r*s+o*i+u*c-e*h,t[5]=u*s+o*h+e*i-r*c,t[6]=e*s+o*c+r*h-u*i,t[7]=o*s-r*i-u*h-e*c,t}function zu(t,n,a,r){if(Math.abs(r)<M)return wu(t,n);var u=Math.hypot(a[0],a[1],a[2]);r*=.5;var e=Math.sin(r),o=e*a[0]/u,i=e*a[1]/u,h=e*a[2]/u,c=Math.cos(r),s=n[0],f=n[1],l=n[2],v=n[3];t[0]=s*c+v*o+f*h-l*i,t[1]=f*c+v*i+l*o-s*h,t[2]=l*c+v*h+s*i-f*o,t[3]=v*c-s*o-f*i-l*h;var b=n[4],m=n[5],d=n[6],x=n[7];return t[4]=b*c+x*o+m*h-d*i,t[5]=m*c+x*i+d*o-b*h,t[6]=d*c+x*h+b*i-m*o,t[7]=x*c-b*o-m*i-d*h,t}function Ou(t,n,a){return t[0]=n[0]+a[0],t[1]=n[1]+a[1],t[2]=n[2]+a[2],t[3]=n[3]+a[3],t[4]=n[4]+a[4],t[5]=n[5]+a[5],t[6]=n[6]+a[6],t[7]=n[7]+a[7],t}function Qu(t,n,a){var r=n[0],u=n[1],e=n[2],o=n[3],i=a[4],h=a[5],c=a[6],s=a[7],M=n[4],f=n[5],l=n[6],v=n[7],b=a[0],m=a[1],d=a[2],x=a[3];return t[0]=r*x+o*b+u*d-e*m,t[1]=u*x+o*m+e*b-r*d,t[2]=e*x+o*d+r*m-u*b,t[3]=o*x-r*b-u*m-e*d,t[4]=r*s+o*i+u*c-e*h+M*x+v*b+f*d-l*m,t[5]=u*s+o*h+e*i-r*c+f*x+v*m+l*b-M*d,t[6]=e*s+o*c+r*h-u*i+l*x+v*d+M*m-f*b,t[7]=o*s-r*i-u*h-e*c+v*x-M*b-f*m-l*d,t}var Yu=Qu;function Xu(t,n,a){return t[0]=n[0]*a,t[1]=n[1]*a,t[2]=n[2]*a,t[3]=n[3]*a,t[4]=n[4]*a,t[5]=n[5]*a,t[6]=n[6]*a,t[7]=n[7]*a,t}var Zu=au;function _u(t,n,a,r){var u=1-r;return Zu(n,a)<0&&(r=-r),t[0]=n[0]*u+a[0]*r,t[1]=n[1]*u+a[1]*r,t[2]=n[2]*u+a[2]*r,t[3]=n[3]*u+a[3]*r,t[4]=n[4]*u+a[4]*r,t[5]=n[5]*u+a[5]*r,t[6]=n[6]*u+a[6]*r,t[7]=n[7]*u+a[7]*r,t}function Bu(t,n){var a=Wu(n);return t[0]=-n[0]/a,t[1]=-n[1]/a,t[2]=-n[2]/a,t[3]=n[3]/a,t[4]=-n[4]/a,t[5]=-n[5]/a,t[6]=-n[6]/a,t[7]=n[7]/a,t}function Nu(t,n){return t[0]=-n[0],t[1]=-n[1],t[2]=-n[2],t[3]=n[3],t[4]=-n[4],t[5]=-n[5],t[6]=-n[6],t[7]=n[7],t}var ku=uu,Uu=ku,Wu=ou,Cu=Wu;function Gu(t,n){var a=Wu(n);if(a>0){a=Math.sqrt(a);var r=n[0]/a,u=n[1]/a,e=n[2]/a,o=n[3]/a,i=n[4],h=n[5],c=n[6],s=n[7],M=r*i+u*h+e*c+o*s;t[0]=r,t[1]=u,t[2]=e,t[3]=o,t[4]=(i-r*M)/a,t[5]=(h-u*M)/a,t[6]=(c-e*M)/a,t[7]=(s-o*M)/a}return t}function Hu(t){return"quat2("+t[0]+", "+t[1]+", "+t[2]+", "+t[3]+", "+t[4]+", "+t[5]+", "+t[6]+", "+t[7]+")"}function Ju(t,n){return t[0]===n[0]&&t[1]===n[1]&&t[2]===n[2]&&t[3]===n[3]&&t[4]===n[4]&&t[5]===n[5]&&t[6]===n[6]&&t[7]===n[7]}function Ku(t,n){var a=t[0],r=t[1],u=t[2],e=t[3],o=t[4],i=t[5],h=t[6],c=t[7],s=n[0],f=n[1],l=n[2],v=n[3],b=n[4],m=n[5],d=n[6],x=n[7];return Math.abs(a-s)<=M*Math.max(1,Math.abs(a),Math.abs(s))&&Math.abs(r-f)<=M*Math.max(1,Math.abs(r),Math.abs(f))&&Math.abs(u-l)<=M*Math.max(1,Math.abs(u),Math.abs(l))&&Math.abs(e-v)<=M*Math.max(1,Math.abs(e),Math.abs(v))&&Math.abs(o-b)<=M*Math.max(1,Math.abs(o),Math.abs(b))&&Math.abs(i-m)<=M*Math.max(1,Math.abs(i),Math.abs(m))&&Math.abs(h-d)<=M*Math.max(1,Math.abs(h),Math.abs(d))&&Math.abs(c-x)<=M*Math.max(1,Math.abs(c),Math.abs(x))}function $u(){var t=new f(2);return f!=Float32Array&&(t[0]=0,t[1]=0),t}function te(t){var n=new f(2);return n[0]=t[0],n[1]=t[1],n}function ne(t,n){var a=new f(2);return a[0]=t,a[1]=n,a}function ae(t,n){return t[0]=n[0],t[1]=n[1],t}function re(t,n,a){return t[0]=n,t[1]=a,t}function ue(t,n,a){return t[0]=n[0]+a[0],t[1]=n[1]+a[1],t}function ee(t,n,a){return t[0]=n[0]-a[0],t[1]=n[1]-a[1],t}function oe(t,n,a){return t[0]=n[0]*a[0],t[1]=n[1]*a[1],t}function ie(t,n,a){return t[0]=n[0]/a[0],t[1]=n[1]/a[1],t}function he(t,n){return t[0]=Math.ceil(n[0]),t[1]=Math.ceil(n[1]),t}function ce(t,n){return t[0]=Math.floor(n[0]),t[1]=Math.floor(n[1]),t}function se(t,n,a){return t[0]=Math.min(n[0],a[0]),t[1]=Math.min(n[1],a[1]),t}function Me(t,n,a){return t[0]=Math.max(n[0],a[0]),t[1]=Math.max(n[1],a[1]),t}function fe(t,n){return t[0]=Math.round(n[0]),t[1]=Math.round(n[1]),t}function le(t,n,a){return t[0]=n[0]*a,t[1]=n[1]*a,t}function ve(t,n,a,r){return t[0]=n[0]+a[0]*r,t[1]=n[1]+a[1]*r,t}function be(t,n){var a=n[0]-t[0],r=n[1]-t[1];return Math.hypot(a,r)}function me(t,n){var a=n[0]-t[0],r=n[1]-t[1];return a*a+r*r}function de(t){var n=t[0],a=t[1];return Math.hypot(n,a)}function xe(t){var n=t[0],a=t[1];return n*n+a*a}function ye(t,n){return t[0]=-n[0],t[1]=-n[1],t}function pe(t,n){return t[0]=1/n[0],t[1]=1/n[1],t}function qe(t,n){var a=n[0],r=n[1],u=a*a+r*r;return u>0&&(u=1/Math.sqrt(u)),t[0]=n[0]*u,t[1]=n[1]*u,t}function we(t,n){return t[0]*n[0]+t[1]*n[1]}function ge(t,n,a){var r=n[0]*a[1]-n[1]*a[0];return t[0]=t[1]=0,t[2]=r,t}function Ae(t,n,a,r){var u=n[0],e=n[1];return t[0]=u+r*(a[0]-u),t[1]=e+r*(a[1]-e),t}function Pe(t,n){n=n||1;var a=2*l()*Math.PI;return t[0]=Math.cos(a)*n,t[1]=Math.sin(a)*n,t}function Se(t,n,a){var r=n[0],u=n[1];return t[0]=a[0]*r+a[2]*u,t[1]=a[1]*r+a[3]*u,t}function Re(t,n,a){var r=n[0],u=n[1];return t[0]=a[0]*r+a[2]*u+a[4],t[1]=a[1]*r+a[3]*u+a[5],t}function Te(t,n,a){var r=n[0],u=n[1];return t[0]=a[0]*r+a[3]*u+a[6],t[1]=a[1]*r+a[4]*u+a[7],t}function Ie(t,n,a){var r=n[0],u=n[1];return t[0]=a[0]*r+a[4]*u+a[12],t[1]=a[1]*r+a[5]*u+a[13],t}function Ee(t,n,a,r){var u=n[0]-a[0],e=n[1]-a[1],o=Math.sin(r),i=Math.cos(r);return t[0]=u*i-e*o+a[0],t[1]=u*o+e*i+a[1],t}function De(t,n){var a=t[0],r=t[1],u=n[0],e=n[1],o=a*a+r*r;o>0&&(o=1/Math.sqrt(o));var i=u*u+e*e;i>0&&(i=1/Math.sqrt(i));var h=(a*u+r*e)*o*i;return h>1?0:h<-1?Math.PI:Math.acos(h)}function Fe(t){return t[0]=0,t[1]=0,t}function Le(t){return"vec2("+t[0]+", "+t[1]+")"}function Ve(t,n){return t[0]===n[0]&&t[1]===n[1]}function je(t,n){var a=t[0],r=t[1],u=n[0],e=n[1];return Math.abs(a-u)<=M*Math.max(1,Math.abs(a),Math.abs(u))&&Math.abs(r-e)<=M*Math.max(1,Math.abs(r),Math.abs(e))}var ze=de,Oe=ee,Qe=oe,Ye=ie,Xe=be,Ze=me,_e=xe,Be=function(){var t=$u();return function(n,a,r,u,e,o){var i,h;for(a||(a=2),r||(r=0),h=u?Math.min(u*a+r,n.length):n.length,i=r;i<h;i+=a)t[0]=n[i],t[1]=n[i+1],e(t,t,o),n[i]=t[0],n[i+1]=t[1];return n}}();window.glMatrix=n,window.mat2=a,window.mat2d=r,window.mat3=u,window.mat4=e,window.quat=h,window.quat2=c,window.vec2=s,window.vec3=o,window.vec4=i})();
 //# sourceMappingURL=libs.core.js.map
 
-if(!CABLES.exportedPatches) CABLES.exportedPatches={};CABLES.exportedPatches['HcOfwE']={"_id":"67c7851f152eedd23242db13","ops":[{"id":"xoy1lipzw","uiAttribs":{},"portsIn":[{"name":"FPS Limit","value":0},{"name":"Reduce FPS not focussed","value":1},{"name":"Reduce FPS loading","value":1},{"name":"Clear","value":1},{"name":"ClearAlpha","value":1},{"name":"Fullscreen Button","value":0},{"name":"Active","value":1},{"name":"Hires Displays","value":1},{"name":"Pixel Unit index","value":0},{"name":"Pixel Unit","value":"Display"}],"portsOut":[{"name":"trigger","links":[{"portIn":"exe","portOut":"trigger","objIn":"an5zyq7ds","objOut":"xoy1lipzw"}]},{"name":"width","value":848},{"name":"height","value":449}],"objName":"Ops.Gl.MainLoop"},{"id":"4zvdg7ddm","uiAttribs":{},"portsIn":[{"name":"r","value":0.9983333333333333},{"name":"g","value":0.9983333333333333},{"name":"b","value":0.9983333333333333},{"name":"a","value":1}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"mxxkbmcpf","objOut":"4zvdg7ddm"},{"portIn":"render","portOut":"trigger","objIn":"fhcph2v4g","objOut":"4zvdg7ddm"},{"portIn":"render","portOut":"trigger","objIn":"muixhhpk8","objOut":"4zvdg7ddm"},{"portIn":"Exec","portOut":"trigger","objIn":"cwkv048g1","objOut":"4zvdg7ddm"},{"portIn":"Execute","portOut":"trigger","objIn":"04fz9kwk8","objOut":"4zvdg7ddm"},{"portIn":"render","portOut":"trigger","objIn":"xibi0ecme","objOut":"4zvdg7ddm"}]}],"objName":"Ops.Gl.ClearColor"},{"id":"mr4bvwz6k","uiAttribs":{},"portsIn":[{"name":"Input","multiPortNum":2}],"portsOut":[{"name":"Output","multiPortNum":16},{"name":"Output_0","links":[{"portIn":"8r7zkctyn","portOut":"Output_0","objIn":"su6vrtbw9","objOut":"mr4bvwz6k"}]},{"name":"Output_1","title":"add port","links":[{"portIn":"8r7zkctyn","portOut":"Output_1","objIn":"8kwimw25x","objOut":"mr4bvwz6k"}]},{"name":"Output_2","links":[{"portIn":"8r7zkctyn","portOut":"Output_2","objIn":"rczjx7nhj","objOut":"mr4bvwz6k"}]},{"name":"Output_3","links":[{"portIn":"8r7zkctyn","portOut":"Output_3","objIn":"gwsfdezwb","objOut":"mr4bvwz6k"}]},{"name":"Output_4","title":"add port","links":[{"portIn":"8r7zkctyn","portOut":"Output_4","objIn":"6sbxmcjr2","objOut":"mr4bvwz6k"}]},{"name":"Output_5","title":"add port","links":[{"portIn":"8r7zkctyn","portOut":"Output_5","objIn":"8wdbl5nho","objOut":"mr4bvwz6k"}]},{"name":"Output_6","links":[{"portIn":"8r7zkctyn","portOut":"Output_6","objIn":"9pmf6gtrq","objOut":"mr4bvwz6k"}]},{"name":"Output_7","links":[{"portIn":"8r7zkctyn","portOut":"Output_7","objIn":"l1pxuyals","objOut":"mr4bvwz6k"}]},{"name":"Output_8","links":[{"portIn":"8r7zkctyn","portOut":"Output_8","objIn":"pmno5p26q","objOut":"mr4bvwz6k"}]},{"name":"Output_9","links":[{"portIn":"8r7zkctyn","portOut":"Output_9","objIn":"ls2txuci4","objOut":"mr4bvwz6k"}]},{"name":"Output_10","links":[{"portIn":"8r7zkctyn","portOut":"Output_10","objIn":"86kpwty0z","objOut":"mr4bvwz6k"}]},{"name":"Output_11","links":[{"portIn":"8r7zkctyn","portOut":"Output_11","objIn":"eee0av44b","objOut":"mr4bvwz6k"}]},{"name":"Output_12","links":[{"portIn":"8r7zkctyn","portOut":"Output_12","objIn":"78mybx9oq","objOut":"mr4bvwz6k"}]},{"name":"Output_13","links":[{"portIn":"8r7zkctyn","portOut":"Output_13","objIn":"qhqx0h2h1","objOut":"mr4bvwz6k"}]},{"name":"Output_14","links":[{"portIn":"8r7zkctyn","portOut":"Output_14","objIn":"b9g5gde5i","objOut":"mr4bvwz6k"}]},{"name":"Output_15","title":"add port","links":[{"portIn":"8r7zkctyn","portOut":"Output_15","objIn":"o426d8p8u","objOut":"mr4bvwz6k"}]}],"objName":"Ops.Trigger.SequenceMultiPort"},{"id":"num4l1x41","uiAttribs":{},"portsIn":[{"name":"Set current time","value":0}],"portsOut":[{"name":"is Playing","value":true},{"name":"set time (seconds)","value":0},{"name":"current time","links":[{"portIn":"number2","portOut":"current time","objIn":"t6gw8nvbp","objOut":"num4l1x41"}]},{"name":"current frame","value":5}],"objName":"Ops.TimeLine.TimeLinePlayer"},{"id":"t6gw8nvbp","uiAttribs":{},"portsOut":[{"name":"result","links":[{"portIn":"value","portOut":"result","objIn":"cztsfr9ze","objOut":"t6gw8nvbp"},{"portIn":"number1","portOut":"result","objIn":"bwnwlcy1h","objOut":"t6gw8nvbp"}]}],"objName":"Ops.Math.Multiply"},{"id":"bwnwlcy1h","uiAttribs":{},"portsOut":[{"name":"result","links":[{"portIn":"Value","portOut":"result","objIn":"onafm8iit","objOut":"bwnwlcy1h"},{"portIn":"Value","portOut":"result","objIn":"tooayvu3l","objOut":"bwnwlcy1h"}]}],"objName":"Ops.Math.Compare.GreaterThan"},{"id":"onafm8iit","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Pause","portOut":"Next","objIn":"num4l1x41","objOut":"onafm8iit"},{"portIn":"rewind","portOut":"Next","objIn":"num4l1x41","objOut":"onafm8iit"},{"portIn":"Execute","portOut":"Next","objIn":"bc86bpkwp","objOut":"onafm8iit"},{"portIn":"exe","portOut":"Next","objIn":"g7c15p0tw","objOut":"onafm8iit"}]}],"objName":"Ops.Boolean.TriggerChangedTrue"},{"id":"gkqtpn8ed","uiAttribs":{},"portsOut":[{"name":"result","links":[{"portIn":"Pass Through","portOut":"result","objIn":"bc86bpkwp","objOut":"gkqtpn8ed"},{"portIn":"Pass Through","portOut":"result","objIn":"2unkis0ta","objOut":"gkqtpn8ed"},{"portIn":"Boolean","portOut":"result","objIn":"h55a0iugi","objOut":"gkqtpn8ed"}]}],"objName":"Ops.Boolean.Boolean"},{"id":"bc86bpkwp","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"Play","portOut":"Trigger out","objIn":"num4l1x41","objOut":"bc86bpkwp"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"zt42i6dk7","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Play","portOut":"Next","objIn":"num4l1x41","objOut":"zt42i6dk7"}]}],"objName":"Ops.Trigger.TriggerButton"},{"id":"iydcmws3q","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"rewind","portOut":"Next","objIn":"num4l1x41","objOut":"iydcmws3q"},{"portIn":"Pause","portOut":"Next","objIn":"num4l1x41","objOut":"iydcmws3q"}]}],"objName":"Ops.Trigger.TriggerButton"},{"id":"hoody36rc","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/wave-sine.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"lm9v8ugyv","objOut":"hoody36rc"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"8onozyypq","uiAttribs":{},"portsOut":[{"name":"Output","multiPortNum":16},{"name":"Output_0","links":[{"portIn":"6ut2rn9yj","portOut":"Output_0","objIn":"su6vrtbw9","objOut":"8onozyypq"}]},{"name":"Output_1","links":[{"portIn":"6ut2rn9yj","portOut":"Output_1","objIn":"8kwimw25x","objOut":"8onozyypq"}]},{"name":"Output_2","links":[{"portIn":"6ut2rn9yj","portOut":"Output_2","objIn":"rczjx7nhj","objOut":"8onozyypq"}]},{"name":"Output_3","links":[{"portIn":"6ut2rn9yj","portOut":"Output_3","objIn":"gwsfdezwb","objOut":"8onozyypq"}]},{"name":"Output_4","title":"add port","links":[{"portIn":"6ut2rn9yj","portOut":"Output_4","objIn":"6sbxmcjr2","objOut":"8onozyypq"}]},{"name":"Output_5","links":[{"portIn":"6ut2rn9yj","portOut":"Output_5","objIn":"8wdbl5nho","objOut":"8onozyypq"}]},{"name":"Output_6","links":[{"portIn":"6ut2rn9yj","portOut":"Output_6","objIn":"9pmf6gtrq","objOut":"8onozyypq"}]},{"name":"Output_7","links":[{"portIn":"6ut2rn9yj","portOut":"Output_7","objIn":"l1pxuyals","objOut":"8onozyypq"}]},{"name":"Output_8","links":[{"portIn":"6ut2rn9yj","portOut":"Output_8","objIn":"pmno5p26q","objOut":"8onozyypq"}]},{"name":"Output_9","links":[{"portIn":"6ut2rn9yj","portOut":"Output_9","objIn":"ls2txuci4","objOut":"8onozyypq"}]},{"name":"Output_10","links":[{"portIn":"6ut2rn9yj","portOut":"Output_10","objIn":"86kpwty0z","objOut":"8onozyypq"}]},{"name":"Output_11","links":[{"portIn":"6ut2rn9yj","portOut":"Output_11","objIn":"eee0av44b","objOut":"8onozyypq"}]},{"name":"Output_12","links":[{"portIn":"6ut2rn9yj","portOut":"Output_12","objIn":"78mybx9oq","objOut":"8onozyypq"}]},{"name":"Output_13","links":[{"portIn":"6ut2rn9yj","portOut":"Output_13","objIn":"qhqx0h2h1","objOut":"8onozyypq"}]},{"name":"Output_14","links":[{"portIn":"6ut2rn9yj","portOut":"Output_14","objIn":"b9g5gde5i","objOut":"8onozyypq"}]},{"name":"Output_15","title":"add port","links":[{"portIn":"6ut2rn9yj","portOut":"Output_15","objIn":"o426d8p8u","objOut":"8onozyypq"}]}],"objName":"Ops.Trigger.SequenceMultiPort"},{"id":"rmx2qdmju","uiAttribs":{},"portsOut":[{"name":"Output","multiPortNum":4},{"name":"Output_0","links":[{"portIn":"render","portOut":"Output_0","objIn":"pjui85zrw","objOut":"rmx2qdmju"}]},{"name":"Output_1","title":"add port","links":[{"portIn":"render","portOut":"Output_1","objIn":"sxr72jaqm","objOut":"rmx2qdmju"}]},{"name":"Output_2","links":[{"portIn":"render","portOut":"Output_2","objIn":"5a2pixw9p","objOut":"rmx2qdmju"}]},{"name":"Output_3","title":"add port","links":[{"portIn":"render","portOut":"Output_3","objIn":"zxltv2vqx","objOut":"rmx2qdmju"}]}],"objName":"Ops.Trigger.SequenceMultiPort"},{"id":"pjui85zrw","uiAttribs":{},"portsIn":[{"name":"posX","value":0},{"name":"posY","value":0.55},{"name":"posZ","value":0},{"name":"scale","value":0.5},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"Exec","portOut":"trigger","objIn":"cy5c6fhxh","objOut":"pjui85zrw"},{"portIn":"v6xff46mm","portOut":"trigger","objIn":"lm9v8ugyv","objOut":"pjui85zrw"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"b2cqfrsx2","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/wave-square.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"t60l9ni6m","objOut":"b2cqfrsx2"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"s4nulx94c","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/wave-triangle.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"a1fvxtzl7","objOut":"s4nulx94c"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"5a2pixw9p","uiAttribs":{},"portsIn":[{"name":"posX","value":0},{"name":"posY","value":-0.55},{"name":"posZ","value":0},{"name":"scale","value":0.5},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"v6xff46mm","portOut":"trigger","objIn":"a1fvxtzl7","objOut":"5a2pixw9p"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"mxxkbmcpf","uiAttribs":{},"portsIn":[{"name":"posX","value":-1.77},{"name":"posY","value":0.21},{"name":"posZ","value":0},{"name":"scale","value":0.91},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"Input_0","portOut":"trigger","objIn":"rmx2qdmju","objOut":"mxxkbmcpf"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"mibyxjl6k","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/wave-sawtooth.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"erfsssqkr","objOut":"mibyxjl6k"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"zxltv2vqx","uiAttribs":{},"portsIn":[{"name":"posX","value":0},{"name":"posY","value":-1.1},{"name":"posZ","value":0},{"name":"scale","value":0.5},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"v6xff46mm","portOut":"trigger","objIn":"erfsssqkr","objOut":"zxltv2vqx"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"yb5m8jfqm","uiAttribs":{},"portsIn":[{"name":"posX","value":0},{"name":"posY","value":-0.28},{"name":"posZ","value":0},{"name":"scale","value":1},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"Input_0","portOut":"trigger","objIn":"8onozyypq","objOut":"yb5m8jfqm"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"4u7zczx7p","uiAttribs":{},"portsIn":[{"name":"posX","value":0},{"name":"posY","value":0},{"name":"posZ","value":0},{"name":"scale","value":1},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"Input_0","portOut":"trigger","objIn":"mr4bvwz6k","objOut":"4u7zczx7p"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"c75nau06x","uiAttribs":{},"portsIn":[{"name":"Number","value":0}],"portsOut":[{"name":"Out Value","links":[{"portIn":"value","portOut":"Out Value","objIn":"6fbto1i4o","objOut":"c75nau06x"}]}],"objName":"Ops.Trigger.TriggerNumber"},{"id":"6fbto1i4o","uiAttribs":{},"portsOut":[{"name":"result","links":[{"portIn":"jkwspwxw5","portOut":"result","objIn":"su6vrtbw9","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"8kwimw25x","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"rczjx7nhj","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"gwsfdezwb","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"6sbxmcjr2","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"8wdbl5nho","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"9pmf6gtrq","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"l1pxuyals","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"pmno5p26q","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"ls2txuci4","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"86kpwty0z","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"eee0av44b","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"78mybx9oq","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"qhqx0h2h1","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"b9g5gde5i","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"o426d8p8u","objOut":"6fbto1i4o"}]}],"objName":"Ops.Number.Number"},{"id":"b7yc413bo","uiAttribs":{},"portsIn":[{"name":"Number","value":1}],"portsOut":[{"name":"Out Value","links":[{"portIn":"value","portOut":"Out Value","objIn":"6fbto1i4o","objOut":"b7yc413bo"}]}],"objName":"Ops.Trigger.TriggerNumber"},{"id":"3pn1u8810","uiAttribs":{},"portsIn":[{"name":"Number","value":2}],"portsOut":[{"name":"Out Value","links":[{"portIn":"value","portOut":"Out Value","objIn":"6fbto1i4o","objOut":"3pn1u8810"}]}],"objName":"Ops.Trigger.TriggerNumber"},{"id":"0dkuptfmc","uiAttribs":{},"portsIn":[{"name":"Number","value":3}],"portsOut":[{"name":"Out Value","links":[{"portIn":"value","portOut":"Out Value","objIn":"6fbto1i4o","objOut":"0dkuptfmc"}]}],"objName":"Ops.Trigger.TriggerNumber"},{"id":"sxr72jaqm","uiAttribs":{},"portsIn":[{"name":"posX","value":0},{"name":"posY","value":0},{"name":"posZ","value":0},{"name":"scale","value":0.5},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"v6xff46mm","portOut":"trigger","objIn":"t60l9ni6m","objOut":"sxr72jaqm"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"78781gm7t","uiAttribs":{},"portsIn":[{"name":"r","value":0.8602083333333334},{"name":"g","value":0.8544855117797852},{"name":"b","value":0.8544855117797852},{"name":"a","value":1}],"portsOut":[{"name":"outr","value":0.8602083333333334},{"name":"outg","value":0.8544855117797852},{"name":"outb","value":0.8544855117797852},{"name":"outa","value":1},{"name":"Hex","links":[{"portIn":"Number","portOut":"Hex","objIn":"7bi333r8l","objOut":"78781gm7t"}]}],"objName":"Ops.Color.ColorValue"},{"id":"7bi333r8l","uiAttribs":{},"portsIn":[{"name":"Decimal Places","value":100}],"portsOut":[{"name":"Result","links":[{"portIn":"lwmkmqnju","portOut":"Result","objIn":"lm9v8ugyv","objOut":"7bi333r8l"},{"portIn":"lwmkmqnju","portOut":"Result","objIn":"t60l9ni6m","objOut":"7bi333r8l"},{"portIn":"lwmkmqnju","portOut":"Result","objIn":"a1fvxtzl7","objOut":"7bi333r8l"},{"portIn":"lwmkmqnju","portOut":"Result","objIn":"erfsssqkr","objOut":"7bi333r8l"}]}],"objName":"Ops.String.NumberToString_v2"},{"id":"rl4prbv16","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"uldayqnpd","portOut":"Result","objIn":"t60l9ni6m","objOut":"rl4prbv16"}]}],"objName":"Ops.Boolean.Not"},{"id":"wa7emvlz7","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"uldayqnpd","portOut":"Result","objIn":"lm9v8ugyv","objOut":"wa7emvlz7"}]}],"objName":"Ops.Boolean.Not"},{"id":"224j6smpi","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"uldayqnpd","portOut":"Result","objIn":"a1fvxtzl7","objOut":"224j6smpi"}]}],"objName":"Ops.Boolean.Not"},{"id":"l2h3dsstl","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"uldayqnpd","portOut":"Result","objIn":"erfsssqkr","objOut":"l2h3dsstl"}]}],"objName":"Ops.Boolean.Not"},{"id":"cy5c6fhxh","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Set","portOut":"Next","objIn":"c75nau06x","objOut":"cy5c6fhxh"},{"portIn":"uwamdswc5","portOut":"Next","objIn":"lm9v8ugyv","objOut":"cy5c6fhxh"},{"portIn":"heqbd7h9j","portOut":"Next","objIn":"t60l9ni6m","objOut":"cy5c6fhxh"},{"portIn":"heqbd7h9j","portOut":"Next","objIn":"a1fvxtzl7","objOut":"cy5c6fhxh"},{"portIn":"heqbd7h9j","portOut":"Next","objIn":"erfsssqkr","objOut":"cy5c6fhxh"}]},{"name":"Was Triggered","value":1}],"objName":"Ops.Trigger.TriggerOnce"},{"id":"pp8ripk5o","uiAttribs":{},"portsIn":[{"name":"value","value":0.24}],"portsOut":[{"name":"result","links":[{"portIn":"y2xdi8y7i","portOut":"result","objIn":"su6vrtbw9","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"8kwimw25x","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"rczjx7nhj","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"gwsfdezwb","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"6sbxmcjr2","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"8wdbl5nho","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"9pmf6gtrq","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"l1pxuyals","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"pmno5p26q","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"ls2txuci4","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"86kpwty0z","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"eee0av44b","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"78mybx9oq","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"qhqx0h2h1","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"b9g5gde5i","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"o426d8p8u","objOut":"pp8ripk5o"}]}],"objName":"Ops.Number.Number"},{"id":"cztsfr9ze","uiAttribs":{},"portsOut":[{"name":"result","links":[{"portIn":"2kso7assx","portOut":"result","objIn":"su6vrtbw9","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"8kwimw25x","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"rczjx7nhj","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"gwsfdezwb","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"6sbxmcjr2","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"8wdbl5nho","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"9pmf6gtrq","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"l1pxuyals","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"pmno5p26q","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"ls2txuci4","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"86kpwty0z","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"eee0av44b","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"78mybx9oq","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"qhqx0h2h1","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"b9g5gde5i","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"o426d8p8u","objOut":"cztsfr9ze"}]}],"objName":"Ops.Number.Number"},{"id":"fhcph2v4g","uiAttribs":{},"portsIn":[{"name":"posX","value":-1.32},{"name":"posY","value":0.39},{"name":"posZ","value":0},{"name":"scale","value":0.9},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"4u7zczx7p","objOut":"fhcph2v4g"},{"portIn":"render","portOut":"trigger","objIn":"yb5m8jfqm","objOut":"fhcph2v4g"},{"portIn":"render","portOut":"trigger","objIn":"typshptpi","objOut":"fhcph2v4g"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"qi7mrbilz","uiAttribs":{},"portsIn":[{"name":"Index","value":738},{"name":"Smooth","value":0}],"portsOut":[{"name":"Color Array","links":[{"portIn":"Array","portOut":"Color Array","objIn":"wdfndt972","objOut":"qi7mrbilz"}]}],"objName":"Ops.Color.ColorPalettes"},{"id":"wdfndt972","uiAttribs":{},"portsIn":[{"name":"Index Position","value":0}],"portsOut":[{"name":"X","links":[{"portIn":"r","portOut":"X","objIn":"0aw46urx6","objOut":"wdfndt972"}]},{"name":"Y","links":[{"portIn":"g","portOut":"Y","objIn":"0aw46urx6","objOut":"wdfndt972"}]},{"name":"Z","links":[{"portIn":"b","portOut":"Z","objIn":"0aw46urx6","objOut":"wdfndt972"}]}],"objName":"Ops.Array.InterpolateNumbersArray3"},{"id":"0aw46urx6","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"9hiv7snuk","portOut":"Result","objIn":"erfsssqkr","objOut":"0aw46urx6"},{"portIn":"p7kmi5hfv","portOut":"Result","objIn":"erfsssqkr","objOut":"0aw46urx6"}]}],"objName":"Ops.Color.RgbToHex"},{"id":"5fuwqtqla","uiAttribs":{},"portsIn":[{"name":"Index","value":615},{"name":"Smooth","value":0}],"portsOut":[{"name":"Color Array","links":[{"portIn":"Array","portOut":"Color Array","objIn":"isy2k94by","objOut":"5fuwqtqla"}]}],"objName":"Ops.Color.ColorPalettes"},{"id":"isy2k94by","uiAttribs":{},"portsIn":[{"name":"Index Position","value":0}],"portsOut":[{"name":"X","links":[{"portIn":"r","portOut":"X","objIn":"f5vgvk3h7","objOut":"isy2k94by"}]},{"name":"Y","links":[{"portIn":"g","portOut":"Y","objIn":"f5vgvk3h7","objOut":"isy2k94by"}]},{"name":"Z","links":[{"portIn":"b","portOut":"Z","objIn":"f5vgvk3h7","objOut":"isy2k94by"}]}],"objName":"Ops.Array.InterpolateNumbersArray3"},{"id":"f5vgvk3h7","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"9hiv7snuk","portOut":"Result","objIn":"a1fvxtzl7","objOut":"f5vgvk3h7"},{"portIn":"p7kmi5hfv","portOut":"Result","objIn":"a1fvxtzl7","objOut":"f5vgvk3h7"}]}],"objName":"Ops.Color.RgbToHex"},{"id":"zxtguhbmn","uiAttribs":{},"portsIn":[{"name":"Index","value":229},{"name":"Smooth","value":0}],"portsOut":[{"name":"Color Array","links":[{"portIn":"Array","portOut":"Color Array","objIn":"gnw8rcxfz","objOut":"zxtguhbmn"}]}],"objName":"Ops.Color.ColorPalettes"},{"id":"gnw8rcxfz","uiAttribs":{},"portsIn":[{"name":"Index Position","value":0}],"portsOut":[{"name":"X","links":[{"portIn":"r","portOut":"X","objIn":"t018edz0m","objOut":"gnw8rcxfz"}]},{"name":"Y","links":[{"portIn":"g","portOut":"Y","objIn":"t018edz0m","objOut":"gnw8rcxfz"}]},{"name":"Z","links":[{"portIn":"b","portOut":"Z","objIn":"t018edz0m","objOut":"gnw8rcxfz"}]}],"objName":"Ops.Array.InterpolateNumbersArray3"},{"id":"t018edz0m","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"9hiv7snuk","portOut":"Result","objIn":"t60l9ni6m","objOut":"t018edz0m"},{"portIn":"p7kmi5hfv","portOut":"Result","objIn":"t60l9ni6m","objOut":"t018edz0m"}]}],"objName":"Ops.Color.RgbToHex"},{"id":"zpb5w1duv","uiAttribs":{},"portsIn":[{"name":"Index","value":275},{"name":"Smooth","value":0}],"portsOut":[{"name":"Color Array","links":[{"portIn":"Array","portOut":"Color Array","objIn":"624alnv6s","objOut":"zpb5w1duv"}]}],"objName":"Ops.Color.ColorPalettes"},{"id":"624alnv6s","uiAttribs":{},"portsIn":[{"name":"Index Position","value":2.8}],"portsOut":[{"name":"X","links":[{"portIn":"r","portOut":"X","objIn":"o655es2q8","objOut":"624alnv6s"}]},{"name":"Y","links":[{"portIn":"g","portOut":"Y","objIn":"o655es2q8","objOut":"624alnv6s"}]},{"name":"Z","links":[{"portIn":"b","portOut":"Z","objIn":"o655es2q8","objOut":"624alnv6s"}]}],"objName":"Ops.Array.InterpolateNumbersArray3"},{"id":"o655es2q8","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"9hiv7snuk","portOut":"Result","objIn":"lm9v8ugyv","objOut":"o655es2q8"},{"portIn":"p7kmi5hfv","portOut":"Result","objIn":"lm9v8ugyv","objOut":"o655es2q8"}]}],"objName":"Ops.Color.RgbToHex"},{"id":"eq3brhtsv","uiAttribs":{},"portsIn":[{"name":"value","value":16}],"portsOut":[{"name":"result","links":[{"portIn":"number2","portOut":"result","objIn":"bwnwlcy1h","objOut":"eq3brhtsv"}]}],"objName":"Ops.Number.Number"},{"id":"muixhhpk8","uiAttribs":{},"portsIn":[{"name":"posX","value":-0.76},{"name":"posY","value":-0.84},{"name":"posZ","value":0},{"name":"scale","value":1},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"Input_0","portOut":"trigger","objIn":"o12o1gafx","objOut":"muixhhpk8"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"o12o1gafx","uiAttribs":{},"portsOut":[{"name":"Output","multiPortNum":8},{"name":"Output_0","links":[{"portIn":"1dlg7oniw","portOut":"Output_0","objIn":"ijkk36hkm","objOut":"o12o1gafx"}]},{"name":"Output_1","links":[{"portIn":"Exec","portOut":"Output_1","objIn":"ykdbeka0r","objOut":"o12o1gafx"}]},{"name":"Output_2","links":[{"portIn":"render","portOut":"Output_2","objIn":"lc2s4caf8","objOut":"o12o1gafx"}]},{"name":"Output_3","links":[{"portIn":"render","portOut":"Output_3","objIn":"fwj0g6p3k","objOut":"o12o1gafx"}]},{"name":"Output_4","title":"add port","links":[{"portIn":"render","portOut":"Output_4","objIn":"nfv0hw0da","objOut":"o12o1gafx"}]},{"name":"Output_5","title":"add port","links":[{"portIn":"render","portOut":"Output_5","objIn":"6uxrer9vy","objOut":"o12o1gafx"}]},{"name":"Output_6","title":"add port","links":[{"portIn":"Execute","portOut":"Output_6","objIn":"gwuxlb1pg","objOut":"o12o1gafx"}]},{"name":"Output_7","title":"add port","links":[{"portIn":"render","portOut":"Output_7","objIn":"5101x7e1q","objOut":"o12o1gafx"}]}],"objName":"Ops.Trigger.SequenceMultiPort"},{"id":"lc2s4caf8","uiAttribs":{},"portsIn":[{"name":"posX","value":1},{"name":"posY","value":-0.02},{"name":"posZ","value":0},{"name":"scale","value":0.31},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"v6xff46mm","portOut":"trigger","objIn":"akc6pin1l","objOut":"lc2s4caf8"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"psjgzssk0","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/music-note-simple.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"akc6pin1l","objOut":"psjgzssk0"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"fwj0g6p3k","uiAttribs":{},"portsIn":[{"name":"posX","value":1.4},{"name":"posY","value":-0.02},{"name":"posZ","value":0},{"name":"scale","value":0.31},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"v6xff46mm","portOut":"trigger","objIn":"afty8haqt","objOut":"fwj0g6p3k"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"507e4cwq2","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/repeat.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"afty8haqt","objOut":"507e4cwq2"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"nfv0hw0da","uiAttribs":{},"portsIn":[{"name":"posX","value":2.61},{"name":"posY","value":-0.02},{"name":"posZ","value":0},{"name":"scale","value":0.31},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"v6xff46mm","portOut":"trigger","objIn":"3j6k6ccj8","objOut":"nfv0hw0da"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"6mfn49fox","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/download-simple.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"3j6k6ccj8","objOut":"6mfn49fox"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"qwbshsq4k","uiAttribs":{},"portsIn":[{"name":"old min","value":0},{"name":"old max","value":1},{"name":"new min","value":1},{"name":"new max","value":32},{"name":"Easing index","value":0},{"name":"Easing","value":"Linear"},{"name":"Clamp","value":1}],"portsOut":[{"name":"result","links":[{"portIn":"Number","portOut":"result","objIn":"5sygc4xmu","objOut":"qwbshsq4k"}]}],"objName":"Ops.Math.MapRange"},{"id":"ykdbeka0r","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Set","portOut":"Next","objIn":"siazh9h8l","objOut":"ykdbeka0r"}]},{"name":"Was Triggered","value":1}],"objName":"Ops.Trigger.TriggerOnce"},{"id":"siazh9h8l","uiAttribs":{},"portsIn":[{"name":"Number","value":14}],"portsOut":[{"name":"Next","links":[{"portIn":"qk2azg4th","portOut":"Next","objIn":"ijkk36hkm","objOut":"siazh9h8l"}]},{"name":"Out Value","links":[{"portIn":"value","portOut":"Out Value","objIn":"zth8majwn","objOut":"siazh9h8l"},{"portIn":"number1","portOut":"Out Value","objIn":"gknp6u5uy","objOut":"siazh9h8l"}]}],"objName":"Ops.Trigger.TriggerNumber"},{"id":"zth8majwn","uiAttribs":{},"portsOut":[{"name":"result","links":[{"portIn":"number1","portOut":"result","objIn":"t6gw8nvbp","objOut":"zth8majwn"}]}],"objName":"Ops.Number.Number"},{"id":"5sygc4xmu","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"value","portOut":"Result","objIn":"zth8majwn","objOut":"5sygc4xmu"}]}],"objName":"Ops.Math.Floor"},{"id":"gknp6u5uy","uiAttribs":{},"portsIn":[{"name":"number2","value":32}],"portsOut":[{"name":"result","links":[{"portIn":"0cs0t409y","portOut":"result","objIn":"ijkk36hkm","objOut":"gknp6u5uy"}]}],"objName":"Ops.Math.Divide"},{"id":"1y5ndch3p","uiAttribs":{},"portsIn":[{"name":"file","value":"assets/MajorMonoDisplay-Regular.ttf","display":"file"},{"name":"family","value":"Major"},{"name":"Active","value":1}],"portsOut":[{"name":"Loaded","value":1}],"objName":"Ops.Html.FontFile_v2"},{"id":"rzxh10lt0","uiAttribs":{},"portsIn":[{"name":"delay","value":0.2}],"portsOut":[{"name":"next","links":[{"portIn":"heqbd7h9j","portOut":"next","objIn":"akc6pin1l","objOut":"rzxh10lt0"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"frzi1ch3t","uiAttribs":{},"portsOut":[{"name":"True","links":[{"portIn":"Trigger","portOut":"True","objIn":"zt42i6dk7","objOut":"frzi1ch3t"}]}],"objName":"Ops.Boolean.TriggerOnChangeBoolean"},{"id":"cwkv048g1","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Trigger","portOut":"Next","objIn":"zt42i6dk7","objOut":"cwkv048g1"},{"portIn":"uwamdswc5","portOut":"Next","objIn":"afty8haqt","objOut":"cwkv048g1"}]},{"name":"Was Triggered","value":1}],"objName":"Ops.Trigger.TriggerOnce"},{"id":"typshptpi","uiAttribs":{},"portsIn":[{"name":"Size index","value":0},{"name":"Size","value":"Canvas"},{"name":"texture width","value":848},{"name":"texture height","value":449},{"name":"Auto Aspect","value":0},{"name":"filter index","value":1},{"name":"filter","value":"linear"},{"name":"Wrap index","value":1},{"name":"Wrap","value":"Repeat"},{"name":"MSAA index","value":3},{"name":"MSAA","value":"8x"},{"name":"Pixel Format index","value":4},{"name":"Pixel Format","value":"RGBA 8bit ubyte"},{"name":"Depth","value":1},{"name":"Clear","value":1}],"portsOut":[{"name":"trigger","links":[{"portIn":"Input_1","portOut":"trigger","objIn":"mr4bvwz6k","objOut":"typshptpi"}]},{"name":"texture","links":[{"portIn":"Map Texture","portOut":"texture","objIn":"kdqblw7wz","objOut":"typshptpi"}]}],"objName":"Ops.Gl.RenderToTexture_v3"},{"id":"t1igikkiy","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"7zxlhqqf8","title":"Texture"},{"name":"c6sm5ztz4","value":"PNG","title":"Format"},{"name":"6ozewyh0e","value":1,"title":"Quality"},{"name":"ainvr3s9o","value":"WavePaint","title":"Filename"},{"name":"uxwx45pbg","title":"Download"},{"name":"patchId","value":"bp2sub_t1igikkiy"}],"objName":"Ops.Gl.DownloadTexture_v3"},{"id":"xr4qq1egg","uiAttribs":{},"portsIn":[{"name":"Size index","value":0},{"name":"Size","value":"Auto"},{"name":"Width","value":253},{"name":"Height","value":480},{"name":"Filter index","value":1},{"name":"Filter","value":"linear"},{"name":"Wrap index","value":1},{"name":"Wrap","value":"repeat"},{"name":"Anisotropic index","value":0},{"name":"Anisotropic","value":"0"},{"name":"Pixel Format index","value":4},{"name":"Pixel Format","value":"RGBA 8bit ubyte"},{"name":"Clear","value":0},{"name":"R","value":0},{"name":"G","value":0},{"name":"B","value":0},{"name":"A","value":0}],"portsOut":[{"name":"Next","links":[{"portIn":"render","portOut":"Next","objIn":"kdqblw7wz","objOut":"xr4qq1egg"}]},{"name":"texture_out","links":[{"portIn":"7zxlhqqf8","portOut":"texture_out","objIn":"t1igikkiy","objOut":"xr4qq1egg"}]},{"name":"Aspect Ratio","value":1.8852459016393444},{"name":"Texture Width","value":690},{"name":"Texture Height","value":366}],"objName":"Ops.Gl.ImageCompose.ImageCompose_v4"},{"id":"kdqblw7wz","uiAttribs":{},"portsIn":[{"name":"Amount","value":1},{"name":"Blend Mode index","value":0},{"name":"Blend Mode","value":"normal"},{"name":"Alpha Mask index","value":0},{"name":"Alpha Mask","value":"Off"},{"name":"Coordinates index","value":1},{"name":"Coordinates","value":"-1-1"},{"name":"Center","value":1},{"name":"X","value":-0.17},{"name":"Y","value":-0.29},{"name":"Inner","value":0},{"name":"Width","value":2.42},{"name":"Height","value":2.42},{"name":"Rotate","value":0},{"name":"roundness","value":0},{"name":"r","value":1},{"name":"g","value":1},{"name":"b","value":1},{"name":"a","value":1},{"name":"Start X","value":0},{"name":"Start Y","value":0},{"name":"Map Width","value":1},{"name":"Map Height","value":1}],"objName":"Ops.Gl.ImageCompose.RectangleTexture_v5"},{"id":"kvlfxq9in","uiAttribs":{},"portsIn":[{"name":"delay","value":0.2}],"portsOut":[{"name":"next","links":[{"portIn":"heqbd7h9j","portOut":"next","objIn":"3j6k6ccj8","objOut":"kvlfxq9in"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"hms9id9ss","uiAttribs":{},"portsIn":[{"name":"Active","value":1},{"name":"Force index","value":1},{"name":"Force","value":"Aspect Ratio"},{"name":"Center In Parent","value":1},{"name":"Scale to fit Parent","value":0},{"name":"Set Width","value":1384},{"name":"Set Height","value":800},{"name":"Aspect Ratio index","value":0},{"name":"Aspect Ratio","value":"Custom"},{"name":"Ratio","value":1.89},{"name":"Fill Parent index","value":0},{"name":"Fill Parent","value":"Auto"}],"portsOut":[{"name":"Next","links":[{"portIn":"Input_0","portOut":"Next","objIn":"58o7r8k7z","objOut":"hms9id9ss"}]},{"name":"Width","value":848},{"name":"Height","value":449},{"name":"Margin Left","value":0},{"name":"Margin Top","value":43.5}],"objName":"Ops.Gl.ForceCanvasSize"},{"id":"hpnayd3zi","uiAttribs":{},"portsOut":[{"name":"Font Loaded","links":[{"portIn":"exe","portOut":"Font Loaded","objIn":"qdbjtwcid","objOut":"hpnayd3zi"}]}],"objName":"Ops.Html.FontsLoaded"},{"id":"ioyutnenj","uiAttribs":{},"portsIn":[{"name":"Style index","value":1},{"name":"Style","value":"Ring"}],"objName":"Ops.Html.Utils.LoadingIndicator"},{"id":"mu3sjnm97","uiAttribs":{},"portsIn":[{"name":"Scale index","value":1},{"name":"Scale","value":"Fit"},{"name":"Flip Y","value":0},{"name":"Flip X","value":0}],"objName":"Ops.Gl.Meshes.FullscreenRectangle_v2"},{"id":"dc3uxk5o3","uiAttribs":{},"portsIn":[{"name":"r","value":0.9516666666666667},{"name":"g","value":0.9516666666666667},{"name":"b","value":0.9516666666666667},{"name":"colorizeTexture","value":0},{"name":"Vertex Colors","value":0},{"name":"Alpha Mask Source index","value":0},{"name":"Alpha Mask Source","value":"Luminance"},{"name":"Opacity TexCoords Transform","value":0},{"name":"Discard Transparent Pixels","value":0},{"name":"diffuseRepeatX","value":1},{"name":"diffuseRepeatY","value":1},{"name":"Tex Offset X","value":0},{"name":"Tex Offset Y","value":0},{"name":"Crop TexCoords","value":0},{"name":"billboard","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"mu3sjnm97","objOut":"dc3uxk5o3"}]}],"objName":"Ops.Gl.Shader.BasicMaterial_v3"},{"id":"58yx6uhoa","uiAttribs":{},"portsIn":[{"name":"Pass Through","value":1}],"portsOut":[{"name":"Trigger out","links":[{"portIn":"render","portOut":"Trigger out","objIn":"dc3uxk5o3","objOut":"58yx6uhoa"},{"portIn":"exe","portOut":"Trigger out","objIn":"kg1c0c34l","objOut":"58yx6uhoa"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"sgjtn6c7d","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"Visible","portOut":"Result","objIn":"ioyutnenj","objOut":"sgjtn6c7d"},{"portIn":"Value","portOut":"Result","objIn":"6rcu4wasy","objOut":"sgjtn6c7d"},{"portIn":"bool","portOut":"Result","objIn":"kg1c0c34l","objOut":"sgjtn6c7d"},{"portIn":"Boolean","portOut":"Result","objIn":"orw841d6e","objOut":"sgjtn6c7d"}]}],"objName":"Ops.Boolean.BoolByTrigger"},{"id":"aha5evif5","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"True","portOut":"Next","objIn":"sgjtn6c7d","objOut":"aha5evif5"}]},{"name":"Was Triggered","value":1}],"objName":"Ops.Trigger.TriggerOnce"},{"id":"6rcu4wasy","uiAttribs":{},"portsIn":[{"name":"Delay","value":1.2},{"name":"Clear on Change","value":0},{"name":"easing index","value":1},{"name":"easing","value":"absolute"}],"portsOut":[{"name":"Result","value":0}],"objName":"Ops.Number.DelayedNumber"},{"id":"il4sv7adh","uiAttribs":{},"portsIn":[{"name":"In 0 Gain","value":1},{"name":"In 1 Gain","value":1},{"name":"In 2 Gain","value":1},{"name":"In 3 Gain","value":1},{"name":"In 4 Gain","value":1},{"name":"In 5 Gain","value":1},{"name":"In 6 Gain","value":1},{"name":"In 7 Gain","value":1},{"name":"In 0 Pan","value":0},{"name":"In 1 Pan","value":0},{"name":"In 2 Pan","value":0},{"name":"In 3 Pan","value":0},{"name":"In 4 Pan","value":0},{"name":"In 5 Pan","value":0},{"name":"In 6 Pan","value":0},{"name":"In 7 Pan","value":0},{"name":"Output Gain","value":1}],"portsOut":[{"name":"Audio Out","links":[{"portIn":"Audio In","portOut":"Audio Out","objIn":"62i14kwb5","objOut":"il4sv7adh"}]}],"objName":"Ops.WebAudio.Mixer"},{"id":"yirnapxl6","uiAttribs":{},"portsIn":[{"name":"In 0 Gain","value":1},{"name":"In 1 Gain","value":1},{"name":"In 2 Gain","value":1},{"name":"In 3 Gain","value":1},{"name":"In 4 Gain","value":1},{"name":"In 5 Gain","value":1},{"name":"In 6 Gain","value":1},{"name":"In 7 Gain","value":1},{"name":"In 0 Pan","value":0},{"name":"In 1 Pan","value":0},{"name":"In 2 Pan","value":0},{"name":"In 3 Pan","value":0},{"name":"In 4 Pan","value":0},{"name":"In 5 Pan","value":0},{"name":"In 6 Pan","value":0},{"name":"In 7 Pan","value":0},{"name":"Output Gain","value":1}],"portsOut":[{"name":"Audio Out","links":[{"portIn":"Audio In 7","portOut":"Audio Out","objIn":"il4sv7adh","objOut":"yirnapxl6"}]}],"objName":"Ops.WebAudio.Mixer"},{"id":"fnrd35jzm","uiAttribs":{},"portsIn":[{"name":"In 0 Gain","value":1},{"name":"In 1 Gain","value":1},{"name":"In 2 Gain","value":1},{"name":"In 3 Gain","value":1},{"name":"In 4 Gain","value":1},{"name":"In 5 Gain","value":1},{"name":"In 6 Gain","value":1},{"name":"In 7 Gain","value":1},{"name":"In 0 Pan","value":0},{"name":"In 1 Pan","value":0},{"name":"In 2 Pan","value":0},{"name":"In 3 Pan","value":0},{"name":"In 4 Pan","value":0},{"name":"In 5 Pan","value":0},{"name":"In 6 Pan","value":0},{"name":"In 7 Pan","value":0},{"name":"Output Gain","value":1}],"portsOut":[{"name":"Audio Out","links":[{"portIn":"Audio In 7","portOut":"Audio Out","objIn":"yirnapxl6","objOut":"fnrd35jzm"}]}],"objName":"Ops.WebAudio.Mixer"},{"id":"62i14kwb5","uiAttribs":{},"portsIn":[{"name":"Input Gain","value":1},{"name":"Playback Gain","value":1},{"name":"Loop Playback","value":0}],"portsOut":[{"name":"Is Recording","value":false},{"name":"Is Playing Back","value":false},{"name":"State","value":"ready"}],"objName":"Ops.WebAudio.AudioRecorder"},{"id":"ox4zkblpi","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Trigger","portOut":"Next","objIn":"iydcmws3q","objOut":"ox4zkblpi"},{"portIn":"exe","portOut":"Next","objIn":"ce1z5uuve","objOut":"ox4zkblpi"}]}],"objName":"Ops.Trigger.TriggerButton"},{"id":"ce1z5uuve","uiAttribs":{},"portsIn":[{"name":"delay","value":0.1}],"portsOut":[{"name":"next","links":[{"portIn":"Clear Buffer","portOut":"next","objIn":"62i14kwb5","objOut":"ce1z5uuve"},{"portIn":"exe","portOut":"next","objIn":"n9y4093o7","objOut":"ce1z5uuve"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"n9y4093o7","uiAttribs":{},"portsIn":[{"name":"delay","value":0.1}],"portsOut":[{"name":"next","links":[{"portIn":"Start Recording","portOut":"next","objIn":"62i14kwb5","objOut":"n9y4093o7"},{"portIn":"Execute","portOut":"next","objIn":"2unkis0ta","objOut":"n9y4093o7"},{"portIn":"Execute","portOut":"next","objIn":"13c6zhekz","objOut":"n9y4093o7"},{"portIn":"Trigger","portOut":"next","objIn":"zt42i6dk7","objOut":"n9y4093o7"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"2unkis0ta","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"trigger","portOut":"Trigger out","objIn":"1vj5xec2e","objOut":"2unkis0ta"},{"portIn":"reset","portOut":"Trigger out","objIn":"g7c15p0tw","objOut":"2unkis0ta"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"h55a0iugi","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"Pass Through","portOut":"Result","objIn":"13c6zhekz","objOut":"h55a0iugi"}]}],"objName":"Ops.Boolean.Not"},{"id":"13c6zhekz","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"trigger","portOut":"Trigger out","objIn":"wp6k0kz8u","objOut":"13c6zhekz"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"gwuxlb1pg","uiAttribs":{},"objName":"Ops.Trigger.TriggerExtender"},{"id":"tooayvu3l","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Execute","portOut":"Next","objIn":"maf1t1igz","objOut":"tooayvu3l"}]}],"objName":"Ops.Boolean.TriggerChangedTrue"},{"id":"wp6k0kz8u","uiAttribs":{},"portsIn":[{"name":"Default","value":0}],"portsOut":[{"name":"result","links":[{"portIn":"Pass Through","portOut":"result","objIn":"maf1t1igz","objOut":"wp6k0kz8u"}]}],"objName":"Ops.Boolean.ToggleBool_v2"},{"id":"maf1t1igz","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"reset","portOut":"Trigger out","objIn":"wp6k0kz8u","objOut":"maf1t1igz"},{"portIn":"exe","portOut":"Trigger out","objIn":"xgum485n6","objOut":"maf1t1igz"},{"portIn":"exe","portOut":"Trigger out","objIn":"8lprzy8yu","objOut":"maf1t1igz"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"1vj5xec2e","uiAttribs":{},"portsIn":[{"name":"Default","value":0}],"portsOut":[{"name":"result","links":[{"portIn":"Pass Through","portOut":"result","objIn":"p0snbtz8y","objOut":"1vj5xec2e"}]}],"objName":"Ops.Boolean.ToggleBool_v2"},{"id":"p0snbtz8y","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"reset","portOut":"Trigger out","objIn":"1vj5xec2e","objOut":"p0snbtz8y"},{"portIn":"exe","portOut":"Trigger out","objIn":"xgum485n6","objOut":"p0snbtz8y"},{"portIn":"exe","portOut":"Trigger out","objIn":"8lprzy8yu","objOut":"p0snbtz8y"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"g7c15p0tw","uiAttribs":{},"portsOut":[{"name":"timesTriggered","links":[{"portIn":"number1","portOut":"timesTriggered","objIn":"w7wunwpey","objOut":"g7c15p0tw"}]}],"objName":"Ops.Trigger.TriggerCounter"},{"id":"w7wunwpey","uiAttribs":{},"portsIn":[{"name":"number2","value":4}],"portsOut":[{"name":"result","links":[{"portIn":"Value","portOut":"result","objIn":"uy20wlnjb","objOut":"w7wunwpey"}]}],"objName":"Ops.Math.Compare.LessThan"},{"id":"uy20wlnjb","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Execute","portOut":"Next","objIn":"p0snbtz8y","objOut":"uy20wlnjb"}]}],"objName":"Ops.Boolean.TriggerChangedFalse"},{"id":"xgum485n6","uiAttribs":{},"portsIn":[{"name":"delay","value":0.4}],"portsOut":[{"name":"next","links":[{"portIn":"exe","portOut":"next","objIn":"su6db8gby","objOut":"xgum485n6"},{"portIn":"Download .wav File","portOut":"next","objIn":"62i14kwb5","objOut":"xgum485n6"},{"portIn":"True","portOut":"next","objIn":"02r2xi88z","objOut":"xgum485n6"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"su6db8gby","uiAttribs":{},"portsIn":[{"name":"delay","value":3}],"portsOut":[{"name":"next","links":[{"portIn":"uxwx45pbg","portOut":"next","objIn":"t1igikkiy","objOut":"su6db8gby"},{"portIn":"exe","portOut":"next","objIn":"jd86wyh05","objOut":"su6db8gby"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"8lprzy8yu","uiAttribs":{},"portsIn":[{"name":"delay","value":0.2}],"portsOut":[{"name":"next","links":[{"portIn":"Stop Recording","portOut":"next","objIn":"62i14kwb5","objOut":"8lprzy8yu"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"vo40h8tg9","uiAttribs":{},"portsIn":[{"name":"r","value":0.8602083333333334},{"name":"g","value":0.8544855117797852},{"name":"b","value":0.8544855117797852},{"name":"a","value":1}],"portsOut":[{"name":"outr","value":0.8602083333333334},{"name":"outg","value":0.8544855117797852},{"name":"outb","value":0.8544855117797852},{"name":"outa","value":1},{"name":"Hex","links":[{"portIn":"Number","portOut":"Hex","objIn":"y81lzza48","objOut":"vo40h8tg9"}]}],"objName":"Ops.Color.ColorValue"},{"id":"y81lzza48","uiAttribs":{},"portsIn":[{"name":"Decimal Places","value":100}],"portsOut":[{"name":"Result","links":[{"portIn":"lwmkmqnju","portOut":"Result","objIn":"akc6pin1l","objOut":"y81lzza48"},{"portIn":"lwmkmqnju","portOut":"Result","objIn":"afty8haqt","objOut":"y81lzza48"}]}],"objName":"Ops.String.NumberToString_v2"},{"id":"58o7r8k7z","uiAttribs":{},"portsOut":[{"name":"Output","multiPortNum":4},{"name":"Output_0","links":[{"portIn":"Exec","portOut":"Output_0","objIn":"aha5evif5","objOut":"58o7r8k7z"}]},{"name":"Output_1","links":[{"portIn":"Update","portOut":"Output_1","objIn":"6rcu4wasy","objOut":"58o7r8k7z"}]},{"name":"Output_2","title":"add port","links":[{"portIn":"Execute","portOut":"Output_2","objIn":"3aluj3nir","objOut":"58o7r8k7z"}]},{"name":"Output_3","title":"add port","links":[{"portIn":"Execute","portOut":"Output_3","objIn":"58yx6uhoa","objOut":"58o7r8k7z"}]}],"objName":"Ops.Trigger.SequenceMultiPort"},{"id":"jd86wyh05","uiAttribs":{},"portsIn":[{"name":"delay","value":1}],"portsOut":[{"name":"next","links":[{"portIn":"false","portOut":"next","objIn":"02r2xi88z","objOut":"jd86wyh05"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"04fz9kwk8","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"Render","portOut":"Trigger out","objIn":"xr4qq1egg","objOut":"04fz9kwk8"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"02r2xi88z","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"Pass Through","portOut":"Result","objIn":"04fz9kwk8","objOut":"02r2xi88z"}]}],"objName":"Ops.Boolean.BoolByTrigger"},{"id":"lm9v8ugyv","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","title":"Color Hex"},{"name":"9hiv7snuk","title":"Hover Color Hex"},{"name":"p7kmi5hfv","title":"Active Color Hex"},{"name":"uwamdswc5","title":"Set Active"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_lm9v8ugyv"}],"portsOut":[{"name":"nj2hzg12q","title":"Left Click","links":[{"portIn":"Set","portOut":"nj2hzg12q","objIn":"c75nau06x","objOut":"lm9v8ugyv"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"t60l9ni6m","objOut":"lm9v8ugyv"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"a1fvxtzl7","objOut":"lm9v8ugyv"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"erfsssqkr","objOut":"lm9v8ugyv"}]},{"name":"wo8g77bwj","value":0,"title":"Hover"},{"name":"21rqauhon","title":"Active","links":[{"portIn":"Boolean","portOut":"21rqauhon","objIn":"wa7emvlz7","objOut":"lm9v8ugyv"}]}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"t60l9ni6m","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","title":"Color Hex"},{"name":"9hiv7snuk","title":"Hover Color Hex"},{"name":"p7kmi5hfv","title":"Active Color Hex"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_t60l9ni6m"}],"portsOut":[{"name":"nj2hzg12q","title":"Left Click","links":[{"portIn":"Set","portOut":"nj2hzg12q","objIn":"b7yc413bo","objOut":"t60l9ni6m"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"lm9v8ugyv","objOut":"t60l9ni6m"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"a1fvxtzl7","objOut":"t60l9ni6m"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"erfsssqkr","objOut":"t60l9ni6m"}]},{"name":"wo8g77bwj","value":0,"title":"Hover"},{"name":"21rqauhon","title":"Active","links":[{"portIn":"Boolean","portOut":"21rqauhon","objIn":"rl4prbv16","objOut":"t60l9ni6m"}]}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"a1fvxtzl7","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","title":"Color Hex"},{"name":"9hiv7snuk","title":"Hover Color Hex"},{"name":"p7kmi5hfv","title":"Active Color Hex"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_a1fvxtzl7"}],"portsOut":[{"name":"nj2hzg12q","title":"Left Click","links":[{"portIn":"Set","portOut":"nj2hzg12q","objIn":"3pn1u8810","objOut":"a1fvxtzl7"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"lm9v8ugyv","objOut":"a1fvxtzl7"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"t60l9ni6m","objOut":"a1fvxtzl7"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"erfsssqkr","objOut":"a1fvxtzl7"}]},{"name":"wo8g77bwj","value":0,"title":"Hover"},{"name":"21rqauhon","title":"Active","links":[{"portIn":"Boolean","portOut":"21rqauhon","objIn":"224j6smpi","objOut":"a1fvxtzl7"}]}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"erfsssqkr","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","title":"Color Hex"},{"name":"9hiv7snuk","title":"Hover Color Hex"},{"name":"p7kmi5hfv","title":"Active Color Hex"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_erfsssqkr"}],"portsOut":[{"name":"nj2hzg12q","title":"Left Click","links":[{"portIn":"Set","portOut":"nj2hzg12q","objIn":"0dkuptfmc","objOut":"erfsssqkr"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"lm9v8ugyv","objOut":"erfsssqkr"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"t60l9ni6m","objOut":"erfsssqkr"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"a1fvxtzl7","objOut":"erfsssqkr"}]},{"name":"wo8g77bwj","value":0,"title":"Hover"},{"name":"21rqauhon","title":"Active","links":[{"portIn":"Boolean","portOut":"21rqauhon","objIn":"l2h3dsstl","objOut":"erfsssqkr"}]}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"akc6pin1l","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","title":"Color Hex"},{"name":"9hiv7snuk","value":"b2cfc6","title":"Hover Color Hex"},{"name":"p7kmi5hfv","value":"B0E5DF","title":"Active Color Hex"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","value":1,"title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_akc6pin1l"}],"portsOut":[{"name":"nj2hzg12q","title":"Left Click","links":[{"portIn":"exe","portOut":"nj2hzg12q","objIn":"rzxh10lt0","objOut":"akc6pin1l"},{"portIn":"Trigger","portOut":"nj2hzg12q","objIn":"zt42i6dk7","objOut":"akc6pin1l"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"afty8haqt","objOut":"akc6pin1l"}]},{"name":"wo8g77bwj","value":0,"title":"Hover"},{"name":"21rqauhon","value":0,"title":"Active"}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"afty8haqt","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","title":"Color Hex"},{"name":"9hiv7snuk","value":"b2cfc6","title":"Hover Color Hex"},{"name":"p7kmi5hfv","value":"B0E5DF","title":"Active Color Hex"},{"name":"uwamdswc5","title":"Set Active"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","value":1,"title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_afty8haqt"}],"portsOut":[{"name":"wo8g77bwj","value":0,"title":"Hover"},{"name":"21rqauhon","title":"Active","links":[{"portIn":"value","portOut":"21rqauhon","objIn":"gkqtpn8ed","objOut":"afty8haqt"},{"portIn":"Value","portOut":"21rqauhon","objIn":"frzi1ch3t","objOut":"afty8haqt"}]}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"3j6k6ccj8","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","value":"ffffff","title":"Color Hex"},{"name":"9hiv7snuk","value":"b2cfc6","title":"Hover Color Hex"},{"name":"p7kmi5hfv","value":"B0E5DF","title":"Active Color Hex"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","value":1,"title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_3j6k6ccj8"}],"portsOut":[{"name":"nj2hzg12q","title":"Left Click","links":[{"portIn":"exe","portOut":"nj2hzg12q","objIn":"kvlfxq9in","objOut":"3j6k6ccj8"},{"portIn":"Trigger","portOut":"nj2hzg12q","objIn":"ox4zkblpi","objOut":"3j6k6ccj8"}]},{"name":"wo8g77bwj","value":0,"title":"Hover"},{"name":"21rqauhon","value":0,"title":"Active"}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"an5zyq7ds","uiAttribs":{},"portsIn":[{"name":"Active","value":0},{"name":"Visible","value":1},{"name":"Measure GPU","value":1},{"name":"Position index","value":0},{"name":"Position","value":"top"},{"name":"Open","value":1},{"name":"Smooth Graph","value":1},{"name":"Scale","value":3},{"name":"Size","value":128}],"portsOut":[{"name":"childs","links":[{"portIn":"Trigger","portOut":"childs","objIn":"hms9id9ss","objOut":"an5zyq7ds"}]},{"name":"FPS","value":19}],"objName":"Ops.Gl.Performance"},{"id":"5101x7e1q","uiAttribs":{},"portsIn":[{"name":"posX","value":-0.55},{"name":"posY","value":-0.03},{"name":"posZ","value":0},{"name":"scale","value":0.12},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"nd79y7y1j","objOut":"5101x7e1q"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"6uxrer9vy","uiAttribs":{},"portsIn":[{"name":"posX","value":0.64},{"name":"posY","value":-0.03},{"name":"posZ","value":0},{"name":"scale","value":0.12},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"xp4co6zaw","objOut":"6uxrer9vy"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"nd79y7y1j","uiAttribs":{},"portsIn":[{"name":"r","value":0.38431957305663467},{"name":"g","value":0.9586700541665394},{"name":"b","value":0.4059777189537406},{"name":"a","value":0.5},{"name":"colorizeTexture","value":0},{"name":"Vertex Colors","value":0},{"name":"Alpha Mask Source index","value":0},{"name":"Alpha Mask Source","value":"Luminance"},{"name":"Opacity TexCoords Transform","value":0},{"name":"Discard Transparent Pixels","value":0},{"name":"diffuseRepeatX","value":1},{"name":"diffuseRepeatY","value":1},{"name":"Tex Offset X","value":0},{"name":"Tex Offset Y","value":0},{"name":"Crop TexCoords","value":0},{"name":"billboard","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"if19lcl2q","objOut":"nd79y7y1j"}]}],"objName":"Ops.Gl.Shader.BasicMaterial_v3"},{"id":"if19lcl2q","uiAttribs":{},"portsIn":[{"name":"render","title":"Trigger"},{"name":"Render Mesh","value":1,"title":"Render"},{"name":"width","value":1},{"name":"height","value":1},{"name":"pivot x index","value":1},{"name":"pivot x","value":"center"},{"name":"pivot y index","value":1},{"name":"pivot y","value":"center"},{"name":"axis index","value":0},{"name":"axis","value":"xy"},{"name":"Flip TexCoord X","value":0},{"name":"Flip TexCoord Y","value":1},{"name":"num columns","value":1},{"name":"num rows","value":1}],"objName":"Ops.Gl.Meshes.Rectangle_v4"},{"id":"zdr4py9m1","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/caret-right-fill.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"texture","portOut":"Texture","objIn":"nd79y7y1j","objOut":"zdr4py9m1"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"xp4co6zaw","uiAttribs":{},"portsIn":[{"name":"r","value":0.38431957305663467},{"name":"g","value":0.9586700541665394},{"name":"b","value":0.4059777189537406},{"name":"a","value":0.5},{"name":"colorizeTexture","value":0},{"name":"Vertex Colors","value":0},{"name":"Alpha Mask Source index","value":0},{"name":"Alpha Mask Source","value":"Luminance"},{"name":"Opacity TexCoords Transform","value":0},{"name":"Discard Transparent Pixels","value":0},{"name":"diffuseRepeatX","value":1},{"name":"diffuseRepeatY","value":1},{"name":"Tex Offset X","value":0},{"name":"Tex Offset Y","value":0},{"name":"Crop TexCoords","value":0},{"name":"billboard","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"f4axx9yf3","objOut":"xp4co6zaw"}]}],"objName":"Ops.Gl.Shader.BasicMaterial_v3"},{"id":"f4axx9yf3","uiAttribs":{},"portsIn":[{"name":"render","title":"Trigger"},{"name":"Render Mesh","value":1,"title":"Render"},{"name":"width","value":1},{"name":"height","value":1},{"name":"pivot x index","value":1},{"name":"pivot x","value":"center"},{"name":"pivot y index","value":1},{"name":"pivot y","value":"center"},{"name":"axis index","value":0},{"name":"axis","value":"xy"},{"name":"Flip TexCoord X","value":0},{"name":"Flip TexCoord Y","value":1},{"name":"num columns","value":1},{"name":"num rows","value":1}],"objName":"Ops.Gl.Meshes.Rectangle_v4"},{"id":"c73mlzcfy","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/arrow-fat-lines-right-fill.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"texture","portOut":"Texture","objIn":"xp4co6zaw","objOut":"c73mlzcfy"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"9vfn8v49t","uiAttribs":{},"portsIn":[{"name":"r","value":0.8602083333333334},{"name":"g","value":0.8544855117797852},{"name":"b","value":0.8544855117797852},{"name":"a","value":1}],"portsOut":[{"name":"outr","value":0.8602083333333334},{"name":"outg","value":0.8544855117797852},{"name":"outb","value":0.8544855117797852},{"name":"outa","value":1},{"name":"Hex","links":[{"portIn":"Number","portOut":"Hex","objIn":"qx0vo77ci","objOut":"9vfn8v49t"}]}],"objName":"Ops.Color.ColorValue"},{"id":"qx0vo77ci","uiAttribs":{},"portsIn":[{"name":"Decimal Places","value":100}],"portsOut":[{"name":"Result","links":[{"portIn":"8vdnvwprn","portOut":"Result","objIn":"ijkk36hkm","objOut":"qx0vo77ci"}]}],"objName":"Ops.String.NumberToString_v2"},{"id":"tatu8vy3w","uiAttribs":{},"portsIn":[{"name":"Text","value":"WaVE PAINT"},{"name":"Scale Text","value":1},{"name":"Scale","value":1,"title":"Line Scale"},{"name":"Font","value":"Major"},{"name":"align index","value":1},{"name":"align","value":"center"},{"name":"vertical align index","value":1},{"name":"vertical align","value":"Middle"},{"name":"Line Height","value":1},{"name":"Letter Spacing","value":0.18},{"name":"filter index","value":2},{"name":"filter","value":"mipmap"},{"name":"Anisotropic index","value":0},{"name":"Anisotropic","value":0},{"name":"r","value":0.1383333333333333},{"name":"g","value":0.1383333333333333},{"name":"b","value":0.1383333333333333},{"name":"a","value":0.786}],"portsOut":[{"name":"Total Lines","value":1},{"name":"Width","value":3.6328572686163927},{"name":"Font Available","value":1}],"objName":"Ops.Gl.Meshes.TextMesh_v2"},{"id":"xibi0ecme","uiAttribs":{},"portsIn":[{"name":"posX","value":1.58},{"name":"posY","value":1.02},{"name":"posZ","value":0},{"name":"scale","value":0.12},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"Render","portOut":"trigger","objIn":"tatu8vy3w","objOut":"xibi0ecme"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"su6vrtbw9","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":0,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_su6vrtbw9"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 0","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"su6vrtbw9"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"8kwimw25x","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":1,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_8kwimw25x"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 1","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"8kwimw25x"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"rczjx7nhj","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":2,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_rczjx7nhj"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 2","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"rczjx7nhj"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"gwsfdezwb","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":3,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_gwsfdezwb"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 3","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"gwsfdezwb"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"6sbxmcjr2","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":4,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_6sbxmcjr2"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 4","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"6sbxmcjr2"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"8wdbl5nho","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":5,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_8wdbl5nho"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 5","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"8wdbl5nho"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"9pmf6gtrq","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":6,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_9pmf6gtrq"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 6","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"9pmf6gtrq"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"l1pxuyals","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":7,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_l1pxuyals"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 0","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"l1pxuyals"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"pmno5p26q","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":8,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_pmno5p26q"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 1","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"pmno5p26q"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"ls2txuci4","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":9,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_ls2txuci4"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 2","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"ls2txuci4"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"86kpwty0z","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":10,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_86kpwty0z"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 3","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"86kpwty0z"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"eee0av44b","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":11,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_eee0av44b"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 4","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"eee0av44b"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"78mybx9oq","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":12,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_78mybx9oq"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 5","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"78mybx9oq"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"qhqx0h2h1","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":13,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_qhqx0h2h1"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 6","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"qhqx0h2h1"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"b9g5gde5i","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":14,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_b9g5gde5i"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 0","portOut":"vrdxx5gfm","objIn":"fnrd35jzm","objOut":"b9g5gde5i"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"o426d8p8u","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":15,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_o426d8p8u"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 1","portOut":"vrdxx5gfm","objIn":"fnrd35jzm","objOut":"o426d8p8u"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"ijkk36hkm","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"1dlg7oniw","title":"trigger"},{"name":"f4weqn3hm","value":0.05,"title":"posX"},{"name":"iq6byaz25","value":-0.03,"title":"posY"},{"name":"10hdgzhpt","value":0,"title":"posZ"},{"name":"n0s9bo0a9","value":1.04,"title":"scale"},{"name":"kvesbpq8x","value":0.29,"title":"width"},{"name":"7c5g8ph6i","value":1.36,"title":"length"},{"name":"aumzf2rea","value":"a1a1a1","title":"knob color"},{"name":"8vdnvwprn","title":"track color"},{"name":"xfm62ww5i","value":"b2cfc6","title":"hover color"},{"name":"uuzrgfxbv","value":0,"title":"fill"},{"name":"4qmr95ok5","value":"b9b7b7","title":"fill color"},{"name":"br9w3fpoa","value":1,"title":"while pressing"},{"name":"0cs0t409y","title":"reset value"},{"name":"qk2azg4th","title":"reset"},{"name":"cs1ghyqlu","value":1,"title":"Enabled"},{"name":"5zlm9i1i3","value":0,"title":"Vertical"},{"name":"patchId","value":"bp2sub_ijkk36hkm"}],"portsOut":[{"name":"fouvnz1ho","title":"Value","links":[{"portIn":"value","portOut":"fouvnz1ho","objIn":"qwbshsq4k","objOut":"ijkk36hkm"}]},{"name":"0fus8klu1","value":0,"title":"Hover"},{"name":"db6zr7jd2","value":0,"title":"Button Down"}],"objName":"Ops.User.sonofluiz.HoverSlider"},{"id":"3aluj3nir","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"render","portOut":"Trigger out","objIn":"4zvdg7ddm","objOut":"3aluj3nir"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"orw841d6e","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"Pass Through","portOut":"Result","objIn":"3aluj3nir","objOut":"orw841d6e"}]}],"objName":"Ops.Boolean.Not"},{"id":"kg1c0c34l","uiAttribs":{},"portsIn":[{"name":"easing index","value":9},{"name":"easing","value":"Expo In Out"},{"name":"duration","value":3},{"name":"Direction index","value":2},{"name":"Direction","value":"Only False"},{"name":"value false","value":0},{"name":"value true","value":1}],"portsOut":[{"name":"value","links":[{"portIn":"a","portOut":"value","objIn":"dc3uxk5o3","objOut":"kg1c0c34l"}]},{"name":"finished","value":1}],"objName":"Ops.Anim.BoolAnim"},{"id":"qdbjtwcid","uiAttribs":{},"portsIn":[{"name":"delay","value":2}],"portsOut":[{"name":"next","links":[{"portIn":"false","portOut":"next","objIn":"sgjtn6c7d","objOut":"qdbjtwcid"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"}],"export":{"time":"2025-03-29 23:44","service":"github","exportNumber":3}};
+if(!CABLES.exportedPatches) CABLES.exportedPatches={};CABLES.exportedPatches['HcOfwE']={"_id":"67c7851f152eedd23242db13","ops":[{"id":"xoy1lipzw","uiAttribs":{},"portsIn":[{"name":"FPS Limit","value":0},{"name":"Reduce FPS not focussed","value":1},{"name":"Reduce FPS loading","value":1},{"name":"Clear","value":1},{"name":"ClearAlpha","value":1},{"name":"Fullscreen Button","value":0},{"name":"Active","value":1},{"name":"Hires Displays","value":1},{"name":"Pixel Unit index","value":0},{"name":"Pixel Unit","value":"Display"}],"portsOut":[{"name":"trigger","links":[{"portIn":"exe","portOut":"trigger","objIn":"an5zyq7ds","objOut":"xoy1lipzw"}]},{"name":"width","value":848},{"name":"height","value":449}],"objName":"Ops.Gl.MainLoop"},{"id":"4zvdg7ddm","uiAttribs":{},"portsIn":[{"name":"r","value":0.9983333333333333},{"name":"g","value":0.9983333333333333},{"name":"b","value":0.9983333333333333},{"name":"a","value":1}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"mxxkbmcpf","objOut":"4zvdg7ddm"},{"portIn":"render","portOut":"trigger","objIn":"fhcph2v4g","objOut":"4zvdg7ddm"},{"portIn":"render","portOut":"trigger","objIn":"muixhhpk8","objOut":"4zvdg7ddm"},{"portIn":"Exec","portOut":"trigger","objIn":"cwkv048g1","objOut":"4zvdg7ddm"},{"portIn":"Execute","portOut":"trigger","objIn":"04fz9kwk8","objOut":"4zvdg7ddm"},{"portIn":"render","portOut":"trigger","objIn":"xibi0ecme","objOut":"4zvdg7ddm"},{"portIn":"Execute","portOut":"trigger","objIn":"m1qcbakyv","objOut":"4zvdg7ddm"}]}],"objName":"Ops.Gl.ClearColor"},{"id":"mr4bvwz6k","uiAttribs":{},"portsIn":[{"name":"Input","multiPortNum":2}],"portsOut":[{"name":"Output","multiPortNum":16},{"name":"Output_0","links":[{"portIn":"8r7zkctyn","portOut":"Output_0","objIn":"su6vrtbw9","objOut":"mr4bvwz6k"}]},{"name":"Output_1","title":"add port","links":[{"portIn":"8r7zkctyn","portOut":"Output_1","objIn":"8kwimw25x","objOut":"mr4bvwz6k"}]},{"name":"Output_2","links":[{"portIn":"8r7zkctyn","portOut":"Output_2","objIn":"rczjx7nhj","objOut":"mr4bvwz6k"}]},{"name":"Output_3","links":[{"portIn":"8r7zkctyn","portOut":"Output_3","objIn":"gwsfdezwb","objOut":"mr4bvwz6k"}]},{"name":"Output_4","title":"add port","links":[{"portIn":"8r7zkctyn","portOut":"Output_4","objIn":"6sbxmcjr2","objOut":"mr4bvwz6k"}]},{"name":"Output_5","title":"add port","links":[{"portIn":"8r7zkctyn","portOut":"Output_5","objIn":"8wdbl5nho","objOut":"mr4bvwz6k"}]},{"name":"Output_6","links":[{"portIn":"8r7zkctyn","portOut":"Output_6","objIn":"9pmf6gtrq","objOut":"mr4bvwz6k"}]},{"name":"Output_7","links":[{"portIn":"8r7zkctyn","portOut":"Output_7","objIn":"l1pxuyals","objOut":"mr4bvwz6k"}]},{"name":"Output_8","links":[{"portIn":"8r7zkctyn","portOut":"Output_8","objIn":"pmno5p26q","objOut":"mr4bvwz6k"}]},{"name":"Output_9","links":[{"portIn":"8r7zkctyn","portOut":"Output_9","objIn":"ls2txuci4","objOut":"mr4bvwz6k"}]},{"name":"Output_10","links":[{"portIn":"8r7zkctyn","portOut":"Output_10","objIn":"86kpwty0z","objOut":"mr4bvwz6k"}]},{"name":"Output_11","links":[{"portIn":"8r7zkctyn","portOut":"Output_11","objIn":"eee0av44b","objOut":"mr4bvwz6k"}]},{"name":"Output_12","links":[{"portIn":"8r7zkctyn","portOut":"Output_12","objIn":"78mybx9oq","objOut":"mr4bvwz6k"}]},{"name":"Output_13","links":[{"portIn":"8r7zkctyn","portOut":"Output_13","objIn":"qhqx0h2h1","objOut":"mr4bvwz6k"}]},{"name":"Output_14","links":[{"portIn":"8r7zkctyn","portOut":"Output_14","objIn":"b9g5gde5i","objOut":"mr4bvwz6k"}]},{"name":"Output_15","title":"add port","links":[{"portIn":"8r7zkctyn","portOut":"Output_15","objIn":"o426d8p8u","objOut":"mr4bvwz6k"}]}],"objName":"Ops.Trigger.SequenceMultiPort"},{"id":"num4l1x41","uiAttribs":{},"portsIn":[{"name":"Set current time","value":0}],"portsOut":[{"name":"is Playing","value":true},{"name":"set time (seconds)","value":0},{"name":"current time","links":[{"portIn":"number2","portOut":"current time","objIn":"t6gw8nvbp","objOut":"num4l1x41"}]},{"name":"current frame","value":6}],"objName":"Ops.TimeLine.TimeLinePlayer"},{"id":"t6gw8nvbp","uiAttribs":{},"portsOut":[{"name":"result","links":[{"portIn":"value","portOut":"result","objIn":"cztsfr9ze","objOut":"t6gw8nvbp"},{"portIn":"number1","portOut":"result","objIn":"bwnwlcy1h","objOut":"t6gw8nvbp"}]}],"objName":"Ops.Math.Multiply"},{"id":"bwnwlcy1h","uiAttribs":{},"portsOut":[{"name":"result","links":[{"portIn":"Value","portOut":"result","objIn":"onafm8iit","objOut":"bwnwlcy1h"},{"portIn":"Value","portOut":"result","objIn":"tooayvu3l","objOut":"bwnwlcy1h"}]}],"objName":"Ops.Math.Compare.GreaterThan"},{"id":"onafm8iit","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Pause","portOut":"Next","objIn":"num4l1x41","objOut":"onafm8iit"},{"portIn":"rewind","portOut":"Next","objIn":"num4l1x41","objOut":"onafm8iit"},{"portIn":"Execute","portOut":"Next","objIn":"bc86bpkwp","objOut":"onafm8iit"},{"portIn":"exe","portOut":"Next","objIn":"g7c15p0tw","objOut":"onafm8iit"}]}],"objName":"Ops.Boolean.TriggerChangedTrue"},{"id":"gkqtpn8ed","uiAttribs":{},"portsOut":[{"name":"result","links":[{"portIn":"Pass Through","portOut":"result","objIn":"bc86bpkwp","objOut":"gkqtpn8ed"},{"portIn":"Pass Through","portOut":"result","objIn":"2unkis0ta","objOut":"gkqtpn8ed"},{"portIn":"Boolean","portOut":"result","objIn":"h55a0iugi","objOut":"gkqtpn8ed"}]}],"objName":"Ops.Boolean.Boolean"},{"id":"bc86bpkwp","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"Play","portOut":"Trigger out","objIn":"num4l1x41","objOut":"bc86bpkwp"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"zt42i6dk7","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Play","portOut":"Next","objIn":"num4l1x41","objOut":"zt42i6dk7"}]}],"objName":"Ops.Trigger.TriggerButton"},{"id":"iydcmws3q","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"rewind","portOut":"Next","objIn":"num4l1x41","objOut":"iydcmws3q"},{"portIn":"Pause","portOut":"Next","objIn":"num4l1x41","objOut":"iydcmws3q"}]}],"objName":"Ops.Trigger.TriggerButton"},{"id":"hoody36rc","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/wave-sine.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"lm9v8ugyv","objOut":"hoody36rc"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"8onozyypq","uiAttribs":{},"portsOut":[{"name":"Output","multiPortNum":16},{"name":"Output_0","links":[{"portIn":"6ut2rn9yj","portOut":"Output_0","objIn":"su6vrtbw9","objOut":"8onozyypq"}]},{"name":"Output_1","links":[{"portIn":"6ut2rn9yj","portOut":"Output_1","objIn":"8kwimw25x","objOut":"8onozyypq"}]},{"name":"Output_2","links":[{"portIn":"6ut2rn9yj","portOut":"Output_2","objIn":"rczjx7nhj","objOut":"8onozyypq"}]},{"name":"Output_3","links":[{"portIn":"6ut2rn9yj","portOut":"Output_3","objIn":"gwsfdezwb","objOut":"8onozyypq"}]},{"name":"Output_4","title":"add port","links":[{"portIn":"6ut2rn9yj","portOut":"Output_4","objIn":"6sbxmcjr2","objOut":"8onozyypq"}]},{"name":"Output_5","links":[{"portIn":"6ut2rn9yj","portOut":"Output_5","objIn":"8wdbl5nho","objOut":"8onozyypq"}]},{"name":"Output_6","links":[{"portIn":"6ut2rn9yj","portOut":"Output_6","objIn":"9pmf6gtrq","objOut":"8onozyypq"}]},{"name":"Output_7","links":[{"portIn":"6ut2rn9yj","portOut":"Output_7","objIn":"l1pxuyals","objOut":"8onozyypq"}]},{"name":"Output_8","links":[{"portIn":"6ut2rn9yj","portOut":"Output_8","objIn":"pmno5p26q","objOut":"8onozyypq"}]},{"name":"Output_9","links":[{"portIn":"6ut2rn9yj","portOut":"Output_9","objIn":"ls2txuci4","objOut":"8onozyypq"}]},{"name":"Output_10","links":[{"portIn":"6ut2rn9yj","portOut":"Output_10","objIn":"86kpwty0z","objOut":"8onozyypq"}]},{"name":"Output_11","links":[{"portIn":"6ut2rn9yj","portOut":"Output_11","objIn":"eee0av44b","objOut":"8onozyypq"}]},{"name":"Output_12","links":[{"portIn":"6ut2rn9yj","portOut":"Output_12","objIn":"78mybx9oq","objOut":"8onozyypq"}]},{"name":"Output_13","links":[{"portIn":"6ut2rn9yj","portOut":"Output_13","objIn":"qhqx0h2h1","objOut":"8onozyypq"}]},{"name":"Output_14","links":[{"portIn":"6ut2rn9yj","portOut":"Output_14","objIn":"b9g5gde5i","objOut":"8onozyypq"}]},{"name":"Output_15","title":"add port","links":[{"portIn":"6ut2rn9yj","portOut":"Output_15","objIn":"o426d8p8u","objOut":"8onozyypq"}]}],"objName":"Ops.Trigger.SequenceMultiPort"},{"id":"rmx2qdmju","uiAttribs":{},"portsOut":[{"name":"Output","multiPortNum":4},{"name":"Output_0","links":[{"portIn":"render","portOut":"Output_0","objIn":"pjui85zrw","objOut":"rmx2qdmju"}]},{"name":"Output_1","title":"add port","links":[{"portIn":"render","portOut":"Output_1","objIn":"sxr72jaqm","objOut":"rmx2qdmju"}]},{"name":"Output_2","links":[{"portIn":"render","portOut":"Output_2","objIn":"5a2pixw9p","objOut":"rmx2qdmju"}]},{"name":"Output_3","title":"add port","links":[{"portIn":"render","portOut":"Output_3","objIn":"zxltv2vqx","objOut":"rmx2qdmju"}]}],"objName":"Ops.Trigger.SequenceMultiPort"},{"id":"pjui85zrw","uiAttribs":{},"portsIn":[{"name":"posX","value":0},{"name":"posY","value":0.55},{"name":"posZ","value":0},{"name":"scale","value":0.5},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"Exec","portOut":"trigger","objIn":"cy5c6fhxh","objOut":"pjui85zrw"},{"portIn":"v6xff46mm","portOut":"trigger","objIn":"lm9v8ugyv","objOut":"pjui85zrw"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"b2cqfrsx2","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/wave-square.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"t60l9ni6m","objOut":"b2cqfrsx2"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"s4nulx94c","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/wave-triangle.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"a1fvxtzl7","objOut":"s4nulx94c"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"5a2pixw9p","uiAttribs":{},"portsIn":[{"name":"posX","value":0},{"name":"posY","value":-0.55},{"name":"posZ","value":0},{"name":"scale","value":0.5},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"v6xff46mm","portOut":"trigger","objIn":"a1fvxtzl7","objOut":"5a2pixw9p"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"mxxkbmcpf","uiAttribs":{},"portsIn":[{"name":"posX","value":-1.77},{"name":"posY","value":0.21},{"name":"posZ","value":0},{"name":"scale","value":0.91},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"Input_0","portOut":"trigger","objIn":"rmx2qdmju","objOut":"mxxkbmcpf"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"mibyxjl6k","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/wave-sawtooth.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"erfsssqkr","objOut":"mibyxjl6k"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"zxltv2vqx","uiAttribs":{},"portsIn":[{"name":"posX","value":0},{"name":"posY","value":-1.1},{"name":"posZ","value":0},{"name":"scale","value":0.5},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"v6xff46mm","portOut":"trigger","objIn":"erfsssqkr","objOut":"zxltv2vqx"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"yb5m8jfqm","uiAttribs":{},"portsIn":[{"name":"posX","value":0},{"name":"posY","value":-0.28},{"name":"posZ","value":0},{"name":"scale","value":1},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"Input_0","portOut":"trigger","objIn":"8onozyypq","objOut":"yb5m8jfqm"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"4u7zczx7p","uiAttribs":{},"portsIn":[{"name":"posX","value":0},{"name":"posY","value":0},{"name":"posZ","value":0},{"name":"scale","value":1},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"Input_0","portOut":"trigger","objIn":"mr4bvwz6k","objOut":"4u7zczx7p"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"c75nau06x","uiAttribs":{},"portsIn":[{"name":"Number","value":0}],"portsOut":[{"name":"Out Value","links":[{"portIn":"value","portOut":"Out Value","objIn":"6fbto1i4o","objOut":"c75nau06x"}]}],"objName":"Ops.Trigger.TriggerNumber"},{"id":"6fbto1i4o","uiAttribs":{},"portsOut":[{"name":"result","links":[{"portIn":"jkwspwxw5","portOut":"result","objIn":"su6vrtbw9","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"8kwimw25x","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"rczjx7nhj","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"gwsfdezwb","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"6sbxmcjr2","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"8wdbl5nho","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"9pmf6gtrq","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"l1pxuyals","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"pmno5p26q","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"ls2txuci4","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"86kpwty0z","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"eee0av44b","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"78mybx9oq","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"qhqx0h2h1","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"b9g5gde5i","objOut":"6fbto1i4o"},{"portIn":"jkwspwxw5","portOut":"result","objIn":"o426d8p8u","objOut":"6fbto1i4o"}]}],"objName":"Ops.Number.Number"},{"id":"b7yc413bo","uiAttribs":{},"portsIn":[{"name":"Number","value":1}],"portsOut":[{"name":"Out Value","links":[{"portIn":"value","portOut":"Out Value","objIn":"6fbto1i4o","objOut":"b7yc413bo"}]}],"objName":"Ops.Trigger.TriggerNumber"},{"id":"3pn1u8810","uiAttribs":{},"portsIn":[{"name":"Number","value":2}],"portsOut":[{"name":"Out Value","links":[{"portIn":"value","portOut":"Out Value","objIn":"6fbto1i4o","objOut":"3pn1u8810"}]}],"objName":"Ops.Trigger.TriggerNumber"},{"id":"0dkuptfmc","uiAttribs":{},"portsIn":[{"name":"Number","value":3}],"portsOut":[{"name":"Out Value","links":[{"portIn":"value","portOut":"Out Value","objIn":"6fbto1i4o","objOut":"0dkuptfmc"}]}],"objName":"Ops.Trigger.TriggerNumber"},{"id":"sxr72jaqm","uiAttribs":{},"portsIn":[{"name":"posX","value":0},{"name":"posY","value":0},{"name":"posZ","value":0},{"name":"scale","value":0.5},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"v6xff46mm","portOut":"trigger","objIn":"t60l9ni6m","objOut":"sxr72jaqm"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"78781gm7t","uiAttribs":{},"portsIn":[{"name":"r","value":0.8602083333333334},{"name":"g","value":0.8544855117797852},{"name":"b","value":0.8544855117797852},{"name":"a","value":1}],"portsOut":[{"name":"outr","value":0.8602083333333334},{"name":"outg","value":0.8544855117797852},{"name":"outb","value":0.8544855117797852},{"name":"outa","value":1},{"name":"Hex","links":[{"portIn":"Number","portOut":"Hex","objIn":"7bi333r8l","objOut":"78781gm7t"}]}],"objName":"Ops.Color.ColorValue"},{"id":"7bi333r8l","uiAttribs":{},"portsIn":[{"name":"Decimal Places","value":100}],"portsOut":[{"name":"Result","links":[{"portIn":"lwmkmqnju","portOut":"Result","objIn":"lm9v8ugyv","objOut":"7bi333r8l"},{"portIn":"lwmkmqnju","portOut":"Result","objIn":"t60l9ni6m","objOut":"7bi333r8l"},{"portIn":"lwmkmqnju","portOut":"Result","objIn":"a1fvxtzl7","objOut":"7bi333r8l"},{"portIn":"lwmkmqnju","portOut":"Result","objIn":"erfsssqkr","objOut":"7bi333r8l"}]}],"objName":"Ops.String.NumberToString_v2"},{"id":"rl4prbv16","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"uldayqnpd","portOut":"Result","objIn":"t60l9ni6m","objOut":"rl4prbv16"}]}],"objName":"Ops.Boolean.Not"},{"id":"wa7emvlz7","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"uldayqnpd","portOut":"Result","objIn":"lm9v8ugyv","objOut":"wa7emvlz7"}]}],"objName":"Ops.Boolean.Not"},{"id":"224j6smpi","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"uldayqnpd","portOut":"Result","objIn":"a1fvxtzl7","objOut":"224j6smpi"}]}],"objName":"Ops.Boolean.Not"},{"id":"l2h3dsstl","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"uldayqnpd","portOut":"Result","objIn":"erfsssqkr","objOut":"l2h3dsstl"}]}],"objName":"Ops.Boolean.Not"},{"id":"cy5c6fhxh","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Set","portOut":"Next","objIn":"c75nau06x","objOut":"cy5c6fhxh"},{"portIn":"uwamdswc5","portOut":"Next","objIn":"lm9v8ugyv","objOut":"cy5c6fhxh"},{"portIn":"heqbd7h9j","portOut":"Next","objIn":"t60l9ni6m","objOut":"cy5c6fhxh"},{"portIn":"heqbd7h9j","portOut":"Next","objIn":"a1fvxtzl7","objOut":"cy5c6fhxh"},{"portIn":"heqbd7h9j","portOut":"Next","objIn":"erfsssqkr","objOut":"cy5c6fhxh"}]},{"name":"Was Triggered","value":1}],"objName":"Ops.Trigger.TriggerOnce"},{"id":"pp8ripk5o","uiAttribs":{},"portsIn":[{"name":"value","value":0.24}],"portsOut":[{"name":"result","links":[{"portIn":"y2xdi8y7i","portOut":"result","objIn":"su6vrtbw9","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"8kwimw25x","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"rczjx7nhj","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"gwsfdezwb","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"6sbxmcjr2","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"8wdbl5nho","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"9pmf6gtrq","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"l1pxuyals","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"pmno5p26q","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"ls2txuci4","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"86kpwty0z","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"eee0av44b","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"78mybx9oq","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"qhqx0h2h1","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"b9g5gde5i","objOut":"pp8ripk5o"},{"portIn":"y2xdi8y7i","portOut":"result","objIn":"o426d8p8u","objOut":"pp8ripk5o"}]}],"objName":"Ops.Number.Number"},{"id":"cztsfr9ze","uiAttribs":{},"portsOut":[{"name":"result","links":[{"portIn":"2kso7assx","portOut":"result","objIn":"su6vrtbw9","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"8kwimw25x","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"rczjx7nhj","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"gwsfdezwb","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"6sbxmcjr2","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"8wdbl5nho","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"9pmf6gtrq","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"l1pxuyals","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"pmno5p26q","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"ls2txuci4","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"86kpwty0z","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"eee0av44b","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"78mybx9oq","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"qhqx0h2h1","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"b9g5gde5i","objOut":"cztsfr9ze"},{"portIn":"2kso7assx","portOut":"result","objIn":"o426d8p8u","objOut":"cztsfr9ze"}]}],"objName":"Ops.Number.Number"},{"id":"fhcph2v4g","uiAttribs":{},"portsIn":[{"name":"posX","value":-1.32},{"name":"posY","value":0.39},{"name":"posZ","value":0},{"name":"scale","value":0.9},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"4u7zczx7p","objOut":"fhcph2v4g"},{"portIn":"render","portOut":"trigger","objIn":"yb5m8jfqm","objOut":"fhcph2v4g"},{"portIn":"render","portOut":"trigger","objIn":"typshptpi","objOut":"fhcph2v4g"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"qi7mrbilz","uiAttribs":{},"portsIn":[{"name":"Index","value":738},{"name":"Smooth","value":0}],"portsOut":[{"name":"Color Array","links":[{"portIn":"Array","portOut":"Color Array","objIn":"wdfndt972","objOut":"qi7mrbilz"}]}],"objName":"Ops.Color.ColorPalettes"},{"id":"wdfndt972","uiAttribs":{},"portsIn":[{"name":"Index Position","value":0}],"portsOut":[{"name":"X","links":[{"portIn":"r","portOut":"X","objIn":"0aw46urx6","objOut":"wdfndt972"}]},{"name":"Y","links":[{"portIn":"g","portOut":"Y","objIn":"0aw46urx6","objOut":"wdfndt972"}]},{"name":"Z","links":[{"portIn":"b","portOut":"Z","objIn":"0aw46urx6","objOut":"wdfndt972"}]}],"objName":"Ops.Array.InterpolateNumbersArray3"},{"id":"0aw46urx6","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"9hiv7snuk","portOut":"Result","objIn":"erfsssqkr","objOut":"0aw46urx6"},{"portIn":"p7kmi5hfv","portOut":"Result","objIn":"erfsssqkr","objOut":"0aw46urx6"}]}],"objName":"Ops.Color.RgbToHex"},{"id":"5fuwqtqla","uiAttribs":{},"portsIn":[{"name":"Index","value":615},{"name":"Smooth","value":0}],"portsOut":[{"name":"Color Array","links":[{"portIn":"Array","portOut":"Color Array","objIn":"isy2k94by","objOut":"5fuwqtqla"}]}],"objName":"Ops.Color.ColorPalettes"},{"id":"isy2k94by","uiAttribs":{},"portsIn":[{"name":"Index Position","value":0}],"portsOut":[{"name":"X","links":[{"portIn":"r","portOut":"X","objIn":"f5vgvk3h7","objOut":"isy2k94by"}]},{"name":"Y","links":[{"portIn":"g","portOut":"Y","objIn":"f5vgvk3h7","objOut":"isy2k94by"}]},{"name":"Z","links":[{"portIn":"b","portOut":"Z","objIn":"f5vgvk3h7","objOut":"isy2k94by"}]}],"objName":"Ops.Array.InterpolateNumbersArray3"},{"id":"f5vgvk3h7","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"9hiv7snuk","portOut":"Result","objIn":"a1fvxtzl7","objOut":"f5vgvk3h7"},{"portIn":"p7kmi5hfv","portOut":"Result","objIn":"a1fvxtzl7","objOut":"f5vgvk3h7"}]}],"objName":"Ops.Color.RgbToHex"},{"id":"zxtguhbmn","uiAttribs":{},"portsIn":[{"name":"Index","value":229},{"name":"Smooth","value":0}],"portsOut":[{"name":"Color Array","links":[{"portIn":"Array","portOut":"Color Array","objIn":"gnw8rcxfz","objOut":"zxtguhbmn"}]}],"objName":"Ops.Color.ColorPalettes"},{"id":"gnw8rcxfz","uiAttribs":{},"portsIn":[{"name":"Index Position","value":0}],"portsOut":[{"name":"X","links":[{"portIn":"r","portOut":"X","objIn":"t018edz0m","objOut":"gnw8rcxfz"}]},{"name":"Y","links":[{"portIn":"g","portOut":"Y","objIn":"t018edz0m","objOut":"gnw8rcxfz"}]},{"name":"Z","links":[{"portIn":"b","portOut":"Z","objIn":"t018edz0m","objOut":"gnw8rcxfz"}]}],"objName":"Ops.Array.InterpolateNumbersArray3"},{"id":"t018edz0m","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"9hiv7snuk","portOut":"Result","objIn":"t60l9ni6m","objOut":"t018edz0m"},{"portIn":"p7kmi5hfv","portOut":"Result","objIn":"t60l9ni6m","objOut":"t018edz0m"}]}],"objName":"Ops.Color.RgbToHex"},{"id":"zpb5w1duv","uiAttribs":{},"portsIn":[{"name":"Index","value":275},{"name":"Smooth","value":0}],"portsOut":[{"name":"Color Array","links":[{"portIn":"Array","portOut":"Color Array","objIn":"624alnv6s","objOut":"zpb5w1duv"}]}],"objName":"Ops.Color.ColorPalettes"},{"id":"624alnv6s","uiAttribs":{},"portsIn":[{"name":"Index Position","value":2.8}],"portsOut":[{"name":"X","links":[{"portIn":"r","portOut":"X","objIn":"o655es2q8","objOut":"624alnv6s"}]},{"name":"Y","links":[{"portIn":"g","portOut":"Y","objIn":"o655es2q8","objOut":"624alnv6s"}]},{"name":"Z","links":[{"portIn":"b","portOut":"Z","objIn":"o655es2q8","objOut":"624alnv6s"}]}],"objName":"Ops.Array.InterpolateNumbersArray3"},{"id":"o655es2q8","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"9hiv7snuk","portOut":"Result","objIn":"lm9v8ugyv","objOut":"o655es2q8"},{"portIn":"p7kmi5hfv","portOut":"Result","objIn":"lm9v8ugyv","objOut":"o655es2q8"}]}],"objName":"Ops.Color.RgbToHex"},{"id":"eq3brhtsv","uiAttribs":{},"portsIn":[{"name":"value","value":16}],"portsOut":[{"name":"result","links":[{"portIn":"number2","portOut":"result","objIn":"bwnwlcy1h","objOut":"eq3brhtsv"}]}],"objName":"Ops.Number.Number"},{"id":"muixhhpk8","uiAttribs":{},"portsIn":[{"name":"posX","value":-0.76},{"name":"posY","value":-0.84},{"name":"posZ","value":0},{"name":"scale","value":1},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"Input_0","portOut":"trigger","objIn":"o12o1gafx","objOut":"muixhhpk8"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"o12o1gafx","uiAttribs":{},"portsOut":[{"name":"Output","multiPortNum":8},{"name":"Output_0","links":[{"portIn":"1dlg7oniw","portOut":"Output_0","objIn":"ijkk36hkm","objOut":"o12o1gafx"}]},{"name":"Output_1","links":[{"portIn":"Exec","portOut":"Output_1","objIn":"ykdbeka0r","objOut":"o12o1gafx"}]},{"name":"Output_2","links":[{"portIn":"render","portOut":"Output_2","objIn":"lc2s4caf8","objOut":"o12o1gafx"}]},{"name":"Output_3","links":[{"portIn":"render","portOut":"Output_3","objIn":"fwj0g6p3k","objOut":"o12o1gafx"}]},{"name":"Output_4","title":"add port","links":[{"portIn":"render","portOut":"Output_4","objIn":"nfv0hw0da","objOut":"o12o1gafx"}]},{"name":"Output_5","title":"add port","links":[{"portIn":"render","portOut":"Output_5","objIn":"6uxrer9vy","objOut":"o12o1gafx"}]},{"name":"Output_6","title":"add port","links":[{"portIn":"Execute","portOut":"Output_6","objIn":"gwuxlb1pg","objOut":"o12o1gafx"}]},{"name":"Output_7","title":"add port","links":[{"portIn":"render","portOut":"Output_7","objIn":"5101x7e1q","objOut":"o12o1gafx"}]}],"objName":"Ops.Trigger.SequenceMultiPort"},{"id":"lc2s4caf8","uiAttribs":{},"portsIn":[{"name":"posX","value":1},{"name":"posY","value":-0.02},{"name":"posZ","value":0},{"name":"scale","value":0.31},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"v6xff46mm","portOut":"trigger","objIn":"akc6pin1l","objOut":"lc2s4caf8"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"psjgzssk0","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/music-note-simple.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"akc6pin1l","objOut":"psjgzssk0"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"fwj0g6p3k","uiAttribs":{},"portsIn":[{"name":"posX","value":1.4},{"name":"posY","value":-0.02},{"name":"posZ","value":0},{"name":"scale","value":0.31},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"v6xff46mm","portOut":"trigger","objIn":"afty8haqt","objOut":"fwj0g6p3k"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"507e4cwq2","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/repeat.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"afty8haqt","objOut":"507e4cwq2"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"nfv0hw0da","uiAttribs":{},"portsIn":[{"name":"posX","value":2.61},{"name":"posY","value":-0.02},{"name":"posZ","value":0},{"name":"scale","value":0.31},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"v6xff46mm","portOut":"trigger","objIn":"3j6k6ccj8","objOut":"nfv0hw0da"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"6mfn49fox","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/download-simple.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"htorgc7dw","portOut":"Texture","objIn":"3j6k6ccj8","objOut":"6mfn49fox"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"qwbshsq4k","uiAttribs":{},"portsIn":[{"name":"old min","value":0},{"name":"old max","value":1},{"name":"new min","value":1},{"name":"new max","value":32},{"name":"Easing index","value":0},{"name":"Easing","value":"Linear"},{"name":"Clamp","value":1}],"portsOut":[{"name":"result","links":[{"portIn":"Number","portOut":"result","objIn":"5sygc4xmu","objOut":"qwbshsq4k"}]}],"objName":"Ops.Math.MapRange"},{"id":"ykdbeka0r","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Set","portOut":"Next","objIn":"siazh9h8l","objOut":"ykdbeka0r"}]},{"name":"Was Triggered","value":1}],"objName":"Ops.Trigger.TriggerOnce"},{"id":"siazh9h8l","uiAttribs":{},"portsIn":[{"name":"Number","value":14}],"portsOut":[{"name":"Next","links":[{"portIn":"qk2azg4th","portOut":"Next","objIn":"ijkk36hkm","objOut":"siazh9h8l"}]},{"name":"Out Value","links":[{"portIn":"value","portOut":"Out Value","objIn":"zth8majwn","objOut":"siazh9h8l"},{"portIn":"number1","portOut":"Out Value","objIn":"gknp6u5uy","objOut":"siazh9h8l"}]}],"objName":"Ops.Trigger.TriggerNumber"},{"id":"zth8majwn","uiAttribs":{},"portsOut":[{"name":"result","links":[{"portIn":"number1","portOut":"result","objIn":"t6gw8nvbp","objOut":"zth8majwn"}]}],"objName":"Ops.Number.Number"},{"id":"5sygc4xmu","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"value","portOut":"Result","objIn":"zth8majwn","objOut":"5sygc4xmu"}]}],"objName":"Ops.Math.Floor"},{"id":"gknp6u5uy","uiAttribs":{},"portsIn":[{"name":"number2","value":32}],"portsOut":[{"name":"result","links":[{"portIn":"0cs0t409y","portOut":"result","objIn":"ijkk36hkm","objOut":"gknp6u5uy"}]}],"objName":"Ops.Math.Divide"},{"id":"1y5ndch3p","uiAttribs":{},"portsIn":[{"name":"file","value":"assets/MajorMonoDisplay-Regular.ttf","display":"file"},{"name":"family","value":"Major"},{"name":"Active","value":1}],"portsOut":[{"name":"Loaded","value":1}],"objName":"Ops.Html.FontFile_v2"},{"id":"rzxh10lt0","uiAttribs":{},"portsIn":[{"name":"delay","value":0.2}],"portsOut":[{"name":"next","links":[{"portIn":"heqbd7h9j","portOut":"next","objIn":"akc6pin1l","objOut":"rzxh10lt0"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"frzi1ch3t","uiAttribs":{},"portsOut":[{"name":"True","links":[{"portIn":"Trigger","portOut":"True","objIn":"zt42i6dk7","objOut":"frzi1ch3t"}]}],"objName":"Ops.Boolean.TriggerOnChangeBoolean"},{"id":"cwkv048g1","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Trigger","portOut":"Next","objIn":"zt42i6dk7","objOut":"cwkv048g1"},{"portIn":"uwamdswc5","portOut":"Next","objIn":"afty8haqt","objOut":"cwkv048g1"}]},{"name":"Was Triggered","value":1}],"objName":"Ops.Trigger.TriggerOnce"},{"id":"typshptpi","uiAttribs":{},"portsIn":[{"name":"Size index","value":0},{"name":"Size","value":"Canvas"},{"name":"texture width","value":848},{"name":"texture height","value":449},{"name":"Auto Aspect","value":0},{"name":"filter index","value":1},{"name":"filter","value":"linear"},{"name":"Wrap index","value":1},{"name":"Wrap","value":"Repeat"},{"name":"MSAA index","value":3},{"name":"MSAA","value":"8x"},{"name":"Pixel Format index","value":4},{"name":"Pixel Format","value":"RGBA 8bit ubyte"},{"name":"Depth","value":1},{"name":"Clear","value":1}],"portsOut":[{"name":"trigger","links":[{"portIn":"Input_1","portOut":"trigger","objIn":"mr4bvwz6k","objOut":"typshptpi"}]},{"name":"texture","links":[{"portIn":"Map Texture","portOut":"texture","objIn":"kdqblw7wz","objOut":"typshptpi"}]}],"objName":"Ops.Gl.RenderToTexture_v3"},{"id":"t1igikkiy","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"7zxlhqqf8","title":"Texture"},{"name":"c6sm5ztz4","value":"PNG","title":"Format"},{"name":"6ozewyh0e","value":1,"title":"Quality"},{"name":"ainvr3s9o","value":"WavePaint","title":"Filename"},{"name":"uxwx45pbg","title":"Download"},{"name":"patchId","value":"bp2sub_t1igikkiy"}],"objName":"Ops.Gl.DownloadTexture_v3"},{"id":"xr4qq1egg","uiAttribs":{},"portsIn":[{"name":"Size index","value":0},{"name":"Size","value":"Auto"},{"name":"Width","value":253},{"name":"Height","value":480},{"name":"Filter index","value":1},{"name":"Filter","value":"linear"},{"name":"Wrap index","value":1},{"name":"Wrap","value":"repeat"},{"name":"Anisotropic index","value":0},{"name":"Anisotropic","value":"0"},{"name":"Pixel Format index","value":4},{"name":"Pixel Format","value":"RGBA 8bit ubyte"},{"name":"Clear","value":0},{"name":"R","value":0},{"name":"G","value":0},{"name":"B","value":0},{"name":"A","value":0}],"portsOut":[{"name":"Next","links":[{"portIn":"render","portOut":"Next","objIn":"kdqblw7wz","objOut":"xr4qq1egg"}]},{"name":"texture_out","links":[{"portIn":"7zxlhqqf8","portOut":"texture_out","objIn":"t1igikkiy","objOut":"xr4qq1egg"}]},{"name":"Aspect Ratio","value":1.8852459016393444},{"name":"Texture Width","value":690},{"name":"Texture Height","value":366}],"objName":"Ops.Gl.ImageCompose.ImageCompose_v4"},{"id":"kdqblw7wz","uiAttribs":{},"portsIn":[{"name":"Amount","value":1},{"name":"Blend Mode index","value":0},{"name":"Blend Mode","value":"normal"},{"name":"Alpha Mask index","value":0},{"name":"Alpha Mask","value":"Off"},{"name":"Coordinates index","value":1},{"name":"Coordinates","value":"-1-1"},{"name":"Center","value":1},{"name":"X","value":-0.17},{"name":"Y","value":-0.29},{"name":"Inner","value":0},{"name":"Width","value":2.42},{"name":"Height","value":2.42},{"name":"Rotate","value":0},{"name":"roundness","value":0},{"name":"r","value":1},{"name":"g","value":1},{"name":"b","value":1},{"name":"a","value":1},{"name":"Start X","value":0},{"name":"Start Y","value":0},{"name":"Map Width","value":1},{"name":"Map Height","value":1}],"objName":"Ops.Gl.ImageCompose.RectangleTexture_v5"},{"id":"kvlfxq9in","uiAttribs":{},"portsIn":[{"name":"delay","value":0.2}],"portsOut":[{"name":"next","links":[{"portIn":"heqbd7h9j","portOut":"next","objIn":"3j6k6ccj8","objOut":"kvlfxq9in"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"hms9id9ss","uiAttribs":{},"portsIn":[{"name":"Active","value":1},{"name":"Force index","value":1},{"name":"Force","value":"Aspect Ratio"},{"name":"Center In Parent","value":1},{"name":"Scale to fit Parent","value":0},{"name":"Set Width","value":1384},{"name":"Set Height","value":800},{"name":"Aspect Ratio index","value":0},{"name":"Aspect Ratio","value":"Custom"},{"name":"Ratio","value":1.89},{"name":"Fill Parent index","value":0},{"name":"Fill Parent","value":"Auto"}],"portsOut":[{"name":"Next","links":[{"portIn":"Input_0","portOut":"Next","objIn":"58o7r8k7z","objOut":"hms9id9ss"}]},{"name":"Width","value":848},{"name":"Height","value":449},{"name":"Margin Left","value":0},{"name":"Margin Top","value":43.5}],"objName":"Ops.Gl.ForceCanvasSize"},{"id":"hpnayd3zi","uiAttribs":{},"portsOut":[{"name":"Font Loaded","links":[{"portIn":"exe","portOut":"Font Loaded","objIn":"qdbjtwcid","objOut":"hpnayd3zi"}]}],"objName":"Ops.Html.FontsLoaded"},{"id":"ioyutnenj","uiAttribs":{},"portsIn":[{"name":"Style index","value":1},{"name":"Style","value":"Ring"}],"objName":"Ops.Html.Utils.LoadingIndicator"},{"id":"mu3sjnm97","uiAttribs":{},"portsIn":[{"name":"Scale index","value":1},{"name":"Scale","value":"Fit"},{"name":"Flip Y","value":0},{"name":"Flip X","value":0}],"objName":"Ops.Gl.Meshes.FullscreenRectangle_v2"},{"id":"dc3uxk5o3","uiAttribs":{},"portsIn":[{"name":"r","value":0.9516666666666667},{"name":"g","value":0.9516666666666667},{"name":"b","value":0.9516666666666667},{"name":"colorizeTexture","value":0},{"name":"Vertex Colors","value":0},{"name":"Alpha Mask Source index","value":0},{"name":"Alpha Mask Source","value":"Luminance"},{"name":"Opacity TexCoords Transform","value":0},{"name":"Discard Transparent Pixels","value":0},{"name":"diffuseRepeatX","value":1},{"name":"diffuseRepeatY","value":1},{"name":"Tex Offset X","value":0},{"name":"Tex Offset Y","value":0},{"name":"Crop TexCoords","value":0},{"name":"billboard","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"mu3sjnm97","objOut":"dc3uxk5o3"}]}],"objName":"Ops.Gl.Shader.BasicMaterial_v3"},{"id":"58yx6uhoa","uiAttribs":{},"portsIn":[{"name":"Pass Through","value":1}],"portsOut":[{"name":"Trigger out","links":[{"portIn":"render","portOut":"Trigger out","objIn":"dc3uxk5o3","objOut":"58yx6uhoa"},{"portIn":"exe","portOut":"Trigger out","objIn":"kg1c0c34l","objOut":"58yx6uhoa"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"sgjtn6c7d","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"Visible","portOut":"Result","objIn":"ioyutnenj","objOut":"sgjtn6c7d"},{"portIn":"Value","portOut":"Result","objIn":"6rcu4wasy","objOut":"sgjtn6c7d"},{"portIn":"bool","portOut":"Result","objIn":"kg1c0c34l","objOut":"sgjtn6c7d"},{"portIn":"Boolean","portOut":"Result","objIn":"orw841d6e","objOut":"sgjtn6c7d"}]}],"objName":"Ops.Boolean.BoolByTrigger"},{"id":"aha5evif5","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"True","portOut":"Next","objIn":"sgjtn6c7d","objOut":"aha5evif5"}]},{"name":"Was Triggered","value":1}],"objName":"Ops.Trigger.TriggerOnce"},{"id":"6rcu4wasy","uiAttribs":{},"portsIn":[{"name":"Delay","value":1.2},{"name":"Clear on Change","value":0},{"name":"easing index","value":1},{"name":"easing","value":"absolute"}],"portsOut":[{"name":"Result","value":0}],"objName":"Ops.Number.DelayedNumber"},{"id":"il4sv7adh","uiAttribs":{},"portsIn":[{"name":"In 0 Gain","value":1},{"name":"In 1 Gain","value":1},{"name":"In 2 Gain","value":1},{"name":"In 3 Gain","value":1},{"name":"In 4 Gain","value":1},{"name":"In 5 Gain","value":1},{"name":"In 6 Gain","value":1},{"name":"In 7 Gain","value":1},{"name":"In 0 Pan","value":0},{"name":"In 1 Pan","value":0},{"name":"In 2 Pan","value":0},{"name":"In 3 Pan","value":0},{"name":"In 4 Pan","value":0},{"name":"In 5 Pan","value":0},{"name":"In 6 Pan","value":0},{"name":"In 7 Pan","value":0},{"name":"Output Gain","value":1}],"portsOut":[{"name":"Audio Out","links":[{"portIn":"Audio In","portOut":"Audio Out","objIn":"62i14kwb5","objOut":"il4sv7adh"},{"portIn":"Audio In","portOut":"Audio Out","objIn":"jc1evn71f","objOut":"il4sv7adh"}]}],"objName":"Ops.WebAudio.Mixer"},{"id":"yirnapxl6","uiAttribs":{},"portsIn":[{"name":"In 0 Gain","value":1},{"name":"In 1 Gain","value":1},{"name":"In 2 Gain","value":1},{"name":"In 3 Gain","value":1},{"name":"In 4 Gain","value":1},{"name":"In 5 Gain","value":1},{"name":"In 6 Gain","value":1},{"name":"In 7 Gain","value":1},{"name":"In 0 Pan","value":0},{"name":"In 1 Pan","value":0},{"name":"In 2 Pan","value":0},{"name":"In 3 Pan","value":0},{"name":"In 4 Pan","value":0},{"name":"In 5 Pan","value":0},{"name":"In 6 Pan","value":0},{"name":"In 7 Pan","value":0},{"name":"Output Gain","value":1}],"portsOut":[{"name":"Audio Out","links":[{"portIn":"Audio In 7","portOut":"Audio Out","objIn":"il4sv7adh","objOut":"yirnapxl6"}]}],"objName":"Ops.WebAudio.Mixer"},{"id":"fnrd35jzm","uiAttribs":{},"portsIn":[{"name":"In 0 Gain","value":1},{"name":"In 1 Gain","value":1},{"name":"In 2 Gain","value":1},{"name":"In 3 Gain","value":1},{"name":"In 4 Gain","value":1},{"name":"In 5 Gain","value":1},{"name":"In 6 Gain","value":1},{"name":"In 7 Gain","value":1},{"name":"In 0 Pan","value":0},{"name":"In 1 Pan","value":0},{"name":"In 2 Pan","value":0},{"name":"In 3 Pan","value":0},{"name":"In 4 Pan","value":0},{"name":"In 5 Pan","value":0},{"name":"In 6 Pan","value":0},{"name":"In 7 Pan","value":0},{"name":"Output Gain","value":1}],"portsOut":[{"name":"Audio Out","links":[{"portIn":"Audio In 7","portOut":"Audio Out","objIn":"yirnapxl6","objOut":"fnrd35jzm"}]}],"objName":"Ops.WebAudio.Mixer"},{"id":"62i14kwb5","uiAttribs":{},"portsIn":[{"name":"Input Gain","value":1},{"name":"Playback Gain","value":1},{"name":"Loop Playback","value":0}],"portsOut":[{"name":"Is Recording","value":false},{"name":"Is Playing Back","value":false},{"name":"State","value":"ready"}],"objName":"Ops.WebAudio.AudioRecorder"},{"id":"ox4zkblpi","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Trigger","portOut":"Next","objIn":"iydcmws3q","objOut":"ox4zkblpi"},{"portIn":"exe","portOut":"Next","objIn":"ce1z5uuve","objOut":"ox4zkblpi"}]}],"objName":"Ops.Trigger.TriggerButton"},{"id":"ce1z5uuve","uiAttribs":{},"portsIn":[{"name":"delay","value":0.1}],"portsOut":[{"name":"next","links":[{"portIn":"Clear Buffer","portOut":"next","objIn":"62i14kwb5","objOut":"ce1z5uuve"},{"portIn":"exe","portOut":"next","objIn":"n9y4093o7","objOut":"ce1z5uuve"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"n9y4093o7","uiAttribs":{},"portsIn":[{"name":"delay","value":0.1}],"portsOut":[{"name":"next","links":[{"portIn":"Start Recording","portOut":"next","objIn":"62i14kwb5","objOut":"n9y4093o7"},{"portIn":"Execute","portOut":"next","objIn":"2unkis0ta","objOut":"n9y4093o7"},{"portIn":"Execute","portOut":"next","objIn":"13c6zhekz","objOut":"n9y4093o7"},{"portIn":"Trigger","portOut":"next","objIn":"zt42i6dk7","objOut":"n9y4093o7"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"2unkis0ta","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"trigger","portOut":"Trigger out","objIn":"1vj5xec2e","objOut":"2unkis0ta"},{"portIn":"reset","portOut":"Trigger out","objIn":"g7c15p0tw","objOut":"2unkis0ta"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"h55a0iugi","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"Pass Through","portOut":"Result","objIn":"13c6zhekz","objOut":"h55a0iugi"}]}],"objName":"Ops.Boolean.Not"},{"id":"13c6zhekz","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"trigger","portOut":"Trigger out","objIn":"wp6k0kz8u","objOut":"13c6zhekz"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"gwuxlb1pg","uiAttribs":{},"objName":"Ops.Trigger.TriggerExtender"},{"id":"tooayvu3l","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Execute","portOut":"Next","objIn":"maf1t1igz","objOut":"tooayvu3l"}]}],"objName":"Ops.Boolean.TriggerChangedTrue"},{"id":"wp6k0kz8u","uiAttribs":{},"portsIn":[{"name":"Default","value":0}],"portsOut":[{"name":"result","links":[{"portIn":"Pass Through","portOut":"result","objIn":"maf1t1igz","objOut":"wp6k0kz8u"}]}],"objName":"Ops.Boolean.ToggleBool_v2"},{"id":"maf1t1igz","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"reset","portOut":"Trigger out","objIn":"wp6k0kz8u","objOut":"maf1t1igz"},{"portIn":"exe","portOut":"Trigger out","objIn":"xgum485n6","objOut":"maf1t1igz"},{"portIn":"exe","portOut":"Trigger out","objIn":"8lprzy8yu","objOut":"maf1t1igz"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"1vj5xec2e","uiAttribs":{},"portsIn":[{"name":"Default","value":0}],"portsOut":[{"name":"result","links":[{"portIn":"Pass Through","portOut":"result","objIn":"p0snbtz8y","objOut":"1vj5xec2e"}]}],"objName":"Ops.Boolean.ToggleBool_v2"},{"id":"p0snbtz8y","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"reset","portOut":"Trigger out","objIn":"1vj5xec2e","objOut":"p0snbtz8y"},{"portIn":"exe","portOut":"Trigger out","objIn":"xgum485n6","objOut":"p0snbtz8y"},{"portIn":"exe","portOut":"Trigger out","objIn":"8lprzy8yu","objOut":"p0snbtz8y"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"g7c15p0tw","uiAttribs":{},"portsOut":[{"name":"timesTriggered","links":[{"portIn":"number1","portOut":"timesTriggered","objIn":"w7wunwpey","objOut":"g7c15p0tw"}]}],"objName":"Ops.Trigger.TriggerCounter"},{"id":"w7wunwpey","uiAttribs":{},"portsIn":[{"name":"number2","value":4}],"portsOut":[{"name":"result","links":[{"portIn":"Value","portOut":"result","objIn":"uy20wlnjb","objOut":"w7wunwpey"}]}],"objName":"Ops.Math.Compare.LessThan"},{"id":"uy20wlnjb","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Execute","portOut":"Next","objIn":"p0snbtz8y","objOut":"uy20wlnjb"}]}],"objName":"Ops.Boolean.TriggerChangedFalse"},{"id":"xgum485n6","uiAttribs":{},"portsIn":[{"name":"delay","value":0.4}],"portsOut":[{"name":"next","links":[{"portIn":"exe","portOut":"next","objIn":"su6db8gby","objOut":"xgum485n6"},{"portIn":"Download .wav File","portOut":"next","objIn":"62i14kwb5","objOut":"xgum485n6"},{"portIn":"True","portOut":"next","objIn":"02r2xi88z","objOut":"xgum485n6"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"su6db8gby","uiAttribs":{},"portsIn":[{"name":"delay","value":3}],"portsOut":[{"name":"next","links":[{"portIn":"uxwx45pbg","portOut":"next","objIn":"t1igikkiy","objOut":"su6db8gby"},{"portIn":"exe","portOut":"next","objIn":"jd86wyh05","objOut":"su6db8gby"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"8lprzy8yu","uiAttribs":{},"portsIn":[{"name":"delay","value":0.2}],"portsOut":[{"name":"next","links":[{"portIn":"Stop Recording","portOut":"next","objIn":"62i14kwb5","objOut":"8lprzy8yu"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"vo40h8tg9","uiAttribs":{},"portsIn":[{"name":"r","value":0.8602083333333334},{"name":"g","value":0.8544855117797852},{"name":"b","value":0.8544855117797852},{"name":"a","value":1}],"portsOut":[{"name":"outr","value":0.8602083333333334},{"name":"outg","value":0.8544855117797852},{"name":"outb","value":0.8544855117797852},{"name":"outa","value":1},{"name":"Hex","links":[{"portIn":"Number","portOut":"Hex","objIn":"y81lzza48","objOut":"vo40h8tg9"}]}],"objName":"Ops.Color.ColorValue"},{"id":"y81lzza48","uiAttribs":{},"portsIn":[{"name":"Decimal Places","value":100}],"portsOut":[{"name":"Result","links":[{"portIn":"lwmkmqnju","portOut":"Result","objIn":"akc6pin1l","objOut":"y81lzza48"},{"portIn":"lwmkmqnju","portOut":"Result","objIn":"afty8haqt","objOut":"y81lzza48"}]}],"objName":"Ops.String.NumberToString_v2"},{"id":"58o7r8k7z","uiAttribs":{},"portsOut":[{"name":"Output","multiPortNum":4},{"name":"Output_0","links":[{"portIn":"Exec","portOut":"Output_0","objIn":"aha5evif5","objOut":"58o7r8k7z"}]},{"name":"Output_1","links":[{"portIn":"Update","portOut":"Output_1","objIn":"6rcu4wasy","objOut":"58o7r8k7z"}]},{"name":"Output_2","title":"add port","links":[{"portIn":"Execute","portOut":"Output_2","objIn":"3aluj3nir","objOut":"58o7r8k7z"}]},{"name":"Output_3","title":"add port","links":[{"portIn":"Execute","portOut":"Output_3","objIn":"58yx6uhoa","objOut":"58o7r8k7z"}]}],"objName":"Ops.Trigger.SequenceMultiPort"},{"id":"jd86wyh05","uiAttribs":{},"portsIn":[{"name":"delay","value":1}],"portsOut":[{"name":"next","links":[{"portIn":"false","portOut":"next","objIn":"02r2xi88z","objOut":"jd86wyh05"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"04fz9kwk8","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"Render","portOut":"Trigger out","objIn":"xr4qq1egg","objOut":"04fz9kwk8"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"02r2xi88z","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"Pass Through","portOut":"Result","objIn":"04fz9kwk8","objOut":"02r2xi88z"}]}],"objName":"Ops.Boolean.BoolByTrigger"},{"id":"lm9v8ugyv","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","title":"Color Hex"},{"name":"9hiv7snuk","title":"Hover Color Hex"},{"name":"p7kmi5hfv","title":"Active Color Hex"},{"name":"uwamdswc5","title":"Set Active"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_lm9v8ugyv"}],"portsOut":[{"name":"nj2hzg12q","title":"Left Click","links":[{"portIn":"Set","portOut":"nj2hzg12q","objIn":"c75nau06x","objOut":"lm9v8ugyv"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"t60l9ni6m","objOut":"lm9v8ugyv"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"a1fvxtzl7","objOut":"lm9v8ugyv"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"erfsssqkr","objOut":"lm9v8ugyv"}]},{"name":"wo8g77bwj","value":1,"title":"Hover"},{"name":"21rqauhon","title":"Active","links":[{"portIn":"Boolean","portOut":"21rqauhon","objIn":"wa7emvlz7","objOut":"lm9v8ugyv"}]}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"t60l9ni6m","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","title":"Color Hex"},{"name":"9hiv7snuk","title":"Hover Color Hex"},{"name":"p7kmi5hfv","title":"Active Color Hex"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_t60l9ni6m"}],"portsOut":[{"name":"nj2hzg12q","title":"Left Click","links":[{"portIn":"Set","portOut":"nj2hzg12q","objIn":"b7yc413bo","objOut":"t60l9ni6m"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"lm9v8ugyv","objOut":"t60l9ni6m"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"a1fvxtzl7","objOut":"t60l9ni6m"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"erfsssqkr","objOut":"t60l9ni6m"}]},{"name":"wo8g77bwj","value":0,"title":"Hover"},{"name":"21rqauhon","title":"Active","links":[{"portIn":"Boolean","portOut":"21rqauhon","objIn":"rl4prbv16","objOut":"t60l9ni6m"}]}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"a1fvxtzl7","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","title":"Color Hex"},{"name":"9hiv7snuk","title":"Hover Color Hex"},{"name":"p7kmi5hfv","title":"Active Color Hex"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_a1fvxtzl7"}],"portsOut":[{"name":"nj2hzg12q","title":"Left Click","links":[{"portIn":"Set","portOut":"nj2hzg12q","objIn":"3pn1u8810","objOut":"a1fvxtzl7"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"lm9v8ugyv","objOut":"a1fvxtzl7"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"t60l9ni6m","objOut":"a1fvxtzl7"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"erfsssqkr","objOut":"a1fvxtzl7"}]},{"name":"wo8g77bwj","value":0,"title":"Hover"},{"name":"21rqauhon","title":"Active","links":[{"portIn":"Boolean","portOut":"21rqauhon","objIn":"224j6smpi","objOut":"a1fvxtzl7"}]}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"erfsssqkr","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","title":"Color Hex"},{"name":"9hiv7snuk","title":"Hover Color Hex"},{"name":"p7kmi5hfv","title":"Active Color Hex"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_erfsssqkr"}],"portsOut":[{"name":"nj2hzg12q","title":"Left Click","links":[{"portIn":"Set","portOut":"nj2hzg12q","objIn":"0dkuptfmc","objOut":"erfsssqkr"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"lm9v8ugyv","objOut":"erfsssqkr"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"t60l9ni6m","objOut":"erfsssqkr"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"a1fvxtzl7","objOut":"erfsssqkr"}]},{"name":"wo8g77bwj","value":0,"title":"Hover"},{"name":"21rqauhon","title":"Active","links":[{"portIn":"Boolean","portOut":"21rqauhon","objIn":"l2h3dsstl","objOut":"erfsssqkr"}]}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"akc6pin1l","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","title":"Color Hex"},{"name":"9hiv7snuk","value":"b2cfc6","title":"Hover Color Hex"},{"name":"p7kmi5hfv","value":"B0E5DF","title":"Active Color Hex"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","value":1,"title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_akc6pin1l"}],"portsOut":[{"name":"nj2hzg12q","title":"Left Click","links":[{"portIn":"exe","portOut":"nj2hzg12q","objIn":"rzxh10lt0","objOut":"akc6pin1l"},{"portIn":"Trigger","portOut":"nj2hzg12q","objIn":"zt42i6dk7","objOut":"akc6pin1l"},{"portIn":"heqbd7h9j","portOut":"nj2hzg12q","objIn":"afty8haqt","objOut":"akc6pin1l"}]},{"name":"wo8g77bwj","value":0,"title":"Hover"},{"name":"21rqauhon","value":0,"title":"Active"}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"afty8haqt","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","title":"Color Hex"},{"name":"9hiv7snuk","value":"b2cfc6","title":"Hover Color Hex"},{"name":"p7kmi5hfv","value":"B0E5DF","title":"Active Color Hex"},{"name":"uwamdswc5","title":"Set Active"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","value":1,"title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_afty8haqt"}],"portsOut":[{"name":"wo8g77bwj","value":0,"title":"Hover"},{"name":"21rqauhon","title":"Active","links":[{"portIn":"value","portOut":"21rqauhon","objIn":"gkqtpn8ed","objOut":"afty8haqt"},{"portIn":"Value","portOut":"21rqauhon","objIn":"frzi1ch3t","objOut":"afty8haqt"}]}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"3j6k6ccj8","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"v6xff46mm","title":"Execute"},{"name":"htorgc7dw","title":"Icon Texture"},{"name":"lwmkmqnju","value":"ffffff","title":"Color Hex"},{"name":"9hiv7snuk","value":"b2cfc6","title":"Hover Color Hex"},{"name":"p7kmi5hfv","value":"B0E5DF","title":"Active Color Hex"},{"name":"heqbd7h9j","title":"Set Default"},{"name":"uldayqnpd","value":1,"title":"Clickable"},{"name":"jmqx07zz9","value":1,"title":"Width"},{"name":"2gf4ekswl","value":1,"title":"Height"},{"name":"patchId","value":"bp2sub_3j6k6ccj8"}],"portsOut":[{"name":"nj2hzg12q","title":"Left Click","links":[{"portIn":"exe","portOut":"nj2hzg12q","objIn":"kvlfxq9in","objOut":"3j6k6ccj8"},{"portIn":"Trigger","portOut":"nj2hzg12q","objIn":"ox4zkblpi","objOut":"3j6k6ccj8"}]},{"name":"wo8g77bwj","value":0,"title":"Hover"},{"name":"21rqauhon","value":0,"title":"Active"}],"objName":"Ops.Patch.PHcOfwE.Button"},{"id":"an5zyq7ds","uiAttribs":{},"portsIn":[{"name":"Active","value":0},{"name":"Visible","value":1},{"name":"Measure GPU","value":1},{"name":"Position index","value":0},{"name":"Position","value":"top"},{"name":"Open","value":1},{"name":"Smooth Graph","value":1},{"name":"Scale","value":3},{"name":"Size","value":128}],"portsOut":[{"name":"childs","links":[{"portIn":"Trigger","portOut":"childs","objIn":"hms9id9ss","objOut":"an5zyq7ds"}]},{"name":"FPS","value":19}],"objName":"Ops.Gl.Performance"},{"id":"5101x7e1q","uiAttribs":{},"portsIn":[{"name":"posX","value":-0.55},{"name":"posY","value":-0.03},{"name":"posZ","value":0},{"name":"scale","value":0.12},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"nd79y7y1j","objOut":"5101x7e1q"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"6uxrer9vy","uiAttribs":{},"portsIn":[{"name":"posX","value":0.64},{"name":"posY","value":-0.03},{"name":"posZ","value":0},{"name":"scale","value":0.12},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"xp4co6zaw","objOut":"6uxrer9vy"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"nd79y7y1j","uiAttribs":{},"portsIn":[{"name":"r","value":0.38431957305663467},{"name":"g","value":0.9586700541665394},{"name":"b","value":0.4059777189537406},{"name":"a","value":0.5},{"name":"colorizeTexture","value":0},{"name":"Vertex Colors","value":0},{"name":"Alpha Mask Source index","value":0},{"name":"Alpha Mask Source","value":"Luminance"},{"name":"Opacity TexCoords Transform","value":0},{"name":"Discard Transparent Pixels","value":0},{"name":"diffuseRepeatX","value":1},{"name":"diffuseRepeatY","value":1},{"name":"Tex Offset X","value":0},{"name":"Tex Offset Y","value":0},{"name":"Crop TexCoords","value":0},{"name":"billboard","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"if19lcl2q","objOut":"nd79y7y1j"}]}],"objName":"Ops.Gl.Shader.BasicMaterial_v3"},{"id":"if19lcl2q","uiAttribs":{},"portsIn":[{"name":"render","title":"Trigger"},{"name":"Render Mesh","value":1,"title":"Render"},{"name":"width","value":1},{"name":"height","value":1},{"name":"pivot x index","value":1},{"name":"pivot x","value":"center"},{"name":"pivot y index","value":1},{"name":"pivot y","value":"center"},{"name":"axis index","value":0},{"name":"axis","value":"xy"},{"name":"Flip TexCoord X","value":0},{"name":"Flip TexCoord Y","value":1},{"name":"num columns","value":1},{"name":"num rows","value":1}],"objName":"Ops.Gl.Meshes.Rectangle_v4"},{"id":"zdr4py9m1","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/caret-right-fill.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"texture","portOut":"Texture","objIn":"nd79y7y1j","objOut":"zdr4py9m1"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"xp4co6zaw","uiAttribs":{},"portsIn":[{"name":"r","value":0.38431957305663467},{"name":"g","value":0.9586700541665394},{"name":"b","value":0.4059777189537406},{"name":"a","value":0.5},{"name":"colorizeTexture","value":0},{"name":"Vertex Colors","value":0},{"name":"Alpha Mask Source index","value":0},{"name":"Alpha Mask Source","value":"Luminance"},{"name":"Opacity TexCoords Transform","value":0},{"name":"Discard Transparent Pixels","value":0},{"name":"diffuseRepeatX","value":1},{"name":"diffuseRepeatY","value":1},{"name":"Tex Offset X","value":0},{"name":"Tex Offset Y","value":0},{"name":"Crop TexCoords","value":0},{"name":"billboard","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"f4axx9yf3","objOut":"xp4co6zaw"}]}],"objName":"Ops.Gl.Shader.BasicMaterial_v3"},{"id":"f4axx9yf3","uiAttribs":{},"portsIn":[{"name":"render","title":"Trigger"},{"name":"Render Mesh","value":1,"title":"Render"},{"name":"width","value":1},{"name":"height","value":1},{"name":"pivot x index","value":1},{"name":"pivot x","value":"center"},{"name":"pivot y index","value":1},{"name":"pivot y","value":"center"},{"name":"axis index","value":0},{"name":"axis","value":"xy"},{"name":"Flip TexCoord X","value":0},{"name":"Flip TexCoord Y","value":1},{"name":"num columns","value":1},{"name":"num rows","value":1}],"objName":"Ops.Gl.Meshes.Rectangle_v4"},{"id":"c73mlzcfy","uiAttribs":{},"portsIn":[{"name":"File","value":"assets/arrow-fat-lines-right-fill.svg","display":"file"},{"name":"Texture width","value":1024},{"name":"Texture height","value":1024},{"name":"Wrap index","value":0},{"name":"Wrap","value":"repeat"},{"name":"Filter index","value":2},{"name":"Filter","value":"mipmap"}],"portsOut":[{"name":"Texture","links":[{"portIn":"texture","portOut":"Texture","objIn":"xp4co6zaw","objOut":"c73mlzcfy"}]},{"name":"Loaded","value":1}],"objName":"Ops.Gl.Textures.TextureSVG_v2"},{"id":"9vfn8v49t","uiAttribs":{},"portsIn":[{"name":"r","value":0.8602083333333334},{"name":"g","value":0.8544855117797852},{"name":"b","value":0.8544855117797852},{"name":"a","value":1}],"portsOut":[{"name":"outr","value":0.8602083333333334},{"name":"outg","value":0.8544855117797852},{"name":"outb","value":0.8544855117797852},{"name":"outa","value":1},{"name":"Hex","links":[{"portIn":"Number","portOut":"Hex","objIn":"qx0vo77ci","objOut":"9vfn8v49t"}]}],"objName":"Ops.Color.ColorValue"},{"id":"qx0vo77ci","uiAttribs":{},"portsIn":[{"name":"Decimal Places","value":100}],"portsOut":[{"name":"Result","links":[{"portIn":"8vdnvwprn","portOut":"Result","objIn":"ijkk36hkm","objOut":"qx0vo77ci"}]}],"objName":"Ops.String.NumberToString_v2"},{"id":"tatu8vy3w","uiAttribs":{},"portsIn":[{"name":"Text","value":"WaVE PAINT"},{"name":"Scale Text","value":1},{"name":"Scale","value":1,"title":"Line Scale"},{"name":"Font","value":"Major"},{"name":"align index","value":1},{"name":"align","value":"center"},{"name":"vertical align index","value":1},{"name":"vertical align","value":"Middle"},{"name":"Line Height","value":1},{"name":"Letter Spacing","value":0.18},{"name":"filter index","value":2},{"name":"filter","value":"mipmap"},{"name":"Anisotropic index","value":0},{"name":"Anisotropic","value":0},{"name":"r","value":0.1383333333333333},{"name":"g","value":0.1383333333333333},{"name":"b","value":0.1383333333333333},{"name":"a","value":0.786}],"portsOut":[{"name":"Total Lines","value":1},{"name":"Width","value":3.6328572686163927},{"name":"Font Available","value":1}],"objName":"Ops.Gl.Meshes.TextMesh_v2"},{"id":"xibi0ecme","uiAttribs":{},"portsIn":[{"name":"posX","value":1.58},{"name":"posY","value":1.02},{"name":"posZ","value":0},{"name":"scale","value":0.12},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"Render","portOut":"trigger","objIn":"tatu8vy3w","objOut":"xibi0ecme"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"su6vrtbw9","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":0,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_su6vrtbw9"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 0","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"su6vrtbw9"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"8kwimw25x","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":1,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_8kwimw25x"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 1","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"8kwimw25x"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"rczjx7nhj","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":2,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_rczjx7nhj"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 2","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"rczjx7nhj"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"gwsfdezwb","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":3,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_gwsfdezwb"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 3","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"gwsfdezwb"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"6sbxmcjr2","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":4,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_6sbxmcjr2"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 4","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"6sbxmcjr2"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"8wdbl5nho","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":5,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_8wdbl5nho"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 5","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"8wdbl5nho"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"9pmf6gtrq","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":6,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_9pmf6gtrq"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 6","portOut":"vrdxx5gfm","objIn":"il4sv7adh","objOut":"9pmf6gtrq"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"l1pxuyals","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":7,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_l1pxuyals"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 0","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"l1pxuyals"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"pmno5p26q","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":8,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_pmno5p26q"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 1","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"pmno5p26q"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"ls2txuci4","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":9,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_ls2txuci4"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 2","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"ls2txuci4"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"86kpwty0z","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":10,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_86kpwty0z"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 3","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"86kpwty0z"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"eee0av44b","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":11,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_eee0av44b"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 4","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"eee0av44b"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"78mybx9oq","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":12,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_78mybx9oq"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 5","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"78mybx9oq"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"qhqx0h2h1","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":13,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_qhqx0h2h1"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 6","portOut":"vrdxx5gfm","objIn":"yirnapxl6","objOut":"qhqx0h2h1"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"b9g5gde5i","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":14,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_b9g5gde5i"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 0","portOut":"vrdxx5gfm","objIn":"fnrd35jzm","objOut":"b9g5gde5i"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"o426d8p8u","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"8r7zkctyn","title":"Slider Render"},{"name":"6ut2rn9yj","title":"RadioButton Render"},{"name":"jlsdogih2","value":15,"title":"Channel"},{"name":"2kso7assx","title":"Time"},{"name":"jkwspwxw5","title":"Osc Type Index"},{"name":"y2xdi8y7i","title":"Pos Gap"},{"name":"patchId","value":"bp2sub_o426d8p8u"}],"portsOut":[{"name":"vrdxx5gfm","title":"Audio Out","links":[{"portIn":"Audio In 1","portOut":"vrdxx5gfm","objIn":"fnrd35jzm","objOut":"o426d8p8u"}]}],"objName":"Ops.Patch.PHcOfwE.OscChannel"},{"id":"ijkk36hkm","uiAttribs":{},"storage":{"blueprintVer":2,"subPatchVer":2},"portsIn":[{"name":"1dlg7oniw","title":"trigger"},{"name":"f4weqn3hm","value":0.05,"title":"posX"},{"name":"iq6byaz25","value":-0.03,"title":"posY"},{"name":"10hdgzhpt","value":0,"title":"posZ"},{"name":"n0s9bo0a9","value":1.04,"title":"scale"},{"name":"kvesbpq8x","value":0.29,"title":"width"},{"name":"7c5g8ph6i","value":1.36,"title":"length"},{"name":"aumzf2rea","value":"a1a1a1","title":"knob color"},{"name":"8vdnvwprn","title":"track color"},{"name":"xfm62ww5i","value":"b2cfc6","title":"hover color"},{"name":"uuzrgfxbv","value":0,"title":"fill"},{"name":"4qmr95ok5","value":"b9b7b7","title":"fill color"},{"name":"br9w3fpoa","value":1,"title":"while pressing"},{"name":"0cs0t409y","title":"reset value"},{"name":"qk2azg4th","title":"reset"},{"name":"cs1ghyqlu","value":1,"title":"Enabled"},{"name":"5zlm9i1i3","value":0,"title":"Vertical"},{"name":"patchId","value":"bp2sub_ijkk36hkm"}],"portsOut":[{"name":"fouvnz1ho","title":"Value","links":[{"portIn":"value","portOut":"fouvnz1ho","objIn":"qwbshsq4k","objOut":"ijkk36hkm"}]},{"name":"0fus8klu1","value":0,"title":"Hover"},{"name":"db6zr7jd2","value":0,"title":"Button Down"}],"objName":"Ops.User.sonofluiz.HoverSlider"},{"id":"3aluj3nir","uiAttribs":{},"portsOut":[{"name":"Trigger out","links":[{"portIn":"render","portOut":"Trigger out","objIn":"4zvdg7ddm","objOut":"3aluj3nir"}]}],"objName":"Ops.Trigger.GateTrigger"},{"id":"orw841d6e","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"Pass Through","portOut":"Result","objIn":"3aluj3nir","objOut":"orw841d6e"}]}],"objName":"Ops.Boolean.Not"},{"id":"kg1c0c34l","uiAttribs":{},"portsIn":[{"name":"easing index","value":9},{"name":"easing","value":"Expo In Out"},{"name":"duration","value":3},{"name":"Direction index","value":2},{"name":"Direction","value":"Only False"},{"name":"value false","value":0},{"name":"value true","value":1}],"portsOut":[{"name":"value","links":[{"portIn":"a","portOut":"value","objIn":"dc3uxk5o3","objOut":"kg1c0c34l"}]},{"name":"finished","value":1}],"objName":"Ops.Anim.BoolAnim"},{"id":"qdbjtwcid","uiAttribs":{},"portsIn":[{"name":"delay","value":2}],"portsOut":[{"name":"next","links":[{"portIn":"false","portOut":"next","objIn":"sgjtn6c7d","objOut":"qdbjtwcid"}]},{"name":"Delaying","value":false}],"objName":"Ops.Trigger.DelayedTrigger"},{"id":"jc1evn71f","uiAttribs":{},"portsIn":[{"name":"FFT size index","value":2},{"name":"FFT size","value":"128"},{"name":"Smoothing","value":1},{"name":"Min","value":-90},{"name":"Max","value":0}],"portsOut":[{"name":"Trigger Out","links":[{"portIn":"Render","portOut":"Trigger Out","objIn":"n4e463yuw","objOut":"jc1evn71f"}]},{"name":"Waveform Array","links":[{"portIn":"Array1x","portOut":"Waveform Array","objIn":"qw0g3scyu","objOut":"jc1evn71f"}]},{"name":"Array Length","links":[{"portIn":"Array length","portOut":"Array Length","objIn":"b130gzd29","objOut":"jc1evn71f"}]},{"name":"Average Volume","value":0},{"name":"Average Volume Time-Domain","links":[{"portIn":"Value In","portOut":"Average Volume Time-Domain","objIn":"2hp0s2zka","objOut":"jc1evn71f"}]},{"name":"RMS Volume","value":0.5}],"objName":"Ops.WebAudio.AudioAnalyzer_v2"},{"id":"57s8i8vjm","uiAttribs":{},"portsIn":[{"name":"Scale","value":1},{"name":"Limit Instances","value":1},{"name":"Limit","value":64},{"name":"Rotations","value":0},{"name":"Rotation Type index","value":0},{"name":"Rotation Type","value":"Euler"},{"name":"Billboarding index","value":0},{"name":"Billboarding","value":"Off"},{"name":"Material blend mode index","value":0},{"name":"Material blend mode","value":"Multiply"},{"name":"Colors","value":0},{"name":"TexCoords","value":0}],"portsOut":[{"name":"Num","value":64}],"objName":"Ops.Gl.MeshInstancer_v4"},{"id":"orpe9488u","uiAttribs":{},"portsIn":[{"name":"Render Mesh","value":0},{"name":"Width","value":0.95},{"name":"Length","value":0.21},{"name":"Height","value":0.12},{"name":"Center","value":0},{"name":"Mapping index","value":0},{"name":"Mapping","value":"Side"},{"name":"Bias","value":0},{"name":"Flip X","value":1},{"name":"Top","value":1},{"name":"Bottom","value":1},{"name":"Left","value":1},{"name":"Right","value":1},{"name":"Front","value":1},{"name":"Back","value":1}],"portsOut":[{"name":"geometry","links":[{"portIn":"geom","portOut":"geometry","objIn":"57s8i8vjm","objOut":"orpe9488u"}]}],"objName":"Ops.Gl.Meshes.Cube_v2"},{"id":"n4e463yuw","uiAttribs":{},"portsIn":[{"name":"r","value":0.58673095703125},{"name":"g","value":1},{"name":"b","value":0.9628057861328124},{"name":"Opacity","value":1},{"name":"AO Intensity","value":1},{"name":"Normal Map Intensity","value":1},{"name":"Repeat X","value":1},{"name":"Repeat Y","value":1},{"name":"Offset X","value":0},{"name":"Offset Y","value":0},{"name":"Double Sided","value":0},{"name":"Screen Space Normals","value":0},{"name":"Calc normal tangents","value":1},{"name":"Opacity TexCoords Transform","value":0},{"name":"Discard Transparent Pixels","value":0},{"name":"Alpha Mask Source index","value":0},{"name":"Alpha Mask Source","value":"Luminance"}],"portsOut":[{"name":"Next","links":[{"portIn":"Render","portOut":"Next","objIn":"orpe9488u","objOut":"n4e463yuw"},{"portIn":"exe","portOut":"Next","objIn":"57s8i8vjm","objOut":"n4e463yuw"}]}],"objName":"Ops.Gl.Shader.MatCapMaterial_v3"},{"id":"qw0g3scyu","uiAttribs":{},"portsIn":[{"name":"Format index","value":1},{"name":"Format","value":"ABC"},{"name":"A index","value":5},{"name":"A","value":"1"},{"name":"B","value":"0"},{"name":"C index","value":5},{"name":"C","value":"1"},{"name":"D index","value":5},{"name":"D","value":"1"}],"portsOut":[{"name":"Array3x","links":[{"portIn":"Scale Array","portOut":"Array3x","objIn":"57s8i8vjm","objOut":"qw0g3scyu"}]},{"name":"Total points","value":64},{"name":"Array length","value":192}],"objName":"Ops.Array.Array1toX"},{"id":"ruk6uejhw","uiAttribs":{},"portsIn":[{"name":"Format index","value":1},{"name":"Format","value":"ABC"},{"name":"A index","value":0},{"name":"A","value":"Input"},{"name":"B index","value":4},{"name":"B","value":"0"},{"name":"C index","value":4},{"name":"C","value":"0"},{"name":"D index","value":4},{"name":"D","value":"0"}],"portsOut":[{"name":"Array3x","links":[{"portIn":"positions","portOut":"Array3x","objIn":"57s8i8vjm","objOut":"ruk6uejhw"}]},{"name":"Total points","value":64},{"name":"Array length","value":192}],"objName":"Ops.Array.Array1toX"},{"id":"b130gzd29","uiAttribs":{},"portsIn":[{"name":"Mode select index","value":1},{"name":"Mode select","value":"1,2,3,4"},{"name":"Default Value","value":0},{"name":"Reverse","value":0}],"portsOut":[{"name":"Array","links":[{"portIn":"Array1x","portOut":"Array","objIn":"ruk6uejhw","objOut":"b130gzd29"}]},{"name":"Array length out","value":64}],"objName":"Ops.Array.Array_v3"},{"id":"m1qcbakyv","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"render","portOut":"Next","objIn":"fitg8uogq","objOut":"m1qcbakyv"}]}],"objName":"Ops.Trigger.TriggerExtender"},{"id":"fitg8uogq","uiAttribs":{},"portsIn":[{"name":"posX","value":16.25},{"name":"posY","value":-16.04},{"name":"posZ","value":-30.72},{"name":"scale","value":0.13},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"Input_0","portOut":"trigger","objIn":"9mqcsubn2","objOut":"fitg8uogq"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"hgyaset3x","uiAttribs":{},"portsIn":[{"name":"Segments","value":20},{"name":"width","value":4.62},{"name":"height","value":1.91},{"name":"border radius","value":0.5},{"name":"Top Left","value":1},{"name":"Top Right","value":1},{"name":"Bottom Left","value":1},{"name":"Bottom Right","value":1},{"name":"Draw","value":1}],"objName":"Ops.Gl.Meshes.RectangleRounded_v2"},{"id":"9mqcsubn2","uiAttribs":{},"portsOut":[{"name":"Output","multiPortNum":3},{"name":"Output_0","links":[{"portIn":"Trigger In","portOut":"Output_0","objIn":"jc1evn71f","objOut":"9mqcsubn2"}]},{"name":"Output_1","title":"add port","links":[{"portIn":"render","portOut":"Output_1","objIn":"0nqxa8arj","objOut":"9mqcsubn2"}]},{"name":"Output_2","title":"add port","links":[{"portIn":"Exec","portOut":"Output_2","objIn":"gqnz339di","objOut":"9mqcsubn2"}]}],"objName":"Ops.Trigger.SequenceMultiPort"},{"id":"i5krhvidm","uiAttribs":{},"portsIn":[{"name":"r","value":0.7996504282951354},{"name":"g","value":0.945},{"name":"b","value":0.8912206584692002},{"name":"a","value":1},{"name":"colorizeTexture","value":0},{"name":"Vertex Colors","value":0},{"name":"Alpha Mask Source index","value":0},{"name":"Alpha Mask Source","value":"Luminance"},{"name":"Opacity TexCoords Transform","value":0},{"name":"Discard Transparent Pixels","value":0},{"name":"diffuseRepeatX","value":1},{"name":"diffuseRepeatY","value":1},{"name":"Tex Offset X","value":0},{"name":"Tex Offset Y","value":0},{"name":"Crop TexCoords","value":0},{"name":"billboard","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"hgyaset3x","objOut":"i5krhvidm"}]}],"objName":"Ops.Gl.Shader.BasicMaterial_v3"},{"id":"0nqxa8arj","uiAttribs":{},"portsIn":[{"name":"posX","value":32.27},{"name":"posY","value":15.24},{"name":"posZ","value":0},{"name":"scale","value":16.55},{"name":"rotX","value":0},{"name":"rotY","value":0},{"name":"rotZ","value":0}],"portsOut":[{"name":"trigger","links":[{"portIn":"render","portOut":"trigger","objIn":"i5krhvidm","objOut":"0nqxa8arj"}]}],"objName":"Ops.Gl.Matrix.Transform"},{"id":"xiy4ck5up","uiAttribs":{},"portsIn":[{"name":"Value 0","value":4},{"name":"Value 1","value":0}],"portsOut":[{"name":"Out Value","links":[{"portIn":"B index","portOut":"Out Value","objIn":"qw0g3scyu","objOut":"xiy4ck5up"}]}],"objName":"Ops.Boolean.BoolToNumber_v2"},{"id":"po4iisf1y","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"Execute","portOut":"Next","objIn":"y59z2tzgb","objOut":"po4iisf1y"}]},{"name":"Number","value":0.5}],"objName":"Ops.Number.TriggerOnChangeNumber"},{"id":"na8koa7cn","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"Use Value 1","portOut":"Result","objIn":"xiy4ck5up","objOut":"na8koa7cn"}]}],"objName":"Ops.Boolean.BoolByTrigger"},{"id":"rmiv78s0c","uiAttribs":{},"portsOut":[{"name":"timesTriggered","value":0}],"objName":"Ops.Trigger.TriggerCounter"},{"id":"y59z2tzgb","uiAttribs":{},"portsIn":[{"name":"Nth","value":2}],"portsOut":[{"name":"Next","links":[{"portIn":"True","portOut":"Next","objIn":"na8koa7cn","objOut":"y59z2tzgb"},{"portIn":"exe","portOut":"Next","objIn":"rmiv78s0c","objOut":"y59z2tzgb"},{"portIn":"false","portOut":"Next","objIn":"8lbm3rbkv","objOut":"y59z2tzgb"}]}],"objName":"Ops.Trigger.NthTrigger_v2"},{"id":"2hp0s2zka","uiAttribs":{},"portsIn":[{"name":"When False index","value":0},{"name":"When False","value":"keep last number"},{"name":"Custom Value","value":0}],"portsOut":[{"name":"Value Out","links":[{"portIn":"Value","portOut":"Value Out","objIn":"po4iisf1y","objOut":"2hp0s2zka"}]}],"objName":"Ops.Number.GateNumber"},{"id":"8lbm3rbkv","uiAttribs":{},"portsOut":[{"name":"Result","links":[{"portIn":"Pass Through","portOut":"Result","objIn":"2hp0s2zka","objOut":"8lbm3rbkv"}]}],"objName":"Ops.Boolean.BoolByTrigger"},{"id":"gqnz339di","uiAttribs":{},"portsOut":[{"name":"Next","links":[{"portIn":"True","portOut":"Next","objIn":"8lbm3rbkv","objOut":"gqnz339di"}]},{"name":"Was Triggered","value":1}],"objName":"Ops.Trigger.TriggerOnce"}],"export":{"time":"2025-03-30 21:35","service":"github","exportNumber":4}};
 if(!CABLES.exportedPatch){CABLES.exportedPatch=CABLES.exportedPatches['HcOfwE']}
 "use strict";
 
@@ -31858,6 +31858,1456 @@ function generateTexture()
 
 Ops.Gl.Meshes.TextMesh_v2.prototype = new CABLES.Op();
 CABLES.OPS["2390f6b3-2122-412e-8c8d-5c2f574e8bd1"]={f:Ops.Gl.Meshes.TextMesh_v2,objName:"Ops.Gl.Meshes.TextMesh_v2"};
+
+
+
+
+// **************************************************************
+// 
+// Ops.WebAudio.AudioAnalyzer_v2
+// 
+// **************************************************************
+
+Ops.WebAudio.AudioAnalyzer_v2 = function()
+{
+CABLES.Op.apply(this,arguments);
+const op=this;
+const attachments=op.attachments={};
+const clamp = (val, min, max) => { return Math.min(Math.max(val, min), max); };
+const MAX_DBFS_RANGE_24_BIT = -144;
+const MAX_DBFS_RANGE_26_BIT = -96;
+
+let audioCtx = CABLES.WEBAUDIO.createAudioContext(op);
+
+const inTrigger = op.inTrigger("Trigger In");
+
+const analyser = audioCtx.createAnalyser();
+analyser.smoothingTimeConstant = 0.3;
+analyser.fftSize = 256;
+
+const FFT_BUFFER_SIZES = [32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768];
+
+const audioIn = op.inObject("Audio In", null, "audioNode");
+const inFFTSize = op.inDropDown("FFT size", FFT_BUFFER_SIZES, 256);
+const inSmoothing = op.inFloatSlider("Smoothing", 0.3);
+
+const inRangeMin = op.inFloat("Min", -90);
+const inRangeMax = op.inFloat("Max", 0);
+
+op.setPortGroup("Inputs", [inTrigger, audioIn]);
+op.setPortGroup("FFT Options", [inFFTSize, inSmoothing]);
+op.setPortGroup("Range (in dBFS)", [inRangeMin, inRangeMax]);
+const outTrigger = op.outTrigger("Trigger Out");
+const audioOut = op.outObject("Audio Out", null, "audioNode");
+const fftOut = op.outArray("FFT Array");
+const ampOut = op.outArray("Waveform Array");
+const frequencyOut = op.outArray("Frequencies by Index Array");
+const fftLength = op.outNumber("Array Length");
+const avgVolumePeak = op.outNumber("Average Volume");
+const avgVolumeAmp = op.outNumber("Average Volume Time-Domain");
+const avgVolumeRMS = op.outNumber("RMS Volume");
+let updating = false;
+
+let fftBufferLength = analyser.frequencyBinCount;
+let fftDataArray = new Uint8Array(fftBufferLength);
+let ampDataArray = new Uint8Array(fftBufferLength);
+let frequencyArray = [];
+frequencyArray.length = fftBufferLength;
+let oldAudioIn = null;
+
+audioIn.onChange = () =>
+{
+    if (audioIn.get())
+    {
+        const audioNode = audioIn.get();
+        if (audioNode.connect)
+        {
+            audioNode.connect(analyser);
+            audioOut.set(analyser);
+        }
+    }
+    else
+    {
+        if (oldAudioIn)
+        {
+            if (oldAudioIn.disconnect) oldAudioIn.disconnect(analyser);
+            audioOut.set(null);
+        }
+    }
+
+    oldAudioIn = audioIn.get();
+};
+
+function updateAnalyser()
+{
+    try
+    {
+        const fftSize = Number(inFFTSize.get());
+        analyser.smoothingTimeConstant = clamp(inSmoothing.get(), 0.0, 1.0);
+        analyser.fftSize = fftSize;
+        const minDecibels = clamp(inRangeMin.get(), MAX_DBFS_RANGE_24_BIT, -0.0001);
+        const maxDecibels = Math.max(inRangeMax.get(), analyser.minDecibels + 0.0001);
+        analyser.minDecibels = minDecibels;
+        analyser.maxDecibels = maxDecibels;
+
+        if (minDecibels < MAX_DBFS_RANGE_24_BIT)
+        {
+            op.setUiError("maxDbRangeMin",
+                "Your minimum is below the lowest possible dBFS value: "
+                + MAX_DBFS_RANGE_24_BIT
+                + "dBFS. To make sure your analyser data is correct, try increasing the minimum.",
+                1
+            );
+        }
+        else
+        {
+            op.setUiError("maxDbRangeMin", null);
+        }
+
+        if (maxDecibels > 0)
+        {
+            op.setUiError("maxDbRangeMax", "Your maximum is above 0 dBFS. As digital signals only go to 0 dBFS and not above, you should use 0 as your maximum.", 1);
+        }
+        else
+        {
+            op.setUiError("maxDbRangeMax", null);
+        }
+
+        if (FFT_BUFFER_SIZES.indexOf(fftSize) >= 6)
+        {
+            op.setUiError("highFftSize", "Please be careful with high FFT sizes as they can slow down rendering. Check the profiler to see if performance is impacted.", 1);
+        }
+        else
+        {
+            op.setUiError("highFftSize", null);
+        }
+    }
+    catch (e)
+    {
+        op.log(e);
+    }
+}
+
+inFFTSize.onChange = inSmoothing.onChange
+= inRangeMin.onChange = inRangeMax.onChange = () =>
+    {
+        if (inTrigger.isLinked()) updating = true;
+        else updateAnalyser();
+    };
+
+inTrigger.onTriggered = function ()
+{
+    if (updating)
+    {
+        updateAnalyser();
+        updating = false;
+    }
+
+    if (fftBufferLength != analyser.frequencyBinCount)
+    {
+        fftBufferLength = analyser.frequencyBinCount;
+        fftDataArray = new Uint8Array(fftBufferLength);
+        ampDataArray = new Uint8Array(fftBufferLength);
+
+        frequencyArray = [];
+        frequencyArray.length = fftBufferLength;
+
+        for (let index = 0; index < fftBufferLength; index += 1)
+        {
+            frequencyArray[index] = Math.round(index * audioCtx.sampleRate / (analyser.fftSize * 2));
+        }
+
+        frequencyOut.set(null);
+        frequencyOut.set(frequencyArray);
+    }
+
+    if (!fftDataArray) return;
+    if (!ampDataArray) return;
+
+    const fftSize = Number(inFFTSize.get());
+
+    try
+    {
+        analyser.getByteFrequencyData(fftDataArray);
+        analyser.getByteTimeDomainData(ampDataArray);
+
+        let values = 0;
+        let peakValues = 0;
+        let ampPeakValues = 0;
+        for (let i = 0; i < analyser.frequencyBinCount; i++)
+        {
+            values += ampDataArray[i] * ampDataArray[i];
+            peakValues += fftDataArray[i];
+            ampPeakValues += ampDataArray[i];
+        }
+
+        const peakAverage = peakValues / analyser.frequencyBinCount;
+        const peakAmpAverage = ampPeakValues / analyser.frequencyBinCount;
+
+        avgVolumePeak.set(peakAverage / 128);
+        avgVolumeAmp.set(peakAmpAverage / 256);
+
+        let rms = Math.sqrt(values / analyser.frequencyBinCount);
+        rms = Math.max(rms, rms * inSmoothing.get());
+        avgVolumeRMS.set(rms / 256);
+    }
+    catch (e) { op.log(e); }
+
+    // fftOut.set(null);
+    fftOut.setRef(fftDataArray);
+
+    // ampOut.set(null);
+    ampOut.setRef(ampDataArray);
+
+    fftLength.set(fftDataArray.length);
+    outTrigger.trigger();
+};
+
+
+};
+
+Ops.WebAudio.AudioAnalyzer_v2.prototype = new CABLES.Op();
+CABLES.OPS["ff9bf46c-676f-4aa1-95bf-5595a6813ed7"]={f:Ops.WebAudio.AudioAnalyzer_v2,objName:"Ops.WebAudio.AudioAnalyzer_v2"};
+
+
+
+
+// **************************************************************
+// 
+// Ops.Gl.MeshInstancer_v4
+// 
+// **************************************************************
+
+Ops.Gl.MeshInstancer_v4 = function()
+{
+CABLES.Op.apply(this,arguments);
+const op=this;
+const attachments=op.attachments={"billboard_vert":"\n#ifdef BILLBOARDING\n\n    modelViewMatrix[0][0] = 1.0;\n    modelViewMatrix[0][1] = 0.0;\n    modelViewMatrix[0][2] = 0.0;\n\n    #ifndef BILLBOARDING_CYLINDRIC\n        modelViewMatrix[1][0] = 0.0;\n        modelViewMatrix[1][1] = 1.0;\n        modelViewMatrix[1][2] = 0.0;\n    #endif\n\n    modelViewMatrix[2][0] = 0.0;\n    modelViewMatrix[2][1] = 0.0;\n    modelViewMatrix[2][2] = 1.0;\n\n#endif","instancer_body_frag":"#define INSTANCING\n#ifdef COLORIZE_INSTANCES\n    #ifdef BLEND_MODE_MULTIPLY\n        col.rgb *= frag_instColor.rgb;\n        col.a *= frag_instColor.a;\n    #endif\n\n    #ifdef BLEND_MODE_ADD\n        col.rgb += frag_instColor.rgb;\n        col.a += frag_instColor.a;\n    #endif\n\n    #ifdef BLEND_MODE_NONE\n        col.rgb = frag_instColor.rgb;\n        col.a = frag_instColor.a;\n    #endif\n#endif\n","instancer_body_vert":"\n\n#ifdef HAS_TEXCOORDS\ntexCoord=(texCoord*instTexCoords.zw)+instTexCoords.xy;\n#endif\n\nmMatrix*=instMat;\npos.xyz*=MOD_scale;\n\n#ifdef HAS_COLORS\nfrag_instColor=instColor;\n#endif\n#ifndef HAS_COLORS\nfrag_instColor=vec4(1.0);\n#endif\n\n\nfrag_instIndex=instanceIndex;\n\n","instancer_head_frag":"IN vec4 frag_instColor;\n\n#ifdef WEBGL2\n    flat IN float frag_instIndex;\n#endif\n#ifdef WEBGL1\n    IN float frag_instIndex;\n#endif\n","instancer_head_vert":"\nIN vec4 instColor;\nIN mat4 instMat;\nIN vec4 instTexCoords;\nIN float instanceIndex;\nOUT mat4 instModelMat;\nOUT vec4 frag_instColor;\n\n#ifdef WEBGL2\n    flat OUT float frag_instIndex;\n#endif\n#ifdef WEBGL1\n    OUT float frag_instIndex;\n#endif\n\n\n\n#define INSTANCING\n\n",};
+const
+    exe = op.inTrigger("exe"),
+    geom = op.inObject("geom", null, "geometry"),
+    inScale = op.inValue("Scale", 1),
+    doLimit = op.inValueBool("Limit Instances", false),
+    inLimit = op.inValueInt("Limit", 100),
+    inTranslates = op.inArray("positions", 3),
+    inScales = op.inArray("Scale Array", 3),
+    inRot = op.inArray("Rotations", 3),
+    inRotMeth = op.inSwitch("Rotation Type", ["Euler", "Quaternions", "Normals"], "Euler"),
+
+    inBillboarding = op.inSwitch("Billboarding", ["Off", "Spherical", "Cylindrical"], "Off"),
+
+    inBlendMode = op.inSwitch("Material blend mode", ["Multiply", "Add", "Normal"], "Multiply"),
+    inColor = op.inArray("Colors", 4),
+    inTexCoords = op.inArray("TexCoords", 4),
+    outTrigger = op.outTrigger("Trigger Out"),
+    outNum = op.outNumber("Num");
+
+op.setPortGroup("Limit Number of Instances", [inLimit, doLimit]);
+op.setPortGroup("Parameters", [inScales, inRot, inTranslates, inRotMeth]);
+op.toWorkPortsNeedToBeLinked(geom);
+op.toWorkPortsNeedToBeLinked(exe);
+
+geom.ignoreValueSerialize = true;
+
+const cgl = op.patch.cgl;
+const m = mat4.create();
+let
+    matrixArray = new Float32Array(1),
+    instColorArray = new Float32Array(1),
+    instTexcoordArray = new Float32Array(1),
+    mesh = null,
+    recalc = true,
+    num = 0,
+    arrayChangedColor = true,
+    arrayChangedTexcoords = true,
+    arrayChangedTrans = true;
+
+const mod = new CGL.ShaderModifier(cgl, op.name, { "opId": op.id });
+mod.addModule({
+    "name": "MODULE_VERTEX_POSITION",
+    "title": op.name,
+    "priority": -2,
+    "srcHeadVert": attachments.instancer_head_vert,
+    "srcBodyVert": attachments.instancer_body_vert
+});
+
+mod.addModule({
+    "name": "MODULE_VERTEX_MODELVIEW",
+    "title": op.name + "_billboard",
+    "srcBodyVert": attachments.billboard_vert
+});
+
+mod.addModule({
+    "name": "MODULE_COLOR",
+    "priority": -2,
+    "title": op.name,
+    "srcHeadFrag": attachments.instancer_head_frag,
+    "srcBodyFrag": attachments.instancer_body_frag,
+});
+
+mod.addUniformVert("f", "MOD_scale", inScale);
+
+let needsUpdateDefines = true;
+
+inBlendMode.onChange = () => { needsUpdateDefines = true; };
+
+doLimit.onChange = updateLimit;
+exe.onTriggered = doRender;
+exe.onLinkChanged = function ()
+{
+    if (!exe.isLinked()) removeModule();
+};
+
+updateLimit();
+
+inRot.onChange =
+inScales.onChange =
+inTranslates.onChange =
+inRotMeth.onChange =
+    function ()
+    {
+        arrayChangedTrans = true;
+        recalc = true;
+    };
+
+inBillboarding.onChange =
+inTexCoords.onChange = function ()
+{
+    arrayChangedTexcoords = true;
+    recalc = true;
+    needsUpdateDefines = true;
+};
+
+inColor.onChange = function ()
+{
+    arrayChangedColor = true;
+    recalc = true;
+    needsUpdateDefines = true;
+};
+
+function reset()
+{
+    arrayChangedColor = true,
+    arrayChangedTrans = true;
+    recalc = true;
+}
+
+function updateDefines()
+{
+    mod.toggleDefine("BILLBOARDING", inBillboarding.get() != "Off");
+    mod.toggleDefine("BILLBOARDING_CYLINDRIC", inBillboarding.get() == "Cylindrical");
+
+    mod.toggleDefine("COLORIZE_INSTANCES", inColor.get());
+    mod.toggleDefine("TEXCOORDS_INSTANCES", inTexCoords.get());
+    mod.toggleDefine("BLEND_MODE_MULTIPLY", inBlendMode.get() === "Multiply");
+    mod.toggleDefine("BLEND_MODE_ADD", inBlendMode.get() === "Add");
+    mod.toggleDefine("BLEND_MODE_NONE", inBlendMode.get() === "Normal");
+    needsUpdateDefines = false;
+}
+
+geom.onChange = function ()
+{
+    if (mesh)mesh.dispose();
+    if (!geom.get())
+    {
+        mesh = null;
+        return;
+    }
+
+    mesh = new CGL.Mesh(cgl, geom.get());
+    reset();
+};
+
+function removeModule()
+{
+
+}
+
+function setupArray()
+{
+    if (!mesh) return;
+
+    let transforms = inTranslates.get();
+    if (!transforms) transforms = [0, 0, 0];
+
+    num = Math.floor(transforms.length / 3);
+
+    if (needsUpdateDefines)updateDefines();
+
+    const colArr = inColor.get();
+    const tcArr = inTexCoords.get();
+    const scales = inScales.get();
+    const useQuats = inRotMeth.get() == "Quaternions";
+    const useEuler = inRotMeth.get() == "Euler";
+    const useNormals = inRotMeth.get() == "Normals";
+
+    let stride = 3;
+    if (useQuats)stride = 4;
+    inRot.setUiAttribs({ "stride": stride });
+
+    if (scales && scales.length != transforms.length) op.setUiError("lengthScales", "Scales array has wrong length");
+    else op.setUiError("lengthScales", null);
+
+    if (matrixArray.length != num * 16) matrixArray = new Float32Array(num * 16);
+    if (instColorArray.length != num * 4)
+    {
+        arrayChangedColor = true;
+        instColorArray = new Float32Array(num * 4);
+    }
+    if (instTexcoordArray.length != num * 4)
+    {
+        arrayChangedTexcoords = true;
+        instTexcoordArray = new Float32Array(num * 4);
+    }
+
+    const rotArr = inRot.get();
+
+    for (let i = 0; i < num; i++)
+    {
+        mat4.identity(m);
+
+        mat4.translate(m, m, [
+            transforms[i * 3],
+            transforms[i * 3 + 1],
+            transforms[i * 3 + 2]
+        ]);
+
+        if (rotArr)
+        {
+            if (useQuats)
+            {
+                const mq = mat4.create();
+                const q = [rotArr[i * 4 + 0], rotArr[i * 4 + 1], rotArr[i * 4 + 2], rotArr[i * 4 + 3]];
+                quat.normalize(q, q);
+                mat4.fromQuat(mq, q);
+                mat4.mul(m, m, mq);
+            }
+            else
+            if (useNormals)
+            {
+                const n = [rotArr[i * 3 + 0], rotArr[i * 3 + 1], rotArr[i * 3 + 2]];
+                const up = [1, 0, 0];
+                const v = vec3.create();
+
+                vec3.cross(v, up, n);
+                vec3.normalize(v, v);
+
+                const angle = Math.acos(vec3.dot(up, n));
+                const q = quat.create();
+
+                quat.setAxisAngle(q, v, angle);
+                quat.normalize(q, q);
+
+                const mq = mat4.create();
+
+                mat4.fromQuat(mq, q);
+                mat4.mul(m, m, mq);
+            }
+            if (useEuler)
+            {
+                mat4.rotateX(m, m, rotArr[i * 3 + 0] * CGL.DEG2RAD);
+                mat4.rotateY(m, m, rotArr[i * 3 + 1] * CGL.DEG2RAD);
+                mat4.rotateZ(m, m, rotArr[i * 3 + 2] * CGL.DEG2RAD);
+            }
+        }
+
+        if (arrayChangedColor && colArr)
+        {
+            instColorArray[i * 4 + 0] = colArr[i * 4 + 0];
+            instColorArray[i * 4 + 1] = colArr[i * 4 + 1];
+            instColorArray[i * 4 + 2] = colArr[i * 4 + 2];
+            instColorArray[i * 4 + 3] = colArr[i * 4 + 3];
+        }
+
+        if (arrayChangedTexcoords && tcArr)
+        {
+            instTexcoordArray[i * 4 + 0] = tcArr[i * 4 + 0];
+            instTexcoordArray[i * 4 + 1] = tcArr[i * 4 + 1];
+            instTexcoordArray[i * 4 + 2] = tcArr[i * 4 + 2];
+            instTexcoordArray[i * 4 + 3] = tcArr[i * 4 + 3];
+        }
+
+        if (scales && scales.length > i) mat4.scale(m, m, [scales[i * 3], scales[i * 3 + 1], scales[i * 3 + 2]]);
+        else mat4.scale(m, m, [1, 1, 1]);
+
+        for (let a = 0; a < 16; a++) matrixArray[i * 16 + a] = m[a];
+    }
+
+    // mesh.numInstances = num;
+    mesh.setNumInstances(num);
+
+    if (arrayChangedTrans) mesh.addAttribute("instMat", matrixArray, 16);
+    if (arrayChangedColor) mesh.addAttribute("instColor", instColorArray, 4, { "instanced": true });
+    if (arrayChangedTexcoords) mesh.addAttribute("instTexCoords", instTexcoordArray, 4, { "instanced": true });
+
+    mod.toggleDefine("HAS_TEXCOORDS", tcArr);
+    mod.toggleDefine("HAS_COLORS", colArr);
+
+    arrayChangedColor = false;
+    recalc = false;
+}
+
+function updateLimit()
+{
+    inLimit.setUiAttribs({ "greyout": !doLimit.get() });
+}
+
+function doRender()
+{
+    if (!mesh) return;
+    if (recalc) setupArray();
+
+    mod.bind();
+
+    if (doLimit.get()) mesh.setNumInstances(Math.min(num, inLimit.get()));
+    else mesh.setNumInstances(num);
+
+    outNum.set(mesh.numInstances);
+
+    if (mesh.numInstances > 0) mesh.render(cgl.getShader());
+
+    outTrigger.trigger();
+
+    mod.unbind();
+}
+
+
+};
+
+Ops.Gl.MeshInstancer_v4.prototype = new CABLES.Op();
+CABLES.OPS["cb58f461-a0bd-4159-a3cb-5e396198b4e9"]={f:Ops.Gl.MeshInstancer_v4,objName:"Ops.Gl.MeshInstancer_v4"};
+
+
+
+
+// **************************************************************
+// 
+// Ops.Gl.Meshes.Cube_v2
+// 
+// **************************************************************
+
+Ops.Gl.Meshes.Cube_v2 = function()
+{
+CABLES.Op.apply(this,arguments);
+const op=this;
+const attachments=op.attachments={};
+const
+    render = op.inTrigger("Render"),
+    active = op.inValueBool("Render Mesh", true),
+    width = op.inValue("Width", 1),
+    len = op.inValue("Length", 1),
+    height = op.inValue("Height", 1),
+    center = op.inValueBool("Center", true),
+    mapping = op.inSwitch("Mapping", ["Side", "Cube +-", "SideWrap"], "Side"),
+    mappingBias = op.inValue("Bias", 0),
+    inFlipX = op.inValueBool("Flip X", true),
+    sideTop = op.inValueBool("Top", true),
+    sideBottom = op.inValueBool("Bottom", true),
+    sideLeft = op.inValueBool("Left", true),
+    sideRight = op.inValueBool("Right", true),
+    sideFront = op.inValueBool("Front", true),
+    sideBack = op.inValueBool("Back", true),
+    trigger = op.outTrigger("Next"),
+    geomOut = op.outObject("geometry", null, "geometry");
+
+const cgl = op.patch.cgl;
+op.toWorkPortsNeedToBeLinked(render);
+op.toWorkShouldNotBeChild("Ops.Gl.TextureEffects.ImageCompose", CABLES.OP_PORT_TYPE_FUNCTION);
+
+op.setPortGroup("Mapping", [mapping, mappingBias, inFlipX]);
+op.setPortGroup("Geometry", [width, height, len, center]);
+op.setPortGroup("Sides", [sideTop, sideBottom, sideLeft, sideRight, sideFront, sideBack]);
+
+let geom = null,
+    mesh = null,
+    meshvalid = true,
+    needsRebuild = true;
+
+mappingBias.onChange =
+    inFlipX.onChange =
+    sideTop.onChange =
+    sideBottom.onChange =
+    sideLeft.onChange =
+    sideRight.onChange =
+    sideFront.onChange =
+    sideBack.onChange =
+    mapping.onChange =
+    width.onChange =
+    height.onChange =
+    len.onChange =
+    center.onChange = buildMeshLater;
+
+function buildMeshLater()
+{
+    needsRebuild = true;
+}
+
+render.onLinkChanged = function ()
+{
+    if (!render.isLinked()) geomOut.set(null);
+    else geomOut.setRef(geom);
+};
+
+render.onTriggered = function ()
+{
+    if (needsRebuild)buildMesh();
+    if (active.get() && mesh && meshvalid) mesh.render(cgl.getShader());
+    trigger.trigger();
+};
+
+op.preRender = function ()
+{
+    buildMesh();
+    if (mesh && cgl)mesh.render(cgl.getShader());
+};
+
+function buildMesh()
+{
+    if (!geom)geom = new CGL.Geometry("cubemesh");
+    geom.clear();
+
+    let x = width.get();
+    let nx = -1 * width.get();
+    let y = height.get();
+    let ny = -1 * height.get();
+    let z = len.get();
+    let nz = -1 * len.get();
+
+    if (!center.get())
+    {
+        nx = 0;
+        ny = 0;
+        nz = 0;
+    }
+    else
+    {
+        x *= 0.5;
+        nx *= 0.5;
+        y *= 0.5;
+        ny *= 0.5;
+        z *= 0.5;
+        nz *= 0.5;
+    }
+
+    addAttribs(geom, x, y, z, nx, ny, nz);
+    if (mapping.get() == "Side") sideMappedCube(geom, 1, 1, 1);
+    else if (mapping.get() == "SideWrap") sideMappedCube(geom, x, y, z);
+    else cubeMappedCube(geom);
+
+    geom.verticesIndices = [];
+    if (sideTop.get()) geom.verticesIndices.push(8, 9, 10, 8, 10, 11); // Top face
+    if (sideBottom.get()) geom.verticesIndices.push(12, 13, 14, 12, 14, 15); // Bottom face
+    if (sideLeft.get()) geom.verticesIndices.push(20, 21, 22, 20, 22, 23); // Left face
+    if (sideRight.get()) geom.verticesIndices.push(16, 17, 18, 16, 18, 19); // Right face
+    if (sideBack.get()) geom.verticesIndices.push(4, 5, 6, 4, 6, 7); // Back face
+    if (sideFront.get()) geom.verticesIndices.push(0, 1, 2, 0, 2, 3); // Front face
+
+    if (geom.verticesIndices.length === 0) meshvalid = false;
+    else meshvalid = true;
+
+    if (mesh)mesh.dispose();
+    if (op.patch.cg) mesh = op.patch.cg.createMesh(geom, { "opId": op.id });
+
+    geomOut.setRef(geom);
+
+    needsRebuild = false;
+}
+
+op.onDelete = function ()
+{
+    if (mesh)mesh.dispose();
+};
+
+function sideMappedCube(geom, x, y, z)
+{
+    const bias = mappingBias.get();
+
+    let u1 = 1.0 - bias;
+    let u0 = 0.0 + bias;
+    if (inFlipX.get())
+    {
+        [u1, u0] = [u0, u1];
+    }
+
+    let v1 = 1.0 - bias;
+    let v0 = 0.0 + bias;
+
+    geom.setTexCoords([
+        // Front face
+        x * u0, y * v1,
+        x * u1, y * v1,
+        x * u1, y * v0,
+        x * u0, y * v0,
+        // Back face
+        x * u1, y * v1,
+        x * u1, y * v0,
+        x * u0, y * v0,
+        x * u0, y * v1,
+        // Top face
+        x * u0, z * v0,
+        x * u0, z * v1,
+        x * u1, z * v1,
+        x * u1, z * v0,
+        // Bottom face
+        x * u1, y * v0,
+        x * u0, y * v0,
+        x * u0, y * v1,
+        x * u1, y * v1,
+        // Right face
+        z * u1, y * v1,
+        z * u1, y * v0,
+        z * u0, y * v0,
+        z * u0, y * v1,
+        // Left face
+        z * u0, y * v1,
+        z * u1, y * v1,
+        z * u1, y * v0,
+        z * u0, y * v0,
+    ]);
+}
+
+function cubeMappedCube(geom, x, y, z, nx, ny, nz)
+{
+    const sx = 0.25;
+    const sy = 1 / 3;
+    const bias = mappingBias.get();
+
+    let flipx = 0.0;
+    if (inFlipX.get()) flipx = 1.0;
+
+    const tc = [];
+    tc.push(
+        // Front face   Z+
+        flipx + sx + bias, sy * 2 - bias, flipx + sx * 2 - bias, sy * 2 - bias, flipx + sx * 2 - bias, sy + bias, flipx + sx + bias, sy + bias,
+        // Back face Z-
+        flipx + sx * 4 - bias, sy * 2 - bias, flipx + sx * 4 - bias, sy + bias, flipx + sx * 3 + bias, sy + bias, flipx + sx * 3 + bias, sy * 2 - bias);
+
+    if (inFlipX.get())
+        tc.push(
+            // Top face
+            sx + bias, 0 - bias, sx * 2 - bias, 0 - bias, sx * 2 - bias, sy * 1 + bias, sx + bias, sy * 1 + bias,
+            // Bottom face
+            sx + bias, sy * 3 + bias, sx + bias, sy * 2 - bias, sx * 2 - bias, sy * 2 - bias, sx * 2 - bias, sy * 3 + bias
+        );
+
+    else
+        tc.push(
+            // Top face
+            sx + bias, 0 + bias, sx + bias, sy * 1 - bias, sx * 2 - bias, sy * 1 - bias, sx * 2 - bias, 0 + bias,
+            // Bottom face
+            sx + bias, sy * 3 - bias, sx * 2 - bias, sy * 3 - bias, sx * 2 - bias, sy * 2 + bias, sx + bias, sy * 2 + bias);
+
+    tc.push(
+        // Right face
+        flipx + sx * 3 - bias, 1.0 - sy - bias, flipx + sx * 3 - bias, 1.0 - sy * 2 + bias, flipx + sx * 2 + bias, 1.0 - sy * 2 + bias, flipx + sx * 2 + bias, 1.0 - sy - bias,
+        // Left face
+        flipx + sx * 0 + bias, 1.0 - sy - bias, flipx + sx * 1 - bias, 1.0 - sy - bias, flipx + sx * 1 - bias, 1.0 - sy * 2 + bias, flipx + sx * 0 + bias, 1.0 - sy * 2 + bias);
+
+    geom.setTexCoords(tc);
+}
+
+function addAttribs(geom, x, y, z, nx, ny, nz)
+{
+    geom.vertices = [
+        // Front face
+        nx, ny, z,
+        x, ny, z,
+        x, y, z,
+        nx, y, z,
+        // Back face
+        nx, ny, nz,
+        nx, y, nz,
+        x, y, nz,
+        x, ny, nz,
+        // Top face
+        nx, y, nz,
+        nx, y, z,
+        x, y, z,
+        x, y, nz,
+        // Bottom face
+        nx, ny, nz,
+        x, ny, nz,
+        x, ny, z,
+        nx, ny, z,
+        // Right face
+        x, ny, nz,
+        x, y, nz,
+        x, y, z,
+        x, ny, z,
+        // zeft face
+        nx, ny, nz,
+        nx, ny, z,
+        nx, y, z,
+        nx, y, nz
+    ];
+
+    geom.vertexNormals = new Float32Array([
+        // Front face
+        0.0, 0.0, 1.0,
+        0.0, 0.0, 1.0,
+        0.0, 0.0, 1.0,
+        0.0, 0.0, 1.0,
+
+        // Back face
+        0.0, 0.0, -1.0,
+        0.0, 0.0, -1.0,
+        0.0, 0.0, -1.0,
+        0.0, 0.0, -1.0,
+
+        // Top face
+        0.0, 1.0, 0.0,
+        0.0, 1.0, 0.0,
+        0.0, 1.0, 0.0,
+        0.0, 1.0, 0.0,
+
+        // Bottom face
+        0.0, -1.0, 0.0,
+        0.0, -1.0, 0.0,
+        0.0, -1.0, 0.0,
+        0.0, -1.0, 0.0,
+
+        // Right face
+        1.0, 0.0, 0.0,
+        1.0, 0.0, 0.0,
+        1.0, 0.0, 0.0,
+        1.0, 0.0, 0.0,
+
+        // Left face
+        -1.0, 0.0, 0.0,
+        -1.0, 0.0, 0.0,
+        -1.0, 0.0, 0.0,
+        -1.0, 0.0, 0.0
+    ]);
+    geom.tangents = new Float32Array([
+        // front face
+        0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0,
+        // back face
+        1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0,
+        // top face
+        -1, 0, 0, -1, 0, 0, -1, 0, 0, -1, 0, 0,
+        // bottom face
+        1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0,
+        // right face
+        0, 0, -1, 0, 0, -1, 0, 0, -1, 0, 0, -1,
+        // left face
+        0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1
+    ]);
+    geom.biTangents = new Float32Array([
+        // front face
+        -1, 0, 0, -1, 0, 0, -1, 0, 0, -1, 0, 0,
+        // back face
+        1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0,
+        // top face
+        0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1,
+        // bottom face
+        0, 0, -1, 0, 0, -1, 0, 0, -1, 0, 0, -1,
+        // right face
+        0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1,
+        // left face
+        0, 0, -1, 0, 0, -1, 0, 0, -1, 0, 0, -1
+    ]);
+}
+
+
+};
+
+Ops.Gl.Meshes.Cube_v2.prototype = new CABLES.Op();
+CABLES.OPS["37b92ba4-cea5-42ae-bf28-a513ca28549c"]={f:Ops.Gl.Meshes.Cube_v2,objName:"Ops.Gl.Meshes.Cube_v2"};
+
+
+
+
+// **************************************************************
+// 
+// Ops.Gl.Shader.MatCapMaterial_v3
+// 
+// **************************************************************
+
+Ops.Gl.Shader.MatCapMaterial_v3 = function()
+{
+CABLES.Op.apply(this,arguments);
+const op=this;
+const attachments=op.attachments={"matcap_frag":"{{MODULES_HEAD}}\n\n#ifdef HAS_TEXTURES\n    IN vec2 texCoord;\n#endif\n\nIN vec3 transformedNormal;\nIN vec3 viewSpacePosition;\n\nUNI vec4 inColor;\n\nUNI sampler2D texMatcap;\n\n#ifdef HAS_DIFFUSE_TEXTURE\n   UNI sampler2D texDiffuse;\n#endif\n\n#ifdef USE_SPECULAR_TEXTURE\n   UNI sampler2D texSpec;\n   UNI sampler2D texSpecMatCap;\n#endif\n\n#ifdef HAS_AO_TEXTURE\n    UNI sampler2D texAo;\n    UNI float aoIntensity;\n#endif\n\n#ifdef HAS_NORMAL_TEXTURE\n    IN vec3 vBiTangent;\n    IN vec3 vTangent;\n    IN mat3 normalMatrix;\n\n    UNI sampler2D texNormal;\n    UNI float normalMapIntensity;\n#endif\n\n#ifdef HAS_TEXTURE_OPACITY\n    UNI sampler2D texOpacity;\n#endif\n\n#ifdef CALC_SSNORMALS\n    IN vec3 eye_relative_pos;\n\n    // from https://www.enkisoftware.com/devlogpost-20150131-1-Normal_generation_in_the_pixel_shader\n    vec3 CalculateScreenSpaceNormals() {\n    \tvec3 dFdxPos = dFdx(eye_relative_pos);\n    \tvec3 dFdyPos = dFdy(eye_relative_pos);\n    \tvec3 screenSpaceNormal = normalize( cross(dFdxPos, dFdyPos));\n        return normalize(screenSpaceNormal);\n    }\n#endif\n\n// * taken & modified from https://github.com/mrdoob/three.js/blob/dev/src/renderers/shaders/ShaderLib/meshmatcap_frag.glsl.js\nvec2 getMatCapUV(vec3 viewSpacePosition, vec3 normal) {\n    vec3 viewDir = normalize(-viewSpacePosition);\n\tvec3 x = normalize(vec3(viewDir.z, 0.0, - viewDir.x));\n\tvec3 y = normalize(cross(viewDir, x));\n\tvec2 uv = vec2(dot(x, normal), dot(y, normal)) * 0.495 + 0.5; // 0.495 to remove artifacts caused by undersized matcap disks\n\treturn uv;\n}\n\nvoid main()\n{\n    vec3 viewSpaceNormal = normalize(transformedNormal);\n\n\n\n    #ifdef HAS_TEXTURES\n        vec2 texCoords = texCoord;\n        {{MODULE_BEGIN_FRAG}}\n    #endif\n\n\n\n    #ifdef DOUBLE_SIDED\n        if(!gl_FrontFacing) viewSpaceNormal *= -1.0;\n    #endif\n\n    #ifdef CALC_SSNORMALS\n        viewSpaceNormal = CalculateScreenSpaceNormals();\n    #endif\n\n\n\n   #ifdef HAS_NORMAL_TEXTURE\n        vec3 normalFromMap = texture( texNormal, texCoord ).xyz * 2.0 - 1.0;\n        normalFromMap = normalize(normalFromMap);\n\n        vec3 tangent;\n        vec3 binormal;\n\n        #ifdef CALC_TANGENT\n            vec3 c1 = cross(normalFromMap, vec3(0.0, 0.0, 1.0));\n            vec3 c2 = cross(normalFromMap, vec3(0.0, 1.0, 0.0));\n\n            tangent = c1;\n            tangent = normalize(tangent);\n            binormal = cross(viewSpaceNormal, tangent);\n            binormal = normalize(binormal);\n        #endif\n\n        #ifndef CALC_TANGENT\n            tangent = normalize(normalMatrix * vTangent);\n            vec3 bitangent = normalize(normalMatrix * vBiTangent);\n            binormal = normalize(cross(viewSpaceNormal, bitangent));\n        #endif\n\n        normalFromMap = normalize(\n            tangent * normalFromMap.x\n            + binormal * normalFromMap.y\n            + viewSpaceNormal * normalFromMap.z\n        );\n\n        vec3 mixedNormal = normalize(viewSpaceNormal + normalFromMap * normalMapIntensity);\n\n        viewSpaceNormal = mixedNormal;\n    #endif\n\n    vec4 col = texture(texMatcap, getMatCapUV(viewSpacePosition, viewSpaceNormal));\n\n    #ifdef HAS_DIFFUSE_TEXTURE\n        col = col*texture(texDiffuse, texCoords);\n    #endif\n\n    col.rgb *= inColor.rgb;\n\n\n    #ifdef HAS_AO_TEXTURE\n        col = col\n            * mix(\n                vec4(1.0,1.0,1.0,1.0),\n                texture(texAo, texCoords),\n                aoIntensity\n            );\n    #endif\n\n    #ifdef USE_SPECULAR_TEXTURE\n        vec4 spec = texture(texSpecMatCap, getMatCapUV(viewSpacePosition, viewSpaceNormal));\n        spec *= texture(texSpec, texCoords);\n        col += spec;\n    #endif\n\n    col.a *= inColor.a;\n\n    #ifdef HAS_TEXTURE_OPACITY\n        #ifdef TRANSFORMALPHATEXCOORDS\n            texCoords=vec2(texCoord.s,1.0-texCoord.t);\n            texCoords.y = 1. - texCoords.y;\n        #endif\n        #ifdef ALPHA_MASK_ALPHA\n            col.a*=texture(texOpacity,texCoords).a;\n        #endif\n        #ifdef ALPHA_MASK_LUMI\n            col.a*=dot(vec3(0.2126,0.7152,0.0722), texture(texOpacity,texCoords).rgb);\n        #endif\n        #ifdef ALPHA_MASK_R\n            col.a*=texture(texOpacity,texCoords).r;\n        #endif\n        #ifdef ALPHA_MASK_G\n            col.a*=texture(texOpacity,texCoords).g;\n        #endif\n        #ifdef ALPHA_MASK_B\n            col.a*=texture(texOpacity,texCoords).b;\n        #endif\n\n        #ifdef DISCARDTRANS\n            if(col.a < 0.2) discard;\n        #endif\n    #endif\n\n    {{MODULE_COLOR}}\n\n    outColor = col;\n}","matcap_vert":"IN vec3 vPosition;\n\n#ifdef HAS_TEXTURES\n    IN vec2 attrTexCoord;\n#endif\n\nIN vec3 attrVertNormal;\nIN float attrVertIndex;\n\n#ifdef HAS_NORMAL_TEXTURE\n    IN vec3 attrTangent;\n    IN vec3 attrBiTangent;\n    OUT vec3 vBiTangent;\n    OUT vec3 vTangent;\n#endif\n\nUNI mat4 projMatrix;\nUNI mat4 modelMatrix;\nUNI mat4 viewMatrix;\nUNI vec3 camPos;\n\n#ifdef HAS_TEXTURES\n    UNI vec2 texOffset;\n    UNI vec2 texRepeat;\n    OUT vec2 texCoord;\n#endif\n\nOUT mat3 normalMatrix;\nOUT vec3 viewSpacePosition;\nOUT vec3 transformedNormal;\n\n{{MODULES_HEAD}}\n\n#ifdef CALC_SSNORMALS\n    // from https://www.enkisoftware.com/devlogpost-20150131-1-Normal_generation_in_the_pixel_shader\n    OUT vec3 eye_relative_pos;\n#endif\n\nmat3 transposeMat3(mat3 m) {\n    return mat3(m[0][0], m[1][0], m[2][0],\n        m[0][1], m[1][1], m[2][1],\n        m[0][2], m[1][2], m[2][2]);\n}\n\n mat3 inverseMat3(mat3 m) {\n    float a00 = m[0][0], a01 = m[0][1], a02 = m[0][2];\n    float a10 = m[1][0], a11 = m[1][1], a12 = m[1][2];\n    float a20 = m[2][0], a21 = m[2][1], a22 = m[2][2];\n\n    float b01 = a22 * a11 - a12 * a21;\n    float b11 = -a22 * a10 + a12 * a20;\n    float b21 = a21 * a10 - a11 * a20;\n\n    float det = a00 * b01 + a01 * b11 + a02 * b21;\n\n    return mat3(b01, (-a22 * a01 + a02 * a21), (a12 * a01 - a02 * a11),\n        b11, (a22 * a00 - a02 * a20), (-a12 * a00 + a02 * a10),\n        b21, (-a21 * a00 + a01 * a20), (a11 * a00 - a01 * a10)) / det;\n}\n\nvoid main()\n{\n    #ifdef HAS_TEXTURES\n        texCoord = texRepeat * vec2(attrTexCoord.x, attrTexCoord.y) + texOffset;\n        texCoord.y = 1. - texCoord.y;\n    #endif\n\n    mat4 mMatrix = modelMatrix;\n    mat4 mvMatrix;\n\n    #ifdef HAS_NORMAL_TEXTURE\n        vec3 tangent = attrTangent;\n        vec3 bitangent = attrBiTangent;\n        vTangent = attrTangent;\n        vBiTangent = attrBiTangent;\n    #endif\n\n    vec4 pos = vec4(vPosition, 1.);\n    vec3 norm = attrVertNormal;\n\n    {{MODULE_VERTEX_POSITION}}\n\n    mvMatrix = viewMatrix * mMatrix;\n    vec3 normal = norm;\n\n    normalMatrix = transposeMat3(inverseMat3(mat3(mvMatrix)));\n\n    vec3 fragPos = vec3((mvMatrix) * pos);\n    viewSpacePosition = normalize(fragPos);\n\n    #ifdef CALC_SSNORMALS\n        eye_relative_pos = -(vec3(viewMatrix * vec4(camPos, 1.)) - fragPos);\n    #endif\n\n    transformedNormal = normalize(mat3(normalMatrix) * normal);\n\n    mat4 modelViewMatrix=mvMatrix;\n    {{MODULE_VERTEX_MODELVIEW}}\n\n    gl_Position = projMatrix * modelViewMatrix * pos;\n\n}\n",};
+const cgl = op.patch.cgl;
+
+const
+    render = op.inTrigger("Render"),
+    textureMatcap = op.inTexture("MatCap"),
+    textureDiffuse = op.inTexture("Diffuse"),
+    textureNormal = op.inTexture("Normal"),
+    textureSpec = op.inTexture("Specular Mask"),
+    textureSpecMatCap = op.inTexture("Specular MatCap"),
+    textureAo = op.inTexture("AO Texture"),
+    textureOpacity = op.inTexture("Opacity Texture"),
+    r = op.inValueSlider("r", 1),
+    g = op.inValueSlider("g", 1),
+    b = op.inValueSlider("b", 1),
+    pOpacity = op.inValueSlider("Opacity", 1),
+    aoIntensity = op.inValueSlider("AO Intensity", 1.0),
+    normalMapIntensity = op.inFloatSlider("Normal Map Intensity", 1),
+    repeatX = op.inValue("Repeat X", 1),
+    repeatY = op.inValue("Repeat Y", 1),
+    offsetX = op.inValue("Offset X", 0),
+    offsetY = op.inValue("Offset Y", 0),
+    inDoubleSided = op.inValueBool("Double Sided"),
+    ssNormals = op.inValueBool("Screen Space Normals"),
+    calcTangents = op.inValueBool("Calc normal tangents", true),
+    texCoordAlpha = op.inValueBool("Opacity TexCoords Transform", false),
+    discardTransPxl = op.inValueBool("Discard Transparent Pixels"),
+
+    next = op.outTrigger("Next"),
+    shaderOut = op.outObject("Shader");
+
+r.setUiAttribs({ "colorPick": true });
+
+const alphaMaskSource = op.inSwitch("Alpha Mask Source", ["Luminance", "R", "G", "B", "A"], "Luminance");
+alphaMaskSource.setUiAttribs({ "greyout": true });
+
+op.setPortGroup("Normals", [calcTangents, ssNormals, inDoubleSided]);
+op.setPortGroup("Texture Opacity", [alphaMaskSource, texCoordAlpha, discardTransPxl]);
+op.setPortGroup("Texture Transforms", [aoIntensity, normalMapIntensity, repeatX, repeatY, offsetX, offsetY]);
+op.setPortGroup("Texture Maps", [textureDiffuse, textureNormal, textureSpec, textureSpecMatCap, textureAo, textureOpacity]);
+op.setPortGroup("Color", [r, g, b, pOpacity]);
+
+const shader = new CGL.Shader(cgl, "MatCapMaterialNew3");
+const uniOpacity = new CGL.Uniform(shader, "f", "opacity", pOpacity);
+
+shader.setModules(["MODULE_VERTEX_POSITION", "MODULE_COLOR", "MODULE_BEGIN_FRAG", "MODULE_VERTEX_MODELVIEW"]);
+shader.setSource(attachments.matcap_vert, attachments.matcap_frag);
+shaderOut.set(shader);
+
+const textureMatcapUniform = new CGL.Uniform(shader, "t", "texMatcap");
+let textureDiffuseUniform = null;
+let textureNormalUniform = null;
+let normalMapIntensityUniform = null;
+let textureSpecUniform = null;
+let textureSpecMatCapUniform = null;
+let textureAoUniform = null;
+const offsetUniform = new CGL.Uniform(shader, "2f", "texOffset", offsetX, offsetY);
+const repeatUniform = new CGL.Uniform(shader, "2f", "texRepeat", repeatX, repeatY);
+
+const aoIntensityUniform = new CGL.Uniform(shader, "f", "aoIntensity", aoIntensity);
+const colorUniform = new CGL.Uniform(shader, "4f", "inColor", r, g, b, pOpacity);
+
+inDoubleSided.onChange =
+calcTangents.onChange = updateDefines;
+updateDefines();
+
+function updateDefines()
+{
+    shader.toggleDefine("DOUBLE_SIDED", inDoubleSided.get());
+
+    if (calcTangents.get()) shader.define("CALC_TANGENT");
+    else shader.removeDefine("CALC_TANGENT");
+}
+
+ssNormals.onChange = function ()
+{
+    if (ssNormals.get())
+    {
+        if (cgl.glVersion < 2)
+        {
+            cgl.gl.getExtension("OES_standard_derivatives");
+            shader.enableExtension("GL_OES_standard_derivatives");
+        }
+
+        shader.define("CALC_SSNORMALS");
+    }
+    else shader.removeDefine("CALC_SSNORMALS");
+};
+
+textureMatcap.onChange = updateMatcap;
+
+function updateMatcap()
+{
+    if (!cgl.defaultMatcapTex3)
+    {
+        const pixels = new Uint8Array(256 * 4);
+        for (let x = 0; x < 16; x++)
+        {
+            for (let y = 0; y < 16; y++)
+            {
+                let c = y * 16;
+                c *= Math.min(1, (x + y / 3) / 8);
+                pixels[(x + y * 16) * 4 + 0] = pixels[(x + y * 16) * 4 + 1] = pixels[(x + y * 16) * 4 + 2] = c;
+                pixels[(x + y * 16) * 4 + 3] = 255;
+            }
+        }
+
+        cgl.defaultMatcapTex3 = new CGL.Texture(cgl);
+        cgl.defaultMatcapTex3.initFromData(pixels, 16, 16, CGL.Texture.FILTER_LINEAR, CGL.Texture.WRAP_REPEAT);
+    }
+}
+
+textureDiffuse.onChange = function ()
+{
+    if (textureDiffuse.get())
+    {
+        if (textureDiffuseUniform !== null) return;
+        shader.define("HAS_DIFFUSE_TEXTURE");
+        shader.removeUniform("texDiffuse");
+        textureDiffuseUniform = new CGL.Uniform(shader, "t", "texDiffuse");
+    }
+    else
+    {
+        shader.removeDefine("HAS_DIFFUSE_TEXTURE");
+        shader.removeUniform("texDiffuse");
+        textureDiffuseUniform = null;
+    }
+};
+
+textureNormal.onChange = function ()
+{
+    if (textureNormal.get())
+    {
+        if (textureNormalUniform !== null) return;
+        shader.define("HAS_NORMAL_TEXTURE");
+        shader.removeUniform("texNormal");
+        textureNormalUniform = new CGL.Uniform(shader, "t", "texNormal");
+        if (!normalMapIntensityUniform) normalMapIntensityUniform = new CGL.Uniform(shader, "f", "normalMapIntensity", normalMapIntensity);
+    }
+    else
+    {
+        shader.removeDefine("HAS_NORMAL_TEXTURE");
+        shader.removeUniform("texNormal");
+        textureNormalUniform = null;
+    }
+};
+
+textureAo.onChange = function ()
+{
+    if (textureAo.get())
+    {
+        if (textureAoUniform !== null) return;
+        shader.define("HAS_AO_TEXTURE");
+        shader.removeUniform("texAo");
+        textureAoUniform = new CGL.Uniform(shader, "t", "texAo");
+    }
+    else
+    {
+        shader.removeDefine("HAS_AO_TEXTURE");
+        shader.removeUniform("texAo");
+        textureAoUniform = null;
+    }
+};
+
+textureSpec.onChange = textureSpecMatCap.onChange = function ()
+{
+    if (textureSpec.get() && textureSpecMatCap.get())
+    {
+        if (textureSpecUniform !== null) return;
+        shader.define("USE_SPECULAR_TEXTURE");
+        shader.removeUniform("texSpec");
+        shader.removeUniform("texSpecMatCap");
+        textureSpecUniform = new CGL.Uniform(shader, "t", "texSpec");
+        textureSpecMatCapUniform = new CGL.Uniform(shader, "t", "texSpecMatCap");
+    }
+    else
+    {
+        shader.removeDefine("USE_SPECULAR_TEXTURE");
+        shader.removeUniform("texSpec");
+        shader.removeUniform("texSpecMatCap");
+        textureSpecUniform = null;
+        textureSpecMatCapUniform = null;
+    }
+};
+
+// TEX OPACITY
+
+function updateAlphaMaskMethod()
+{
+    if (alphaMaskSource.get() == "Alpha Channel") shader.define("ALPHA_MASK_ALPHA");
+    else shader.removeDefine("ALPHA_MASK_ALPHA");
+
+    if (alphaMaskSource.get() == "Luminance") shader.define("ALPHA_MASK_LUMI");
+    else shader.removeDefine("ALPHA_MASK_LUMI");
+
+    if (alphaMaskSource.get() == "R") shader.define("ALPHA_MASK_R");
+    else shader.removeDefine("ALPHA_MASK_R");
+
+    if (alphaMaskSource.get() == "G") shader.define("ALPHA_MASK_G");
+    else shader.removeDefine("ALPHA_MASK_G");
+
+    if (alphaMaskSource.get() == "B") shader.define("ALPHA_MASK_B");
+    else shader.removeDefine("ALPHA_MASK_B");
+}
+
+alphaMaskSource.onChange = updateAlphaMaskMethod;
+textureOpacity.onChange = updateOpacity;
+
+let textureOpacityUniform = null;
+
+function updateOpacity()
+{
+    if (textureOpacity.get())
+    {
+        if (textureOpacityUniform !== null) return;
+        shader.removeUniform("texOpacity");
+        shader.define("HAS_TEXTURE_OPACITY");
+        if (!textureOpacityUniform) textureOpacityUniform = new CGL.Uniform(shader, "t", "texOpacity");
+
+        alphaMaskSource.setUiAttribs({ "greyout": false });
+        discardTransPxl.setUiAttribs({ "greyout": false });
+        texCoordAlpha.setUiAttribs({ "greyout": false });
+    }
+    else
+    {
+        shader.removeUniform("texOpacity");
+        shader.removeDefine("HAS_TEXTURE_OPACITY");
+        textureOpacityUniform = null;
+
+        alphaMaskSource.setUiAttribs({ "greyout": true });
+        discardTransPxl.setUiAttribs({ "greyout": true });
+        texCoordAlpha.setUiAttribs({ "greyout": true });
+    }
+    updateAlphaMaskMethod();
+}
+
+discardTransPxl.onChange = function ()
+{
+    if (discardTransPxl.get()) shader.define("DISCARDTRANS");
+    else shader.removeDefine("DISCARDTRANS");
+};
+
+texCoordAlpha.onChange = function ()
+{
+    if (texCoordAlpha.get()) shader.define("TRANSFORMALPHATEXCOORDS");
+    else shader.removeDefine("TRANSFORMALPHATEXCOORDS");
+};
+
+function checkUiErrors()
+{
+    if (textureSpec.get() && !textureSpecMatCap.get())
+    {
+        op.setUiError("specNoMatCapSpec", "You connected a specular texture but have not connected a specular matcap texture. You need to connect both texture inputs for the specular input to work.", 1);
+        op.setUiError("noSpecMatCapSpec", null);
+    }
+    else if (!textureSpec.get() && textureSpecMatCap.get())
+    {
+        op.setUiError("noSpecMatCapSpec", "You connected a specular matcap texture but have not connected a specular texture. You need to connect both texture inputs for the specular input to work.", 1);
+        op.setUiError("specNoMatCapSpec", null);
+    }
+    else if (textureSpec.get() && textureSpecMatCap.get())
+    {
+        op.setUiError("specNoMatCapSpec", null);
+        op.setUiError("noSpecMatCapSpec", null);
+    }
+    else
+    {
+        op.setUiError("specNoMatCapSpec", null);
+        op.setUiError("noSpecMatCapSpec", null);
+    }
+}
+
+render.onTriggered = function ()
+{
+    checkUiErrors();
+
+    if (!cgl.defaultMatcapTex3) updateMatcap();
+    shader.popTextures();
+
+    const tex = textureMatcap.get() || cgl.defaultMatcapTex3;
+    shader.pushTexture(textureMatcapUniform, tex.tex);
+
+    if (textureDiffuse.get() && textureDiffuseUniform) shader.pushTexture(textureDiffuseUniform, textureDiffuse.get().tex);
+    if (textureNormal.get() && textureNormalUniform) shader.pushTexture(textureNormalUniform, textureNormal.get().tex);
+    if (textureSpec.get() && textureSpecUniform) shader.pushTexture(textureSpecUniform, textureSpec.get().tex);
+    if (textureSpecMatCap.get() && textureSpecMatCapUniform) shader.pushTexture(textureSpecMatCapUniform, textureSpecMatCap.get().tex);
+    if (textureAo.get() && textureAoUniform) shader.pushTexture(textureAoUniform, textureAo.get().tex);
+    if (textureOpacity.get() && textureOpacityUniform) shader.pushTexture(textureOpacityUniform, textureOpacity.get().tex);
+
+    cgl.pushShader(shader);
+    next.trigger();
+    cgl.popShader();
+};
+
+
+};
+
+Ops.Gl.Shader.MatCapMaterial_v3.prototype = new CABLES.Op();
+CABLES.OPS["c1dd6e76-61b4-471a-b8d1-f550a5a9a4f4"]={f:Ops.Gl.Shader.MatCapMaterial_v3,objName:"Ops.Gl.Shader.MatCapMaterial_v3"};
+
+
+
+
+// **************************************************************
+// 
+// Ops.Array.Array1toX
+// 
+// **************************************************************
+
+Ops.Array.Array1toX = function()
+{
+CABLES.Op.apply(this,arguments);
+const op=this;
+const attachments=op.attachments={};
+const
+    inArr = op.inArray("Array1x"),
+    format = op.inSwitch("Format", ["AB", "ABC", "ABCD"], "ABC"),
+    axisA = op.inSwitch("A", ["Input", "index", "0-1", "-1-1", "0", "1"], "Input"),
+    axisB = op.inSwitch("B", ["Input", "index", "0-1", "-1-1", "0", "1"], "0-1"),
+    axisC = op.inSwitch("C", ["Input", "index", "0-1", "-1-1", "0", "1"], "0"),
+    axisD = op.inSwitch("D", ["Input", "index", "0-1", "-1-1", "0", "1"], "0"),
+    outArr = op.outArray("Array3x"),
+    outTotalPoints = op.outNumber("Total points"),
+    outArrayLength = op.outNumber("Array length");
+
+const arr = [];
+
+axisA.onChange =
+axisB.onChange =
+axisC.onChange =
+axisD.onChange =
+inArr.onChange = update;
+
+format.onChange = function ()
+{
+    axisC.setUiAttribs({ "greyout": format.get().length < 3 });
+    axisD.setUiAttribs({ "greyout": format.get().length < 4 });
+
+    update();
+};
+
+function fillArr_0(off, num, stride)
+{
+    for (let i = 0; i < num; i += stride)
+    {
+        arr[i + off] = 0;
+    }
+}
+
+function fillArr_1(off, num, stride)
+{
+    for (let i = 0; i < num; i += stride)
+    {
+        arr[i + off] = 1;
+    }
+}
+
+function fillArr_input(off, num, stride)
+{
+    const theArray = inArr.get();
+    for (let i = 0; i < num; i += stride)
+    {
+        arr[i + off] = theArray[i / stride];
+    }
+}
+
+function fillArr_01(off, num, stride)
+{
+    for (let i = 0; i < num; i += stride)
+    {
+        arr[i + off] = (i / (num)) || 0;
+    }
+}
+
+function fillArr_index(off, num, stride)
+{
+    for (let i = 0; i < num; i += stride)
+    {
+        arr[i + off] = i / stride;
+    }
+}
+
+function fillArr(off, meth, stride)
+{
+    if (meth == "0")fillArr_0(off, arr.length, stride);
+    if (meth == "0-1")fillArr_01(off, arr.length, stride);
+    if (meth == "1")fillArr_1(off, arr.length, stride);
+    if (meth == "Input")fillArr_input(off, arr.length, stride);
+    if (meth == "index")fillArr_index(off, arr.length, stride);
+}
+
+function update()
+{
+    const theArray = inArr.get();
+    if (!theArray)
+    {
+        outArr.set(null);
+        outTotalPoints.set(0);
+        outArrayLength.set(0);
+        return;
+    }
+
+    const stride = format.get().length;
+    const l = theArray.length * stride;
+    arr.length = l;
+
+    if (stride >= 2) fillArr(0, axisA.get(), stride);
+    if (stride >= 2) fillArr(1, axisB.get(), stride);
+    if (stride >= 3) fillArr(2, axisC.get(), stride);
+    if (stride >= 4) fillArr(3, axisD.get(), stride);
+
+    // for(var i=0;i<theArray.length;i++)
+    // {
+    //     arr[i*3+0]=i;
+    //     arr[i*3+1]=theArray[i];
+    //     arr[i*3+2]=0;
+    // }
+
+    outArr.setRef(arr);
+    outTotalPoints.set(arr.length / stride);
+    outArrayLength.set(arr.length);
+}
+
+
+};
+
+Ops.Array.Array1toX.prototype = new CABLES.Op();
+CABLES.OPS["6a8947be-79c8-4998-9853-1e0912654800"]={f:Ops.Array.Array1toX,objName:"Ops.Array.Array1toX"};
+
+
+
+
+// **************************************************************
+// 
+// Ops.Array.Array_v3
+// 
+// **************************************************************
+
+Ops.Array.Array_v3 = function()
+{
+CABLES.Op.apply(this,arguments);
+const op=this;
+const attachments=op.attachments={};
+const
+    inLength = op.inValueInt("Array length", 10),
+    modeSelect = op.inSwitch("Mode select", ["Number", "1,2,3,4", "0-1"], "Number"),
+    inDefaultValue = op.inValueFloat("Default Value"),
+    inReverse = op.inBool("Reverse", false),
+    outArr = op.outArray("Array"),
+    outArrayLength = op.outNumber("Array length out");
+
+let arr = [];
+let selectIndex = 0;
+const MODE_NUMBER = 0;
+const MODE_1_TO_4 = 1;
+const MODE_0_TO_1 = 2;
+
+modeSelect.onChange = onFilterChange;
+
+inReverse.onChange =
+    inDefaultValue.onChange =
+    inLength.onChange = reset;
+
+onFilterChange();
+reset();
+
+function onFilterChange()
+{
+    let selectedMode = modeSelect.get();
+    if (selectedMode === "Number") selectIndex = MODE_NUMBER;
+    else if (selectedMode === "1,2,3,4") selectIndex = MODE_1_TO_4;
+    else if (selectedMode === "0-1") selectIndex = MODE_0_TO_1;
+
+    inDefaultValue.setUiAttribs({ "greyout": selectIndex !== MODE_NUMBER });
+
+    op.setUiAttrib({ "extendTitle": modeSelect.get() });
+
+    reset();
+}
+
+function reset()
+{
+    arr.length = 0;
+
+    let arrLength = inLength.get();
+    let valueForArray = inDefaultValue.get();
+    let i;
+
+    // mode 0 - fill all array values with one number
+    if (selectIndex === MODE_NUMBER)
+    {
+        for (i = 0; i < arrLength; i++)
+        {
+            arr[i] = valueForArray;
+        }
+    }
+    // mode 1 Continuous number array - increments up to array length
+    else if (selectIndex === MODE_1_TO_4)
+    {
+        for (i = 0; i < arrLength; i++)
+        {
+            arr[i] = i;
+        }
+    }
+    // mode 2 Normalized array
+    else if (selectIndex === MODE_0_TO_1)
+    {
+        if (arrLength > 1) { 
+            for (i = 0; i < arrLength; i++)
+                {
+                    arr[i] = i / (arrLength - 1);
+                }
+        } else 
+        {
+            //When array length is only 1 
+            arr = [0];
+        }
+    }
+
+    if (inReverse.get())arr = arr.reverse();
+
+    outArr.setRef(arr);
+    outArrayLength.set(arr.length);
+}
+
+
+};
+
+Ops.Array.Array_v3.prototype = new CABLES.Op();
+CABLES.OPS["e4d31a46-bf64-42a8-be34-4cbb2bbc2600"]={f:Ops.Array.Array_v3,objName:"Ops.Array.Array_v3"};
+
+
+
+
+// **************************************************************
+// 
+// Ops.Trigger.NthTrigger_v2
+// 
+// **************************************************************
+
+Ops.Trigger.NthTrigger_v2 = function()
+{
+CABLES.Op.apply(this,arguments);
+const op=this;
+const attachments=op.attachments={};
+let DEFAULT_NTH = 5;
+
+// inputs
+let exePort = op.inTriggerButton("Execute");
+let nthPort = op.inValue("Nth", DEFAULT_NTH);
+
+// outputs
+let triggerPort = op.outTrigger("Next");
+
+let count = 0;
+let nth = DEFAULT_NTH;
+
+exePort.onTriggered = onExeTriggered;
+nthPort.onChange = valueChanged;
+
+function onExeTriggered()
+{
+    count++;
+    if (count % nth === 0)
+    {
+        count = 0;
+        triggerPort.trigger();
+    }
+}
+
+function valueChanged()
+{
+    nth = nthPort.get();
+    count = 0;
+}
+
+
+};
+
+Ops.Trigger.NthTrigger_v2.prototype = new CABLES.Op();
+CABLES.OPS["ea43c184-5842-4aa1-b298-5db4515cbed0"]={f:Ops.Trigger.NthTrigger_v2,objName:"Ops.Trigger.NthTrigger_v2"};
 
 
 
@@ -62403,6 +63853,544 @@ CGL.CopyTexture = CopyTexture;
 ((this.CGL = this.CGL || {}).COREMODULES = this.CGL.COREMODULES || {}).Copytexture = __webpack_exports__.Copytexture;
 /******/ })()
 ;// end js/cgl_copytexture.js
+// start js/cgl_shadermodifier.js
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+var __webpack_exports__ = {};
+
+;// CONCATENATED MODULE: ./src/libs/cgl/shadermodifier/cgl_shadermodifier.js
+class ShaderModifier
+{
+    constructor(cgl, name, options)
+    {
+        this._cgl = cgl;
+        this._name = name;
+        this._origShaders = {};
+        this._uniforms = [];
+        this._structUniforms = [];
+        this._definesToggled = {};
+        this._defines = {};
+        this._mods = [];
+        this._textures = [];
+        this._boundShader = null;
+        this._changedDefines = true;
+        this._changedUniforms = true;
+        this._modulesChanged = false;
+        this.needsTexturePush = false;
+        this._lastShader = null;
+        this._attributes = [];
+        if (options && options.opId) this.opId = options.opId;
+
+        if (this._cgl.glVersion == 1)
+        {
+            this._cgl.enableExtension("OES_texture_float");
+            this._cgl.enableExtension("OES_texture_float_linear");
+            this._cgl.enableExtension("OES_texture_half_float");
+            this._cgl.enableExtension("OES_texture_half_float_linear");
+        }
+    }
+
+    bind(curShader, pushShader)
+    {
+        const shader = curShader || this._cgl.getShader();
+        if (!shader) return;
+
+        this._boundShader = this._origShaders[shader.id];
+        let missingMod = false;
+
+        if (this._boundShader && this._lastShader != this._boundShader.shader) // shader changed since last bind
+        {
+            if (!this._boundShader.shader.hasModule(this._mods[0].id)) missingMod = true;
+        }
+
+        if (missingMod || !this._boundShader || shader.lastCompile != this._boundShader.lastCompile || this._modulesChanged || shader._needsRecompile)
+        {
+            if (this._boundShader) this._boundShader.shader.dispose();
+            if (shader._needsRecompile) shader.compile();
+            this.needsTexturePush = true;
+
+            this._boundShader = this._origShaders[shader.id] =
+            {
+                "lastCompile": shader.lastCompile,
+                "orig": shader,
+                "shader": shader.copy()
+            };
+
+            this._addModulesToShader(this._boundShader.shader);
+            this._updateDefinesShader(this._boundShader.shader);
+            this._updateUniformsShader(this._boundShader.shader);
+        }
+
+        this._boundShader.wireframe = shader.wireframe;
+        if (this._changedDefines) this._updateDefines();
+        if (this._changedUniforms) this._updateUniforms();
+
+        if (pushShader !== false) this._cgl.pushShader(this._boundShader.shader);
+
+        this._boundShader.shader.copyUniformValues(this._boundShader.orig);
+
+        if (this.needsTexturePush)
+        {
+            for (let j = 0; j < this._textures.length; j++)
+            {
+                const uniformName = this._textures[j][0];
+                const tex = this._textures[j][1];
+                const texType = this._textures[j][2];
+
+                if (this._getUniform(uniformName))
+                {
+                    const name = this.getPrefixedName(uniformName);
+                    const uni = this._boundShader.shader.getUniform(name);
+
+                    if (uni) this._boundShader.shader.pushTexture(uni, tex, texType);
+                }
+            }
+
+            this.needsTexturePush = false;
+            this._textures.length = 0;
+        }
+
+        this._modulesChanged = false;
+
+        this._boundShader.shader.fromMod = this;
+
+        if (this.onBind) this.onBind(this._boundShader.shader);
+
+        return this._boundShader.shader;
+    }
+
+    unbind(popShader)
+    {
+        if (this._boundShader)
+        {
+            if (popShader !== false) this._cgl.popShader();
+            // this._boundShader = null;
+            // return true;
+        }
+        this._boundShader = null;
+    }
+
+    _addModulesToShader(shader)
+    {
+        let firstMod;
+
+        if (this._mods.length > 1) firstMod = this._mods[0];
+
+        for (let i = 0; i < this._mods.length; i++) shader.addModule(this._mods[i], firstMod);
+    }
+
+    _removeModulesFromShader(mod)
+    {
+        for (const j in this._origShaders) this._origShaders[j].shader.removeModule(mod);
+    }
+
+    addModule(mod)
+    {
+        this._mods.push(mod);
+        this._modulesChanged = true;
+    }
+
+    removeModule(title)
+    {
+        const indicesToRemove = [];
+
+        let found = false;
+        for (let i = 0; i < this._mods.length; i++)
+        {
+            if (this._mods[i].title == title)
+            {
+                found = true;
+                this._removeModulesFromShader(this._mods[i]);
+                indicesToRemove.push(i);
+            }
+        }
+
+        // * go in reverse order so the indices of the mods stay the same
+        for (let j = indicesToRemove.length - 1; j >= 0; j -= 1)
+            this._mods.splice(indicesToRemove[j], 1);
+
+        this._modulesChanged = true;
+    }
+
+    _updateUniformsShader(shader)
+    {
+        for (let i = 0; i < this._uniforms.length; i++)
+        {
+            const uni = this._uniforms[i];
+            const name = this.getPrefixedName(uni.name);
+
+            if (!shader.hasUniform(name) && !uni.structName)
+            {
+                let un = null;
+                if (uni.shaderType === "both")
+                {
+                    un = shader.addUniformBoth(uni.type, name, uni.v1, uni.v2, uni.v3, uni.v4);
+                    un.comment = "mod: " + this._name;
+                }
+                else if (uni.shaderType === "frag")
+                {
+                    un = shader.addUniformFrag(uni.type, name, uni.v1, uni.v2, uni.v3, uni.v4);
+                    un.comment = "mod: " + this._name;
+                }
+                else if (uni.shaderType === "vert")
+                {
+                    un = shader.addUniformVert(uni.type, name, uni.v1, uni.v2, uni.v3, uni.v4);
+                    un.comment = "mod: " + this._name;
+                }
+            }
+        }
+
+        for (let j = 0; j < this._structUniforms.length; j += 1)
+        {
+            const structUniform = this._structUniforms[j];
+            let structUniformName = structUniform.uniformName;
+            let structName = structUniform.structName;
+
+            const members = structUniform.members;
+
+            structUniformName = this.getPrefixedName(structUniform.uniformName);
+            structName = this.getPrefixedName(structUniform.structName);
+
+            if (structUniform.shaderType === "frag")
+            {
+                shader.addUniformStructFrag(structName, structUniformName, members);
+            }
+            if (structUniform.shaderType === "vert")
+            {
+                shader.addUniformStructVert(structName, structUniformName, members);
+            }
+            if (structUniform.shaderType === "both")
+            {
+                shader.addUniformStructBoth(structName, structUniformName, members);
+            }
+        }
+    }
+
+    _updateUniforms()
+    {
+        for (const j in this._origShaders)
+            this._updateUniformsShader(this._origShaders[j].shader);
+
+        this._changedUniforms = false;
+    }
+
+    _setUniformValue(shader, uniformName, value)
+    {
+        const uniform = shader.getUniform(uniformName);
+
+        if (uniform) uniform.setValue(value);
+    }
+
+    setUniformValue(name, value)
+    {
+        const uni = this._getUniform(name);
+        if (!uni) return;
+
+        const defineName = this.getPrefixedName(name);
+
+        for (const j in this._origShaders)
+        {
+            this._setUniformValue(this._origShaders[j].shader, defineName, value);
+        }
+    }
+
+    hasUniform(name)
+    {
+        return this._getUniform(name);
+    }
+
+    _getUniform(name)
+    {
+        for (let i = 0; i < this._uniforms.length; i++)
+        {
+            if (this._uniforms[i].name == name) return this._uniforms[i];
+            if (this._uniforms[i].structName)
+            {
+                if (this._uniforms[i].propertyName == name) return this._uniforms[i];
+            }
+        }
+        return false;
+    }
+
+    _getStructUniform(uniName)
+    {
+        for (let i = 0; i < this._structUniforms.length; i += 1)
+            if (this._structUniforms[i].uniformName === uniName) return this._structUniforms[i];
+
+        return null;
+    }
+
+    _isStructUniform(name)
+    {
+        for (let i = 0; i < this._uniforms.length; i++)
+        {
+            if (this._uniforms[i].name == name) return false;
+            if (this._uniforms[i].structName)
+            {
+                if (this._uniforms[i].propertyName == name) return true;
+            }
+        }
+        return false;
+    }
+
+
+    addUniform(type, name, valOrPort, v2, v3, v4, structUniformName, structName, propertyName, shaderType)
+    {
+        if (!this._getUniform(name))
+        {
+            let _shaderType = "both";
+            if (shaderType) _shaderType = shaderType;
+
+            this._uniforms.push(
+                {
+                    "type": type,
+                    "name": name,
+                    "v1": valOrPort,
+                    "v2": v2,
+                    "v3": v3,
+                    "v4": v4,
+                    "structUniformName": structUniformName,
+                    "structName": structName,
+                    "propertyName": propertyName,
+                    "shaderType": _shaderType,
+                });
+            this._changedUniforms = true;
+        }
+    }
+
+    addUniformFrag(type, name, valOrPort, v2, v3, v4)
+    {
+        this.addUniform(type, name, valOrPort, v2, v3, v4, null, null, null, "frag");
+        this._changedUniforms = true;
+    }
+
+    addUniformVert(type, name, valOrPort, v2, v3, v4)
+    {
+        this.addUniform(type, name, valOrPort, v2, v3, v4, null, null, null, "vert");
+        this._changedUniforms = true;
+    }
+
+    addUniformBoth(type, name, valOrPort, v2, v3, v4)
+    {
+        this.addUniform(type, name, valOrPort, v2, v3, v4, null, null, null, "both");
+        this._changedUniforms = true;
+    }
+
+    addUniformStruct(structName, uniformName, members, shaderType)
+    {
+        for (let i = 0; i < members.length; i += 1)
+        {
+            const member = members[i];
+            if ((member.type === "2i" || member.type === "i" || member.type === "3i") && shaderType === "both")
+                console.error("Adding an integer struct member to both shaders can potentially error. Please use different structs for each shader. Error occured in struct:", structName, " with member:", member.name, " of type:", member.type, ".");
+
+            if (!this._getUniform(uniformName + "." + member.name))
+            {
+                this.addUniform(
+                    member.type,
+                    uniformName + "." + member.name,
+                    member.v1,
+                    member.v2,
+                    member.v3,
+                    member.v4,
+                    uniformName,
+                    structName,
+                    member.name,
+                    shaderType
+                );
+            }
+        }
+        if (!this._getStructUniform(uniformName))
+        {
+            this._structUniforms.push({
+                "structName": structName,
+                "uniformName": uniformName,
+                "members": members,
+                "shaderType": shaderType,
+            });
+        }
+    }
+
+    addUniformStructVert(structName, uniformName, members)
+    {
+        this.addUniformStruct(structName, uniformName, members, "vert");
+    }
+
+    addUniformStructFrag(structName, uniformName, members)
+    {
+        this.addUniformStruct(structName, uniformName, members, "frag");
+    }
+
+    addUniformStructBoth(structName, uniformName, members)
+    {
+        this.addUniformStruct(structName, uniformName, members, "both");
+    }
+
+    addAttribute(attr)
+    {
+        for (let i = 0; i < this._attributes.length; i++)
+        {
+            if (this._attributes[i].name == attr.name && this._attributes[i].nameFrag == attr.nameFrag) return;
+        }
+        this._attributes.push(attr);
+    }
+
+    pushTexture(uniformName, tex, texType)
+    {
+        if (!tex) throw (new Error("no texture given to texturestack"));
+
+        this._textures.push([uniformName, tex, texType]);
+        this.needsTexturePush = true;
+    }
+
+    _removeUniformFromShader(name, shader)
+    {
+        if (shader.hasUniform(name)) shader.removeUniform(name);
+    }
+
+    removeUniform(name)
+    {
+        if (this._getUniform(name))
+        {
+            for (let j = this._uniforms.length - 1; j >= 0; j -= 1)
+            {
+                const nameToRemove = name;
+
+                if (this._uniforms[j].name == name && !this._uniforms[j].structName)
+                {
+                    for (const k in this._origShaders)
+                    {
+                        this._removeUniformFromShader(
+                            this.getPrefixedName(nameToRemove),
+                            this._origShaders[k].shader
+                        );
+                    }
+
+                    this._uniforms.splice(j, 1);
+                }
+            }
+            this._changedUniforms = true;
+        }
+    }
+
+    removeUniformStruct(uniformName)
+    {
+        if (this._getStructUniform(uniformName))
+        {
+            for (let i = this._structUniforms.length - 1; i >= 0; i -= 1)
+            {
+                const structToRemove = this._structUniforms[i];
+
+                if (structToRemove.uniformName === uniformName)
+                {
+                    for (const j in this._origShaders)
+                    {
+                        for (let k = 0; k < structToRemove.members.length; k += 1)
+                        {
+                            const member = structToRemove.members[k];
+                            this._removeUniformFromShader(
+                                this.getPrefixedName(member.name),
+                                this._origShaders[j].shader
+                            );
+                        }
+                    }
+
+                    this._structUniforms.splice(i, 1);
+                }
+            }
+
+            this._changedUniforms = true;
+        }
+    }
+
+
+    getPrefixedName(name)
+    {
+        const prefix = this._mods[0].group;
+        if (prefix === undefined)
+        {
+            return;
+        }
+        if (name.startsWith("MOD_"))
+        {
+            name = name.substr("MOD_".length);
+            name = "mod" + prefix + "_" + name;
+        }
+        return name;
+    }
+
+    _updateDefinesShader(shader)
+    {
+        for (const i in this._defines)
+        {
+            const name = this.getPrefixedName(i);
+            if (this._defines[i] !== null && this._defines[i] !== undefined) shader.define(name, this._defines[i]);
+            else shader.removeDefine(name);
+        }
+
+        for (const i in this._definesToggled)
+        {
+            const name = this.getPrefixedName(i);
+            shader.toggleDefine(name, this._definesToggled[i]);
+        }
+    }
+
+
+    _updateDefines()
+    {
+        for (const j in this._origShaders) this._updateDefinesShader(this._origShaders[j].shader);
+
+        this._changedDefines = false;
+    }
+
+    define(what, value)
+    {
+        if (value === undefined)value = true;
+        this._defines[what] = value;
+        this._changedDefines = true;
+    }
+
+    removeDefine(name)
+    {
+        this._defines[name] = null;
+        this._changedDefines = true;
+    }
+
+    hasDefine(name)
+    {
+        if (this._defines[name] !== null && this._defines[name] !== undefined) return true;
+        return false;
+    }
+
+    toggleDefine(name, b)
+    {
+        this._changedDefines = true;
+        this._definesToggled[name] = b;
+    }
+
+    currentShader()
+    {
+        if (!this._boundShader) return null;
+        return this._boundShader.shader;
+    }
+
+    dispose()
+    {
+
+    }
+}
+
+
+
+
+;// CONCATENATED MODULE: ./src/libs/cgl/shadermodifier/index.js
+
+
+CGL.ShaderModifier = ShaderModifier;
+
+((this.CGL = this.CGL || {}).COREMODULES = this.CGL.COREMODULES || {}).Shadermodifier = __webpack_exports__.Shadermodifier;
+/******/ })()
+;// end js/cgl_shadermodifier.js
 // start js/cgl_pixelreader.js
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
