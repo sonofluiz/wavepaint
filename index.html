@@ -1,5 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <title>cables</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style type="text/css">
+        #mypatch
+        {
+            width:800px;
+            height:480px;
+        }
+    </style>
+</head>
+<body>
+    <div id="mypatch"></div>
+
+    <script>
+        CABLES.EMBED.addPatch("mypatch",
+        {
+            patchFile:'js/patch.js',
+            prefixAssetPath:''
+        });
+    </script>
+</body>
+    
 <head>
     <title>Wave Paint</title>
     <style>
