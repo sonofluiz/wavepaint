@@ -67,7 +67,8 @@
              CABLES.logErrorConsole("[" + initiator + "]", ...args);
          }
 
-         function patchInitialized(patch) {
+         function patchInitialized(patch) 
+         {
            window.addEventListener("message", (event) => {
              if (!event.data || !event.data.type) return;
          
@@ -114,29 +115,6 @@
                  "canvas": {"alpha":true, "premultipliedAlpha":true } // make canvas transparent
              });
          });
-
-         window.addEventListener("message", async (event) => {
-           if (!event.data || typeof event.data !== "object") return;
-       
-           if (event.data.type === "PAUSE_ALL") {
-               if (CABLES && CABLES.WEBAUDIO && CABLES.WEBAUDIO.context) {
-                   await CABLES.WEBAUDIO.context.suspend();
-                   if (CABLES.patch && CABLES.patch.pause) {
-                       CABLES.patch.pause();
-                   }
-               }
-           }
-       
-           if (event.data.type === "RESUME_ALL") {
-               if (CABLES && CABLES.WEBAUDIO && CABLES.WEBAUDIO.context) {
-                   await CABLES.WEBAUDIO.context.resume();
-                   if (CABLES.patch && CABLES.patch.resume) {
-                       CABLES.patch.resume();
-                   }
-               }
-           }
-       });
-
  
          // disable rubberband effect on mobile devices
          document.getElementById('glcanvas').addEventListener('touchmove', (e)=>{ e.preventDefault(); }, false);
