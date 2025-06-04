@@ -66,10 +66,32 @@
          {
              CABLES.logErrorConsole("[" + initiator + "]", ...args);
          }
- 
-         function patchInitialized(patch)
-         {
-             // You can now access the patch object (patch), register variable watchers and so on
+
+         function patchInitialized(patch) {
+           window.addEventListener("message", (event) => {
+             if (!event.data || !event.data.type) return;
+         
+             const type = event.data.type;
+             if (type === "PAUSE_ALL") {
+               console.log("Received PAUSE_ALL message");
+               if (Tone && Tone.context && Tone.context.state === "running") {
+                 Tone.context.suspend();
+               }
+               if (CABLES && CABLES.patch) {
+                 CABLES.patch.pause(); // stops animation/render loop
+               }
+             }
+         
+             if (type === "RESUME_ALL") {
+               console.log("Received RESUME_ALL message");
+               if (Tone && Tone.context && Tone.context.state === "suspended") {
+                 Tone.context.resume();
+               }
+               if (CABLES && CABLES.patch) {
+                 CABLES.patch.play(); // resumes animation/render loop
+               }
+             }
+           });
          }
  
          function patchFinishedLoading(patch)
