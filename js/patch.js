@@ -25700,7 +25700,7 @@ let osc = new Tone.Oscillator
 osc.volume.value = inVolume.get();
 
 let gainNode = audioCtx.createGain();
-gainNode.gain.value = -20;
+gainNode.gain.value = -30;
 //const fadeInTime = .001;  // ✅ Define fade-in time
 //const fadeOutTime = .001; // ✅ Define fade-out time
 osc.connect(gainNode);
